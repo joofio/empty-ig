@@ -14,9 +14,6 @@
 				<a href="#">How to use this Publication</a>
 			</li>
 			<li>
-				<a href="intro.html">Introduction</a>
-			</li>
-			<li>
 				<a href="#">Goals and Scope</a>
 			</li>
 			<li>
@@ -45,15 +42,6 @@
 		<ul class="dropdown-menu">
 			<li>
 				<a href="artifacts.html">Artifact Index</a>
-			</li>
-		</ul>
-	</li>
-	<li class="dropdown">
-		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Terminology<b class="caret"></b>
-		</a>
-		<ul class="dropdown-menu">
-			<li>
-				<a href="terminology.html">Terminology Resources</a>
 			</li>
 		</ul>
 	</li>
