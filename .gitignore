@@ -20,3 +20,5 @@ Thumbs.db
 # backup files #
 ################
 *.bak
+
+/shorthand/build
