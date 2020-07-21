@@ -64,16 +64,6 @@
         <generation value="html"/>
       </page>
       <page>
-        <nameUrl value="background.html"/>
-        <title value="Background"/>
-        <generation value="html"/>
-      </page>
-      <page>
-        <nameUrl value="spec.html"/>
-        <title value="Detailed Specification"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
         <nameUrl value="downloads.html"/>
         <title value="Useful Downloads"/>
         <generation value="html"/>
