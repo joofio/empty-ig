@@ -53,6 +53,22 @@
       <name value="Simple library example"/>
       <description value="A simple example showing how library is pre-loaded"/>
     </resource> -->
+<!--
+      <resource>
+      <reference>
+        <reference value="ExampleScenario/scenario-allergy"/>
+      </reference>
+      <name value="Example Scenario - Allergy / Intolerance"/>
+      <description value="Overriding description because we can"/>
+    </resource>
+-->    
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/model-1"/>
+      </reference>
+      <name value="Example Logical Model"/>
+      <description value="Description of the logical model"/>
+    </resource>    
     <page>
       <!-- The root will always be toc.html - the template will force it if you don't do it -->
       <nameUrl value="toc.html"/>
@@ -68,6 +84,7 @@
         <title value="Useful Downloads"/>
         <generation value="html"/>
       </page>
+    <!-- change history page -->
       <page>
         <nameUrl value="changes.html"/>
         <title value="IG Change History"/>
@@ -91,6 +108,10 @@
     <parameter>
       <code value="path-resource"/>
       <value value="input\history"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input\scenarios"/>
     </parameter>
     <parameter>
       <code value="path-binary"/>
