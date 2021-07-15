@@ -5,5 +5,12 @@
     "url": "xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig",
     "version": "0.1.0-test",
     "name": "xxxYourComputableMyIGNameHere"
+  },
+  {
+    "id": "MedRecordDispense",
+    "type": "StructureDefinition",
+    "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense",
+    "version": "0.1.0-test",
+    "name": "MedRecordDispense"
   }
 ]
