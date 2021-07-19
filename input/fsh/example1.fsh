@@ -48,8 +48,6 @@ Description: "This example shows a prescription that is made by brand name and t
 Title:    "Dispense Example - Prescribed branded medication is changed by another branded medication from the same VOS-cluster"
 
 * meta.profile[0] = "https://www.hl7belgium.be/fhir/StructureDefinition/be-medicationprescription"
-* text.status
-*
 * identifier[0].system = "http://prescription-identifiers.com"
 * identifier[0].value = "69eb6358-6eb6-40e4-972f-33d22c3392c5"
 
