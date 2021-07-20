@@ -61,19 +61,24 @@ Profile: MedRecordAdministration
 Parent: MedicationAdministration
 * identifier MS
 * status MS
+* statusReason MS
 * category MS
 * medicationCodeableConcept MS
 * medicationReference MS
 * subject MS 
+* context MS
 * effectiveDateTime MS	
 * effectivePeriod MS
-* dateAsserted MS
-* informationSource MS
+* performer MS
 * reasonCode MS
 * reasonReference MS
+* request MS
+* device MS
+* note MS 
 * dosage MS
 * extension contains http://hl7.org/fhir/StructureDefinition/event-basedOn named treatmentPlan 0..1 MS
 * extension[treatmentPlan].valueReference only Reference(CarePlan) 
+
 /* 
 Alias: $be-patient = https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient
 Alias: $be-organization = https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-organization
