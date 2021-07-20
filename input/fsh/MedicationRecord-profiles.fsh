@@ -38,7 +38,43 @@ Parent: MedicationRequest
 * extension contains http://hl7.org/fhir/StructureDefinition/event-basedOn named treatmentPlan 0..1 MS
 * extension[treatmentPlan].valueReference only Reference(CarePlan) 
 
-/*
+
+Profile: MedRecordUsage
+Parent: MedicationStatement
+* identifier MS
+* status MS
+* category MS
+* medicationCodeableConcept MS
+* medicationReference MS
+* subject MS 
+* effectiveDateTime MS	
+* effectivePeriod MS
+* dateAsserted MS
+* informationSource MS
+* reasonCode MS
+* reasonReference MS
+* dosage MS
+* extension contains http://hl7.org/fhir/StructureDefinition/event-basedOn named treatmentPlan 0..1 MS
+* extension[treatmentPlan].valueReference only Reference(CarePlan) 
+
+Profile: MedRecordAdministration
+Parent: MedicationAdministration
+* identifier MS
+* status MS
+* category MS
+* medicationCodeableConcept MS
+* medicationReference MS
+* subject MS 
+* effectiveDateTime MS	
+* effectivePeriod MS
+* dateAsserted MS
+* informationSource MS
+* reasonCode MS
+* reasonReference MS
+* dosage MS
+* extension contains http://hl7.org/fhir/StructureDefinition/event-basedOn named treatmentPlan 0..1 MS
+* extension[treatmentPlan].valueReference only Reference(CarePlan) 
+/* 
 Alias: $be-patient = https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient
 Alias: $be-organization = https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-organization
 Alias: $be-practitioner = https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitioner
