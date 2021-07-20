@@ -32,11 +32,11 @@ Parent: MedicationRequest
 * requester MS
 * reasonCode MS
 * groupIdentifier MS
-* dosageInstruction
+* dosageInstruction MS
 * note MS
 * authoredOn MS
 * extension contains http://hl7.org/fhir/StructureDefinition/event-basedOn named treatmentPlan 0..1 MS
-* extension[treatmentPlan].valueReference only Reference(CarePlan)
+* extension[treatmentPlan].valueReference only Reference(CarePlan) 
 
 /*
 Alias: $be-patient = https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient
