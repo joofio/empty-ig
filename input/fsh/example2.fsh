@@ -1,6 +1,6 @@
 
 Instance: example-2-of-medication-presc 
-InstanceOf: MedRecordDispense
+InstanceOf: MedRecordPrescription
 Usage: #example
 Description: "This example shows a prescription that is made by VOS and the pharmacist changes the medication for one belonging to another VOS - Cluster but same medication (diffence in the strength)."
 Title: "Prescribed medication is changed by another medication from a different VOS-cluster - Different strength"
@@ -15,11 +15,10 @@ Title: "Prescribed medication is changed by another medication from a different 
 * subject.identifier.system = "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/ssin"
 * subject.identifier.value = "64110219106"
 
-* product.identifier.system = "https://cnk.apb.be/codings/vos_product_codes"
-* product.identifier.value = #24745
-* product.display = "paracetamol oral 1G"
+* medicationCodeableConcept = https://vos-identifier.be/vos_product_codes#24745  "paracetamol oral 1G"
 
-* date = "2021-07-19T09:00:00+02:00"
+
+* authoredOn = "2021-07-19T09:00:00+02:00"
 
 * requester.identifier.value = "7c121778-5b2b-442d-9314-0a73995ab3dd"
 * requester.identifier.system = "http://physician-identifiers.com"
@@ -28,11 +27,11 @@ Title: "Prescribed medication is changed by another medication from a different 
 * encounter.identifier.value = "0cf5dc52-28dc-43ce-96d2-3a757526c739"
 * encounter.identifier.system = "http://encounter-identifiers.com"
 
-* treatment.identifier.value = "0d462dac-513a-4fb0-a2fe-fb7f53b27c5d"
-* treatment.identifier.system = "http://treatment-identifiers.com"
+* extension[treatmentPlan].valueReference.identifier.value = "0d462dac-513a-4fb0-a2fe-fb7f53b27c5d"
+* extension[treatmentPlan].valueReference.identifier.system = "http://treatment-identifiers.com"
 
 Instance: example-2-of-medication-dispense 
-InstanceOf: BeModelMedicationRecordDispense
+InstanceOf: MedRecordDispense
 Usage: #example
 Description: "This example shows a prescription that is made by VOS and the pharmacist changes the medication for one belonging to another VOS - Cluster but same medication (diffence in the strength)."
 Title:    "Prescribed medication is changed by another medication from a different VOS-cluster - Different strength"
@@ -59,7 +58,7 @@ Title:    "Prescribed medication is changed by another medication from a differe
 
 * substitution.wasSubstituted = true
 * substitution.reason.coding.display = ""
-* substitution.reason.coding.code = 
+* substitution.reason.coding.code = #OS
 * substitution.reason.coding.system = ""
 
 * performer[+].actor.identifier.value = "7c3aa173-3185-4001-a661-df36a7492798"
