@@ -76,8 +76,8 @@ Description: "This example shows a prescription that is made by VOS and to take 
 Then it is reported that the medication was not taken at all."
 Title: "Dispense of medication that was prescribed to take if needed, but was not taken"
 
-* identifier[0].system = "http://dispense-identifiers.com"
-* identifier[0].value = "5df50eff-61ef-41ea-a614-fc0f15b31383"
+* identifier[0].system = "http://medicationusage-identifiers.com"
+* identifier[0].value = "cc4f91f6-d0f6-479c-b6c0-109177448ed7"
 
 * subject.identifier.system = "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/ssin"
 * subject.identifier.value = "64110219106"

@@ -27,7 +27,7 @@ This example shows a prescription that is made by VOS and the pharmacist dispens
 **Dispense attributes**
 1. Produt Identification [medicationReference](https://build.fhir.org/ig/hl7-be/hl7-be-fhir-medication/branches/master/StructureDefinition-be-medicationdispense-definitions.html#MedicationDispense.medicationReference) or [medicationCodeableConcept](https://build.fhir.org/ig/hl7-be/hl7-be-fhir-medication/branches/master/StructureDefinition-be-medicationdispense-definitions.html#MedicationDispense.medication[x]:medicationCodeableConcept)
     * VOS - amoxicilline + acide clavulanique oral 875 mg + 125 mg (1941)
-    * mppcv - Amoxiclav Sandoz 875/125 compr. (séc.) 20x (1359611)
+    * mppcv - Amoxiclav Sandoz 875/125 compr. (séc.) 20x (1715127)
   
 2. Total quantity (20) - [quantity](https://build.fhir.org/ig/hl7-be/hl7-be-fhir-medication/branches/master/StructureDefinition-be-medicationdispense-definitions.html#MedicationDispense.quantity)
    
