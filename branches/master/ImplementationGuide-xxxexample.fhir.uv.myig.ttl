@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "xxxYour User Friendly Name for MyIG Here"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2021-07-15T14:28:30+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-07-23T12:22:33+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "xxxYour Work Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -314,11 +314,412 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationDispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/MedicationDispense/example-4-1-of-medication-dispense>;
+         fhir:Reference.reference [ fhir:value "MedicationDispense/example-4-1-of-medication-dispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example MedicationDispense - example-4-1-of-medication-dispense" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense";
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense>
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationDispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/MedicationDispense/example-8-of-medication-dispense>;
+         fhir:Reference.reference [ fhir:value "MedicationDispense/example-8-of-medication-dispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example MedicationDispense - example-8-of-medication-dispense" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense";
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense>
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationStatement" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/MedicationStatement/example-8-of-medication-usage>;
+         fhir:Reference.reference [ fhir:value "MedicationStatement/example-8-of-medication-usage" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example MedicationStatement - example-8-of-medication-usage" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordUsage";
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordUsage>
+       ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationDispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/MedicationDispense/example-6-1-of-medication-dispense>;
+         fhir:Reference.reference [ fhir:value "MedicationDispense/example-6-1-of-medication-dispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example MedicationDispense - example-6-1-of-medication-dispense" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense";
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense>
+       ]
+     ], [
+       fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordUsage>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/MedRecordUsage" ]
+       ]
+     ], [
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationRequest" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/MedicationRequest/example-3-of-medication-presc>;
+         fhir:Reference.reference [ fhir:value "MedicationRequest/example-3-of-medication-presc" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example MedicationRequest - example-3-of-medication-presc" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription";
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription>
+       ]
+     ], [
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/MedRecordDispense" ]
+       ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationDispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/MedicationDispense/example-10-3-of-medication-dispense>;
+         fhir:Reference.reference [ fhir:value "MedicationDispense/example-10-3-of-medication-dispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example MedicationDispense - example-10-3-of-medication-dispense" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense";
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense>
+       ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationDispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/MedicationDispense/example-3-of-medication-dispense>;
+         fhir:Reference.reference [ fhir:value "MedicationDispense/example-3-of-medication-dispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example MedicationDispense - example-3-of-medication-dispense" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense";
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense>
+       ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationDispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/MedicationDispense/example-10-2-of-medication-dispense>;
+         fhir:Reference.reference [ fhir:value "MedicationDispense/example-10-2-of-medication-dispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example MedicationDispense - example-10-2-of-medication-dispense" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense";
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense>
+       ]
+     ], [
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationRequest" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/MedicationRequest/example-8-of-medication-presc>;
+         fhir:Reference.reference [ fhir:value "MedicationRequest/example-8-of-medication-presc" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example MedicationRequest - example-8-of-medication-presc" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription";
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription>
+       ]
+     ], [
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationDispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/MedicationDispense/example-10-1-of-medication-dispense>;
+         fhir:Reference.reference [ fhir:value "MedicationDispense/example-10-1-of-medication-dispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example MedicationDispense - example-10-1-of-medication-dispense" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense";
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense>
+       ]
+     ], [
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationAdministration" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/MedicationAdministration/example-8-of-medication-administration>;
+         fhir:Reference.reference [ fhir:value "MedicationAdministration/example-8-of-medication-administration" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example MedicationAdministration - example-8-of-medication-administration" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordAdministration";
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordAdministration>
+       ]
+     ], [
+       fhir:index 13;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationRequest" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/MedicationRequest/example-2-of-medication-presc>;
+         fhir:Reference.reference [ fhir:value "MedicationRequest/example-2-of-medication-presc" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example MedicationRequest - example-2-of-medication-presc" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription";
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription>
+       ]
+     ], [
+       fhir:index 14;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationDispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/MedicationDispense/example-2-of-medication-dispense>;
+         fhir:Reference.reference [ fhir:value "MedicationDispense/example-2-of-medication-dispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example MedicationDispense - example-2-of-medication-dispense" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense";
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense>
+       ]
+     ], [
+       fhir:index 15;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationRequest" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/MedicationRequest/example-3-2-of-medication-presc>;
+         fhir:Reference.reference [ fhir:value "MedicationRequest/example-3-2-of-medication-presc" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example MedicationRequest - example-3-2-of-medication-presc" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription";
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription>
+       ]
+     ], [
+       fhir:index 16;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationRequest" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/MedicationRequest/example-6-of-medication-presc>;
+         fhir:Reference.reference [ fhir:value "MedicationRequest/example-6-of-medication-presc" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example MedicationRequest - example-6-of-medication-presc" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription";
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription>
+       ]
+     ], [
+       fhir:index 17;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationRequest" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/MedicationRequest/example-1-of-medication-presc>;
+         fhir:Reference.reference [ fhir:value "MedicationRequest/example-1-of-medication-presc" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example MedicationRequest - example-1-of-medication-presc" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription";
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription>
+       ]
+     ], [
+       fhir:index 18;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordAdministration>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/MedRecordAdministration" ]
+       ]
+     ], [
+       fhir:index 19;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationRequest" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/MedicationRequest/example-7-of-medication-presc>;
+         fhir:Reference.reference [ fhir:value "MedicationRequest/example-7-of-medication-presc" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example MedicationRequest - example-7-of-medication-presc" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription";
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription>
+       ]
+     ], [
+       fhir:index 20;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationRequest" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/MedicationRequest/example-4-of-medication-presc>;
+         fhir:Reference.reference [ fhir:value "MedicationRequest/example-4-of-medication-presc" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example MedicationRequest - example-4-of-medication-presc" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription";
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription>
+       ]
+     ], [
+       fhir:index 21;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationDispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/MedicationDispense/example-4-2-of-medication-dispense>;
+         fhir:Reference.reference [ fhir:value "MedicationDispense/example-4-2-of-medication-dispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example MedicationDispense - example-4-2-of-medication-dispense" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense";
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense>
+       ]
+     ], [
+       fhir:index 22;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/MedRecordPrescription" ]
+       ]
+     ], [
+       fhir:index 23;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationDispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/MedicationDispense/example-3-2-of-medication-dispense>;
+         fhir:Reference.reference [ fhir:value "MedicationDispense/example-3-2-of-medication-dispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example MedicationDispense - example-3-2-of-medication-dispense" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense";
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense>
+       ]
+     ], [
+       fhir:index 24;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationDispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/MedicationDispense/example-1-of-medication-dispense>;
+         fhir:Reference.reference [ fhir:value "MedicationDispense/example-1-of-medication-dispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example MedicationDispense - example-1-of-medication-dispense" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense";
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense>
+       ]
+     ], [
+       fhir:index 25;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationStatement" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/MedicationStatement/example-7-of-medication-usage>;
+         fhir:Reference.reference [ fhir:value "MedicationStatement/example-7-of-medication-usage" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example MedicationStatement - example-7-of-medication-usage" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordUsage";
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordUsage>
+       ]
+     ], [
+       fhir:index 26;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicationDispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/MedicationDispense/example-7-of-medication-dispense>;
+         fhir:Reference.reference [ fhir:value "MedicationDispense/example-7-of-medication-dispense" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Example MedicationDispense - example-7-of-medication-dispense" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense";
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense>
        ]
      ];
      fhir:ImplementationGuide.definition.page [

@@ -1,0 +1,76 @@
+{
+  "resourceType": "MedicationDispense",
+  "id": "example-10-1-of-medication-dispense",
+  "meta": {
+    "profile": [
+      "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: f219aa4e-5d10-4f3d-840d-a15e0dff2957</p><p><b>status</b>: completed</p><p><b>medication</b>: <span title=\"Codes: {https://cnk.apb.be/codings/cnk_product_codes 3478674}\">LRP ANTHELIOS MELK IP50+ DERMOPEDIATRICS 250ML</span></p><p><b>subject</b>: <span></span></p><blockquote><p><b>performer</b></p><p><b>function</b>: <span title=\"Codes: \">dispenser</span></p><p><b>actor</b>: <span>Pharmacist</span></p></blockquote><blockquote><p><b>performer</b></p><p><b>function</b>: <span title=\"Codes: \">dispensingOrg</span></p><p><b>actor</b>: <span>Pharmacy X</span></p></blockquote><p><b>quantity</b>: 1 Bottle</p><p><b>whenHandedOver</b>: May 19, 2021, 11:00:00 AM</p></div>"
+  },
+  "identifier": [
+    {
+      "system": "http://dispense-identifiers.com",
+      "value": "f219aa4e-5d10-4f3d-840d-a15e0dff2957"
+    }
+  ],
+  "status": "completed",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "https://cnk.apb.be/codings/cnk_product_codes",
+        "code": "3478674",
+        "display": "LRP ANTHELIOS MELK IP50+ DERMOPEDIATRICS 250ML"
+      }
+    ]
+  },
+  "subject": {
+    "identifier": {
+      "system": "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/ssin",
+      "value": "64110219106"
+    }
+  },
+  "performer": [
+    {
+      "function": {
+        "coding": [
+          {
+            "code": "dispenser"
+          }
+        ]
+      },
+      "actor": {
+        "identifier": {
+          "system": "http://dispenser-identifiers.com",
+          "value": "7c3aa173-3185-4001-a661-df36a7492798"
+        },
+        "display": "Pharmacist"
+      }
+    },
+    {
+      "function": {
+        "coding": [
+          {
+            "code": "dispensingOrg"
+          }
+        ]
+      },
+      "actor": {
+        "identifier": {
+          "system": "http://dispenser-identifiers.com",
+          "value": "5b2e9903-fba7-4ed3-aa76-52d386012ca0"
+        },
+        "display": "Pharmacy X"
+      }
+    }
+  ],
+  "quantity": {
+    "value": 1,
+    "unit": "Bottle",
+    "system": "http://standardterms.edqm.eu/PAC",
+    "code": "30008000"
+  },
+  "whenHandedOver": "2021-05-19T13:00:00+02:00"
+}
