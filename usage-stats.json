@@ -5,10 +5,28 @@
   "jurisdiction": "001",
   "extensions": [],
   "profiles": {
+    "MedicationAdministration": [
+      {
+        "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordAdministration",
+        "title": "MedRecordAdministration"
+      }
+    ],
     "MedicationDispense": [
       {
         "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense",
         "title": "MedRecordDispense"
+      }
+    ],
+    "MedicationRequest": [
+      {
+        "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription",
+        "title": "MedRecordPrescription"
+      }
+    ],
+    "MedicationStatement": [
+      {
+        "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordUsage",
+        "title": "MedRecordUsage"
       }
     ]
   },
@@ -27,6 +45,12 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/event-basedOn": [
+      "MedicationAdministration",
+      "MedicationDispense",
+      "MedicationRequest",
+      "MedicationStatement"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
       "StructureDefinition"

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MedicationStatement xmlns="http://hl7.org/fhir">
+  <id value="example-8-of-medication-usage"/>
+  <meta>
+    <profile value="xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordUsage"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Based On</b>: <span></span></p><p><b>identifier</b>: id: cc4f91f6-d0f6-479c-b6c0-109177448ed7</p><p><b>status</b>: stopped</p><p><b>statusReason</b>: <span title="Codes: {http://snomed.info/sct 395009001}">Medication stopped - side effect</span></p><p><b>medication</b>: <span title="Codes: {https://cnk.apb.be/codings/cnk_product_codes 1715127}">Amoxiclav Sandoz 875/125 compr. (séc.) 20x</span></p><p><b>subject</b>: <span></span></p><p><b>dateAsserted</b>: Jul 19, 2021, 3:00:00 PM</p><p><b>informationSource</b>: <span></span></p></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/event-basedOn">
+    <valueReference>
+      <identifier>
+        <system value="http://treatment-identifiers.com"/>
+        <value value="b40abc28-9454-405b-bc81-7571a9a05f3a"/>
+      </identifier>
+    </valueReference>
+  </extension>
+  <identifier>
+    <system value="http://medicationusage-identifiers.com"/>
+    <value value="cc4f91f6-d0f6-479c-b6c0-109177448ed7"/>
+  </identifier>
+  <status value="stopped"/>
+  <statusReason>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="395009001"/>
+      <display value="Medication stopped - side effect"/>
+    </coding>
+  </statusReason>
+  <medicationCodeableConcept>
+    <coding>
+      <system value="https://cnk.apb.be/codings/cnk_product_codes"/>
+      <code value="1715127"/>
+      <display value="Amoxiclav Sandoz 875/125 compr. (s&#xE9;c.) 20x"/>
+    </coding>
+  </medicationCodeableConcept>
+  <subject>
+    <identifier>
+      <system value="https://www.ehealth.fgov.be/standards/fhir/NamingSystem/ssin"/>
+      <value value="64110219106"/>
+    </identifier>
+  </subject>
+  <dateAsserted value="2021-07-19T17:00:00+02:00"/>
+  <informationSource>
+    <identifier>
+      <system value="https://www.ehealth.fgov.be/standards/fhir/NamingSystem/ssin"/>
+      <value value="64110219106"/>
+    </identifier>
+  </informationSource>
+</MedicationStatement>

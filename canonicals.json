@@ -7,10 +7,31 @@
     "name": "xxxYourComputableMyIGNameHere"
   },
   {
+    "id": "MedRecordAdministration",
+    "type": "StructureDefinition",
+    "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordAdministration",
+    "version": "0.1.0-test",
+    "name": "MedRecordAdministration"
+  },
+  {
     "id": "MedRecordDispense",
     "type": "StructureDefinition",
     "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense",
     "version": "0.1.0-test",
     "name": "MedRecordDispense"
+  },
+  {
+    "id": "MedRecordPrescription",
+    "type": "StructureDefinition",
+    "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription",
+    "version": "0.1.0-test",
+    "name": "MedRecordPrescription"
+  },
+  {
+    "id": "MedRecordUsage",
+    "type": "StructureDefinition",
+    "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordUsage",
+    "version": "0.1.0-test",
+    "name": "MedRecordUsage"
   }
 ]

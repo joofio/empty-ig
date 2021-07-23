@@ -40,8 +40,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"4.1"}
-    h3,h4,h5,h6{--heading-prefix:"4.1"}</style>
+    <style type="text/css">h2{--heading-prefix:"4.2"}
+    h3,h4,h5,h6{--heading-prefix:"4.2"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
           <!-- Placeholder for child template header declarations -->
@@ -172,6 +172,16 @@
 
 
 
+  
+    
+      <li>
+        <a href="StructureDefinition-MedRecordDispense-examples.html">Examples</a>
+      </li>
+    
+  
+
+
+
 
   
     <li>
@@ -210,10 +220,12 @@
   <a name="workflow"> </a><h3>Mappings for Workflow Pattern (<a href="http://hl7.org/fhir/workflow.html">http://hl7.org/fhir/workflow</a>)</h3><table class="grid">
  <tr><td colspan="3"><b>MedRecordDispense</b></td></tr>
  <tr><td>MedicationDispense</td><td>Event</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (treatmentPlan)</td><td>Event.basedOn</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>Event.identifier</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;partOf</td><td>Event.partOf</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;status</td><td>Event.status</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;statusReason[x]</td><td>Event.statusReason</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;statusReason[x] (statusReasonCodeableConcept)</td><td>Event.statusReason</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;medication[x]</td><td>Event.code</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;medication[x] (medicationCodeableConcept)</td><td>Event.code</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;medication[x] (medicationReference)</td><td>Event.code</td> </tr>
@@ -230,12 +242,18 @@
  <tr><td>MedicationDispense</td><td>Entity. Role, or Act, Supply[moodCode=EVN]</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;text</td><td>Act.text?</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;contained</td><td>N/A</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;extension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (treatmentPlan)</td><td>.outboundRelationship[typeCode=FLFS].target</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;url</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value[x]</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value[x] (valueReference)</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>.id</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;partOf</td><td>.outboundRelationship[typeCode=COMP]/target[classCode=PROC,moodCode=EVN]</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;status</td><td>.statusCode</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;statusReason[x]</td><td>.outboundRelationship[typeCode=RSON]/target[classCode=OBS,moodCode=EVN, code="not done reason"].value</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;statusReason[x] (statusReasonCodeableConcept)</td><td>.outboundRelationship[typeCode=RSON]/target[classCode=OBS,moodCode=EVN, code="not done reason"].value</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;category</td><td>.inboundRelationship[typeCode=COMP].source[classCode=OBS, moodCode=EVN, code="type of medication dispense"].value</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;medication[x]</td><td>.participation[typeCode=PRD].role</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;medication[x] (medicationCodeableConcept)</td><td>.participation[typeCode=PRD].role</td> </tr>
@@ -305,6 +323,7 @@
 <a name="v2"> </a><h3>Mappings for HL7 v2 Mapping (<a href="http://hl7.org/comparison-v2.html">http://hl7.org/v2</a>)</h3><table class="grid">
  <tr><td colspan="3"><b>MedRecordDispense</b></td></tr>
  <tr><td>MedicationDispense</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (treatmentPlan)</td><td>ORC in proximity to EVN segment</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;medication[x]</td><td>RXD-2-Dispense/Give Code</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;medication[x] (medicationCodeableConcept)</td><td>RXD-2-Dispense/Give Code</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;medication[x] (medicationReference)</td><td>RXD-2-Dispense/Give Code</td> </tr>
@@ -370,8 +389,8 @@
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
-        <p><a name="36f10ccf-b65f-44c8-a13d-6c17b19b406b">​</a>
-          IG &copy; 2019+ <a style="color: #81BEF7" href="xxxhttp://hl7.org/Special/committees/[something]">xxxYour Work Group</a>.  Package xxxexample.fhir.uv.myig#0.1.0-test based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jul 15, 2021 14:28+0000">2021-07-15</span>
+        <p><a name="87bb2cd0-8505-4701-8281-574713ff5c78">​</a>
+          IG &copy; 2019+ <a style="color: #81BEF7" href="xxxhttp://hl7.org/Special/committees/[something]">xxxYour Work Group</a>.  Package xxxexample.fhir.uv.myig#0.1.0-test based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jul 23, 2021 12:22+0000">2021-07-23</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
