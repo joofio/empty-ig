@@ -1,11 +1,11 @@
 ﻿xxxYourComputableMyIGNameHere : Validation Results
 =========================================
 
-err = 37, warn = 58, info = 38
+err = 35, warn = 61, info = 40
 IG Publisher Version: 1.1.77
-Generated Mon Jul 26 10:35:10 UTC 2021. FHIR version 4.0.1 for xxxexample.fhir.uv.myig#0.1.0-test (canonical = xxxhttp://somewhere.org/fhir/uv/myig)
+Generated Mon Jul 26 10:40:10 UTC 2021. FHIR version 4.0.1 for xxxexample.fhir.uv.myig#0.1.0-test (canonical = xxxhttp://somewhere.org/fhir/uv/myig)
 
- Build Errors : 179 / 29 / 0
+ Build Errors : 189 / 31 / 0
  /github/workspace/fsh-generated/resources/MedicationAdministration-example-8-of-medication-administration : 1 / 1 / 3
  /github/workspace/fsh-generated/resources/MedicationDispense-example-1-of-medication-dispense : 1 / 2 / 4
  /github/workspace/fsh-generated/resources/MedicationDispense-example-10-1-of-medication-dispense : 0 / 2 / 4
@@ -13,9 +13,10 @@ Generated Mon Jul 26 10:35:10 UTC 2021. FHIR version 4.0.1 for xxxexample.fhir.u
  /github/workspace/fsh-generated/resources/MedicationDispense-example-10-3-of-medication-dispense : 0 / 2 / 4
  /github/workspace/fsh-generated/resources/MedicationDispense-example-2-of-medication-dispense : 4 / 2 / 5
  /github/workspace/fsh-generated/resources/MedicationDispense-example-3-2-of-medication-dispense : 1 / 2 / 4
- /github/workspace/fsh-generated/resources/MedicationDispense-example-3-of-medication-dispense : 5 / 3 / 5
+ /github/workspace/fsh-generated/resources/MedicationDispense-example-3-of-medication-dispense : 1 / 2 / 4
  /github/workspace/fsh-generated/resources/MedicationDispense-example-4-1-of-medication-dispense : 1 / 2 / 4
  /github/workspace/fsh-generated/resources/MedicationDispense-example-4-2-of-medication-dispense : 1 / 2 / 4
+ /github/workspace/fsh-generated/resources/MedicationDispense-example-5-of-medication-dispense : 1 / 2 / 4
  /github/workspace/fsh-generated/resources/MedicationDispense-example-6-1-of-medication-dispense : 1 / 2 / 4
  /github/workspace/fsh-generated/resources/MedicationDispense-example-7-of-medication-dispense : 1 / 2 / 4
  /github/workspace/fsh-generated/resources/MedicationDispense-example-8-of-medication-dispense : 1 / 2 / 4
@@ -24,6 +25,7 @@ Generated Mon Jul 26 10:35:10 UTC 2021. FHIR version 4.0.1 for xxxexample.fhir.u
  /github/workspace/fsh-generated/resources/MedicationRequest-example-3-2-of-medication-presc : 1 / 0 / 3
  /github/workspace/fsh-generated/resources/MedicationRequest-example-3-of-medication-presc : 1 / 0 / 3
  /github/workspace/fsh-generated/resources/MedicationRequest-example-4-of-medication-presc : 1 / 0 / 3
+ /github/workspace/fsh-generated/resources/MedicationRequest-example-5-of-medication-presc : 1 / 0 / 3
  /github/workspace/fsh-generated/resources/MedicationRequest-example-6-of-medication-presc : 1 / 0 / 3
  /github/workspace/fsh-generated/resources/MedicationRequest-example-7-of-medication-presc : 1 / 0 / 3
  /github/workspace/fsh-generated/resources/MedicationRequest-example-8-of-medication-presc : 1 / 0 / 3
@@ -40,6 +42,7 @@ Generated Mon Jul 26 10:35:10 UTC 2021. FHIR version 4.0.1 for xxxexample.fhir.u
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationDispense/example-4-1-of-medication-dispense.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationRequest/example-5-of-medication-presc.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationDispense/example-8-of-medication-dispense.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/MedRecordTreatmentLine2.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/MedRecordTreatmentLine2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -63,6 +66,7 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/MedRecordTreatmentLine.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/MedRecordTreatmentLine.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationRequest/example-1-of-medication-presc.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationDispense/example-5-of-medication-dispense.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/MedRecordAdministration.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/MedRecordAdministration.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationRequest/example-7-of-medication-presc.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -111,9 +115,9 @@ ERROR: /github/workspace/output/MedicationDispense-example-3-2-of-medication-dis
 ERROR: /github/workspace/output/MedicationDispense-example-3-2-of-medication-dispense.xml.html#/html/body/div/div/div/p/a at Line 298, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/MedicationDispense-example-3-of-medication-dispense.change.history.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/MedicationDispense-example-3-of-medication-dispense.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-example-3-of-medication-dispense.json.html#/html/body/div/div/div/p/a at Line 333, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-example-3-of-medication-dispense.ttl.html#/html/body/div/div/div/p/a at Line 323, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/MedicationDispense-example-3-of-medication-dispense.xml.html#/html/body/div/div/div/p/a at Line 314, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/MedicationDispense-example-3-of-medication-dispense.json.html#/html/body/div/div/div/p/a at Line 319, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/MedicationDispense-example-3-of-medication-dispense.ttl.html#/html/body/div/div/div/p/a at Line 313, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/MedicationDispense-example-3-of-medication-dispense.xml.html#/html/body/div/div/div/p/a at Line 304, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/MedicationDispense-example-4-1-of-medication-dispense.change.history.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/MedicationDispense-example-4-1-of-medication-dispense.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/MedicationDispense-example-4-1-of-medication-dispense.json.html#/html/body/div/div/div/p/a at Line 319, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
@@ -124,6 +128,11 @@ ERROR: /github/workspace/output/MedicationDispense-example-4-2-of-medication-dis
 ERROR: /github/workspace/output/MedicationDispense-example-4-2-of-medication-dispense.json.html#/html/body/div/div/div/p/a at Line 311, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/MedicationDispense-example-4-2-of-medication-dispense.ttl.html#/html/body/div/div/div/p/a at Line 307, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/MedicationDispense-example-4-2-of-medication-dispense.xml.html#/html/body/div/div/div/p/a at Line 298, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/MedicationDispense-example-5-of-medication-dispense.change.history.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/MedicationDispense-example-5-of-medication-dispense.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/MedicationDispense-example-5-of-medication-dispense.json.html#/html/body/div/div/div/p/a at Line 327, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/MedicationDispense-example-5-of-medication-dispense.ttl.html#/html/body/div/div/div/p/a at Line 318, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/MedicationDispense-example-5-of-medication-dispense.xml.html#/html/body/div/div/div/p/a at Line 310, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/MedicationDispense-example-6-1-of-medication-dispense.change.history.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/MedicationDispense-example-6-1-of-medication-dispense.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/MedicationDispense-example-6-1-of-medication-dispense.json.html#/html/body/div/div/div/p/a at Line 328, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
@@ -164,6 +173,11 @@ ERROR: /github/workspace/output/MedicationRequest-example-4-of-medication-presc.
 ERROR: /github/workspace/output/MedicationRequest-example-4-of-medication-presc.json.html#/html/body/div/div/div/p/a at Line 285, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/MedicationRequest-example-4-of-medication-presc.ttl.html#/html/body/div/div/div/p/a at Line 290, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/MedicationRequest-example-4-of-medication-presc.xml.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/MedicationRequest-example-5-of-medication-presc.change.history.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/MedicationRequest-example-5-of-medication-presc.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/MedicationRequest-example-5-of-medication-presc.json.html#/html/body/div/div/div/p/a at Line 279, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/MedicationRequest-example-5-of-medication-presc.ttl.html#/html/body/div/div/div/p/a at Line 285, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/MedicationRequest-example-5-of-medication-presc.xml.html#/html/body/div/div/div/p/a at Line 274, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/MedicationRequest-example-6-of-medication-presc.change.history.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/MedicationRequest-example-6-of-medication-presc.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/MedicationRequest-example-6-of-medication-presc.json.html#/html/body/div/div/div/p/a at Line 285, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
@@ -198,7 +212,7 @@ ERROR: /github/workspace/output/StructureDefinition-MedRecordAdministration.prof
 ERROR: /github/workspace/output/StructureDefinition-MedRecordAdministration.profile.ttl.html#/html/body/div/div/div/p/a at Line 2656, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MedRecordAdministration.profile.xml.html#/html/body/div/div/div/p/a at Line 2707, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MedRecordDispense-definitions.html#/html/body/div/div/div/p/a at Line 781, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MedRecordDispense-examples.html#/html/body/div/div/div/p/a at Line 356, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecordDispense-examples.html#/html/body/div/div/div/p/a at Line 362, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MedRecordDispense-mappings.html#/html/body/div/div/div/p/a at Line 403, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MedRecordDispense.html#/html/body/div/div/div/p/a at Line 877, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MedRecordDispense.profile.history.html#/html/body/div/div/div/p/a at Line 268, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
@@ -206,7 +220,7 @@ ERROR: /github/workspace/output/StructureDefinition-MedRecordDispense.profile.js
 ERROR: /github/workspace/output/StructureDefinition-MedRecordDispense.profile.ttl.html#/html/body/div/div/div/p/a at Line 2699, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MedRecordDispense.profile.xml.html#/html/body/div/div/div/p/a at Line 2732, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MedRecordPrescription-definitions.html#/html/body/div/div/div/p/a at Line 930, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MedRecordPrescription-examples.html#/html/body/div/div/div/p/a at Line 332, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecordPrescription-examples.html#/html/body/div/div/div/p/a at Line 338, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MedRecordPrescription-mappings.html#/html/body/div/div/div/p/a at Line 466, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MedRecordPrescription.html#/html/body/div/div/div/p/a at Line 968, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MedRecordPrescription.profile.history.html#/html/body/div/div/div/p/a at Line 268, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
@@ -242,7 +256,7 @@ ERROR: /github/workspace/output/ValueSet-medication-substitution-dispense-v1.htm
 ERROR: /github/workspace/output/ValueSet-medication-substitution-dispense-v1.json.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/ValueSet-medication-substitution-dispense-v1.ttl.html#/html/body/div/div/div/p/a at Line 282, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/ValueSet-medication-substitution-dispense-v1.xml.html#/html/body/div/div/div/p/a at Line 266, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 414, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 426, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/changes.html#/html/body/div/div/div/p/a at Line 184, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/p/a at Line 220, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
@@ -294,12 +308,6 @@ INFORMATION: MedicationDispense/example-3-of-medication-dispense: MedicationDisp
 WARNING: MedicationDispense/example-3-of-medication-dispense: MedicationDispense.performer[0].function.coding[0]: A code with no system has no defined meaning. A system should be provided
 WARNING: MedicationDispense/example-3-of-medication-dispense: MedicationDispense.performer[1].function.coding[0]: A code with no system has no defined meaning. A system should be provided
 INFORMATION: MedicationDispense/example-3-of-medication-dispense: MedicationDispense.quantity: Code System URI 'http://standardterms.edqm.eu/PAC' is unknown so the code cannot be validated
-WARNING: MedicationDispense/example-3-of-medication-dispense: MedicationDispense.substitution.reason[0].coding[0]: A code with no system has no defined meaning. A system should be provided
-INFORMATION: MedicationDispense/example-3-of-medication-dispense: MedicationDispense.substitution.reason[0].coding[0]: Code System URI '' is unknown so the code cannot be validated
-ERROR: MedicationDispense/example-3-of-medication-dispense: MedicationDispense.substitution.reason[0].coding[0].system: ele-1: 'All FHIR elements must have a @value or children' Rule 'All FHIR elements must have a @value or children' Failed
-ERROR: MedicationDispense/example-3-of-medication-dispense: MedicationDispense.substitution.reason[0].coding[0].system: @value cannot be empty
-ERROR: MedicationDispense/example-3-of-medication-dispense: MedicationDispense.substitution.reason[0].coding[0].display: ele-1: 'All FHIR elements must have a @value or children' Rule 'All FHIR elements must have a @value or children' Failed
-ERROR: MedicationDispense/example-3-of-medication-dispense: MedicationDispense.substitution.reason[0].coding[0].display: @value cannot be empty
 == /github/workspace/fsh-generated/resources/MedicationDispense-example-4-1-of-medication-dispense.json ==
 ERROR: MedicationDispense/example-4-1-of-medication-dispense: MedicationDispense: The extension http://hl7.org/fhir/StructureDefinition/event-basedOn is not allowed to be used at this point (allowed = e:Condition; this element is [[MedicationDispense])
 INFORMATION: MedicationDispense/example-4-1-of-medication-dispense: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://cnk.apb.be/codings/cnk_product_codes' is unknown so the code cannot be validated
@@ -312,6 +320,12 @@ INFORMATION: MedicationDispense/example-4-2-of-medication-dispense: MedicationDi
 WARNING: MedicationDispense/example-4-2-of-medication-dispense: MedicationDispense.performer[0].function.coding[0]: A code with no system has no defined meaning. A system should be provided
 WARNING: MedicationDispense/example-4-2-of-medication-dispense: MedicationDispense.performer[1].function.coding[0]: A code with no system has no defined meaning. A system should be provided
 INFORMATION: MedicationDispense/example-4-2-of-medication-dispense: MedicationDispense.quantity: Code System URI 'http://standardterms.edqm.eu/PAC' is unknown so the code cannot be validated
+== /github/workspace/fsh-generated/resources/MedicationDispense-example-5-of-medication-dispense.json ==
+ERROR: MedicationDispense/example-5-of-medication-dispense: MedicationDispense: The extension http://hl7.org/fhir/StructureDefinition/event-basedOn is not allowed to be used at this point (allowed = e:Condition; this element is [[MedicationDispense])
+INFORMATION: MedicationDispense/example-5-of-medication-dispense: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://cnk.apb.be/codings/cnk_product_codes' is unknown so the code cannot be validated
+WARNING: MedicationDispense/example-5-of-medication-dispense: MedicationDispense.performer[0].function.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: MedicationDispense/example-5-of-medication-dispense: MedicationDispense.performer[1].function.coding[0]: A code with no system has no defined meaning. A system should be provided
+INFORMATION: MedicationDispense/example-5-of-medication-dispense: MedicationDispense.quantity: Code System URI 'http://standardterms.edqm.eu/PAC' is unknown so the code cannot be validated
 == /github/workspace/fsh-generated/resources/MedicationDispense-example-6-1-of-medication-dispense.json ==
 ERROR: MedicationDispense/example-6-1-of-medication-dispense: MedicationDispense: The extension http://hl7.org/fhir/StructureDefinition/event-basedOn is not allowed to be used at this point (allowed = e:Condition; this element is [[MedicationDispense])
 INFORMATION: MedicationDispense/example-6-1-of-medication-dispense: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://vos-identifier.be/vos_product_codes' is unknown so the code cannot be validated
@@ -345,6 +359,9 @@ INFORMATION: MedicationRequest/example-3-of-medication-presc: MedicationRequest.
 == /github/workspace/fsh-generated/resources/MedicationRequest-example-4-of-medication-presc.json ==
 ERROR: MedicationRequest/example-4-of-medication-presc: MedicationRequest: The extension http://hl7.org/fhir/StructureDefinition/event-basedOn is not allowed to be used at this point (allowed = e:Condition; this element is [[MedicationRequest])
 INFORMATION: MedicationRequest/example-4-of-medication-presc: MedicationRequest.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://vos-identifier.be/vos_product_codes' is unknown so the code cannot be validated
+== /github/workspace/fsh-generated/resources/MedicationRequest-example-5-of-medication-presc.json ==
+ERROR: MedicationRequest/example-5-of-medication-presc: MedicationRequest: The extension http://hl7.org/fhir/StructureDefinition/event-basedOn is not allowed to be used at this point (allowed = e:Condition; this element is [[MedicationRequest])
+INFORMATION: MedicationRequest/example-5-of-medication-presc: MedicationRequest.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://cnk.apb.be/codings/cnk_product_codes' is unknown so the code cannot be validated
 == /github/workspace/fsh-generated/resources/MedicationRequest-example-6-of-medication-presc.json ==
 ERROR: MedicationRequest/example-6-of-medication-presc: MedicationRequest: The extension http://hl7.org/fhir/StructureDefinition/event-basedOn is not allowed to be used at this point (allowed = e:Condition; this element is [[MedicationRequest])
 INFORMATION: MedicationRequest/example-6-of-medication-presc: MedicationRequest.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://vos-identifier.be/vos_product_codes' is unknown so the code cannot be validated
