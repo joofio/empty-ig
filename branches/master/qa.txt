@@ -1,11 +1,11 @@
 ﻿xxxYourComputableMyIGNameHere : Validation Results
 =========================================
 
-err = 35, warn = 55, info = 38
+err = 38, warn = 59, info = 38
 IG Publisher Version: 1.1.77
-Generated Fri Jul 23 12:22:53 UTC 2021. FHIR version 4.0.1 for xxxexample.fhir.uv.myig#0.1.0-test (canonical = xxxhttp://somewhere.org/fhir/uv/myig)
+Generated Mon Jul 26 10:22:05 UTC 2021. FHIR version 4.0.1 for xxxexample.fhir.uv.myig#0.1.0-test (canonical = xxxhttp://somewhere.org/fhir/uv/myig)
 
- Build Errors : 156 / 27 / 0
+ Build Errors : 174 / 29 / 0
  /github/workspace/fsh-generated/resources/MedicationAdministration-example-8-of-medication-administration : 1 / 1 / 3
  /github/workspace/fsh-generated/resources/MedicationDispense-example-1-of-medication-dispense : 1 / 2 / 4
  /github/workspace/fsh-generated/resources/MedicationDispense-example-10-1-of-medication-dispense : 0 / 2 / 4
@@ -32,12 +32,16 @@ Generated Fri Jul 23 12:22:53 UTC 2021. FHIR version 4.0.1 for xxxexample.fhir.u
  /github/workspace/fsh-generated/resources/StructureDefinition-MedRecordAdministration : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-MedRecordDispense : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/StructureDefinition-MedRecordPrescription : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-MedRecordTreatmentLine : 1 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-MedRecordTreatmentLine2 : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-MedRecordUsage : 0 / 0 / 1
  /github/workspace/input/myig : 3 / 1 / 1
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationDispense/example-4-1-of-medication-dispense.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationDispense/example-8-of-medication-dispense.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/MedRecordTreatmentLine2.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/MedRecordTreatmentLine2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/example-8-of-medication-usage.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationDispense/example-6-1-of-medication-dispense.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/MedRecordUsage.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
@@ -55,6 +59,8 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationDispense/example-2-of-medication-dispense.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationRequest/example-3-2-of-medication-presc.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationRequest/example-6-of-medication-presc.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/MedRecordTreatmentLine.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/MedRecordTreatmentLine.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationRequest/example-1-of-medication-presc.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/MedRecordAdministration.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/MedRecordAdministration.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -206,6 +212,22 @@ ERROR: /github/workspace/output/StructureDefinition-MedRecordPrescription.profil
 ERROR: /github/workspace/output/StructureDefinition-MedRecordPrescription.profile.json.html#/html/body/div/div/div/p/a at Line 3781, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MedRecordPrescription.profile.ttl.html#/html/body/div/div/div/p/a at Line 3332, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MedRecordPrescription.profile.xml.html#/html/body/div/div/div/p/a at Line 3423, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecordTreatmentLine-definitions.html#/html/body/div/div/div/p/a at Line 936, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecordTreatmentLine-examples.html#/html/body/div/div/div/p/a at Line 269, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecordTreatmentLine-mappings.html#/html/body/div/div/div/p/a at Line 395, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecordTreatmentLine.html#/html/body/div/div/div/p/a at Line 915, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecordTreatmentLine.profile.history.html#/html/body/div/div/div/p/a at Line 258, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecordTreatmentLine.profile.json.html#/html/body/div/div/div/p/a at Line 3400, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecordTreatmentLine.profile.ttl.html#/html/body/div/div/div/p/a at Line 3062, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecordTreatmentLine.profile.xml.html#/html/body/div/div/div/p/a at Line 3068, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecordTreatmentLine2-definitions.html#/html/body/div/div/div/p/a at Line 593, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecordTreatmentLine2-examples.html#/html/body/div/div/div/p/a at Line 269, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecordTreatmentLine2-mappings.html#/html/body/div/div/div/p/a at Line 340, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecordTreatmentLine2.html#/html/body/div/div/div/p/a at Line 731, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecordTreatmentLine2.profile.history.html#/html/body/div/div/div/p/a at Line 258, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecordTreatmentLine2.profile.json.html#/html/body/div/div/div/p/a at Line 1904, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecordTreatmentLine2.profile.ttl.html#/html/body/div/div/div/p/a at Line 1714, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecordTreatmentLine2.profile.xml.html#/html/body/div/div/div/p/a at Line 1757, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MedRecordUsage-definitions.html#/html/body/div/div/div/p/a at Line 648, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MedRecordUsage-examples.html#/html/body/div/div/div/p/a at Line 296, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MedRecordUsage-mappings.html#/html/body/div/div/div/p/a at Line 357, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
@@ -214,7 +236,7 @@ ERROR: /github/workspace/output/StructureDefinition-MedRecordUsage.profile.histo
 ERROR: /github/workspace/output/StructureDefinition-MedRecordUsage.profile.json.html#/html/body/div/div/div/p/a at Line 2216, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MedRecordUsage.profile.ttl.html#/html/body/div/div/div/p/a at Line 1975, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MedRecordUsage.profile.xml.html#/html/body/div/div/div/p/a at Line 2014, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 378, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 390, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/changes.html#/html/body/div/div/div/p/a at Line 184, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/p/a at Line 220, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
@@ -338,6 +360,11 @@ INFORMATION: MedicationStatement/example-8-of-medication-usage: MedicationStatem
 == /github/workspace/fsh-generated/resources/StructureDefinition-MedRecordDispense.json ==
 INFORMATION: StructureDefinition/MedRecordDispense: StructureDefinition.snapshot.element[37].mapping[0].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == /github/workspace/fsh-generated/resources/StructureDefinition-MedRecordPrescription.json ==
+== /github/workspace/fsh-generated/resources/StructureDefinition-MedRecordTreatmentLine.json ==
+ERROR: StructureDefinition.where(url = 'xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordTreatmentLine'): The element CarePlan.activity.detail.scheduledString is out of order (and maybe others after it)
+WARNING: StructureDefinition.where(url = 'xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordTreatmentLine'): The Implementation Guide contains no examples for this profile
+== /github/workspace/fsh-generated/resources/StructureDefinition-MedRecordTreatmentLine2.json ==
+WARNING: StructureDefinition.where(url = 'xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordTreatmentLine2'): The Implementation Guide contains no examples for this profile
 == /github/workspace/fsh-generated/resources/StructureDefinition-MedRecordUsage.json ==
 == /github/workspace/input/myig.xml ==
 ERROR: ImplementationGuide.where(url = 'xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig'): Conformance resource /github/workspace/input/myig.xml - the canonical URL (xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/xxxexample.fhir.uv.myig) does not match the URL (xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig)

@@ -23,7 +23,17 @@
         "title": "MedRecordPrescription"
       }
     ],
+    "CarePlan": [
+      {
+        "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordTreatmentLine",
+        "title": "MedRecordTreatmentLine"
+      }
+    ],
     "MedicationStatement": [
+      {
+        "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordTreatmentLine2",
+        "title": "MedRecordTreatmentLine2"
+      },
       {
         "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordUsage",
         "title": "MedRecordUsage"
@@ -56,6 +66,9 @@
       "StructureDefinition"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
       "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category": [
