@@ -11,7 +11,7 @@
   "title": "xxxYour User Friendly Name for MyIG Here",
   "status": "draft",
   "experimental": false,
-  "date": "2021-07-26T10:34:44+00:00",
+  "date": "2021-07-26T10:39:44+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {
@@ -359,6 +359,19 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicationRequest"
+          }
+        ],
+        "reference": {
+          "reference": "MedicationRequest/example-5-of-medication-presc"
+        },
+        "name": "Example MedicationRequest - example-5-of-medication-presc",
+        "exampleCanonical": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "MedicationDispense"
           }
         ],
@@ -593,6 +606,19 @@
         },
         "name": "Example MedicationRequest - example-1-of-medication-presc",
         "exampleCanonical": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicationDispense"
+          }
+        ],
+        "reference": {
+          "reference": "MedicationDispense/example-5-of-medication-dispense"
+        },
+        "name": "Example MedicationDispense - example-5-of-medication-dispense",
+        "exampleCanonical": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense"
       },
       {
         "extension": [
