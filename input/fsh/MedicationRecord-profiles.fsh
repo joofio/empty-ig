@@ -127,3 +127,53 @@ Description: "When an organization is referred to by use of an identifier, the n
 Expression: "actor.identifier.exists() implies (actor.identifier.system='https://www.ehealth.fgov.be/standards/fhir/NamingSystem/nihdi-organization' or  actor.identifier.system='https://www.ehealth.fgov.be/standards/fhir/NamingSystem/nihdi-practitioner'"
 Severity:   #warning
 */
+
+//IG//based on R4
+Profile: MedRecordTreatmentLine
+Parent: CarePlan
+* identifier MS
+* subject MS 
+* author MS
+* basedOn MS
+* created MS //recordDate
+* period MS //startMedicationDate + endMedicationDate
+* activity.detail.product[x] MS //product
+* activity.detail.status MS //lifecycleStatus
+* activity.detail.statusReason MS //statusReason
+* activity.detail.description MS //instructionForUse
+* activity.detail.scheduledString MS //dayPeriod + periodicity
+* activity.detail.scheduledPeriod MS //dayPeriod + periodicity
+* activity.detail.scheduledTiming MS //dayPeriod + periodicity
+* intent MS
+* status MS
+
+
+/* missing
+* originType 1..1 CodeableConcept "" ""
+* reaction 0..* CodeableConcept "" ""
+* dosageAmount 0..1 CodeableConcept "" ""
+* route 1..1 CodeableConcept "" ""
+* lotNumber 0..1 string	"Identifier assigned to batch" ""
+*/
+
+
+//IG//based on R4
+Profile: MedRecordTreatmentLine2
+Parent: MedicationStatement
+* identifier MS
+* basedOn MS
+* subject MS 
+* informationSource MS //recorder
+* dateAsserted MS //recordDate
+* effectiveDateTime MS //startMedicationDate + endMedicationDate
+* effectivePeriod MS //startMedicationDate + endMedicationDate
+* status MS //lifecycleStatus
+* statusReason MS //statusReason
+* medicationCodeableConcept MS
+* medicationReference MS
+* dosage MS //dosageAmmount + peridocity + dayperiod + route + instructionforUse
+* category MS //medicationType
+* note MS //everything else (origintype, lotnumber and reaction)
+
+
+

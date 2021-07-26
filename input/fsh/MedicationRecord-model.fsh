@@ -88,6 +88,31 @@ Title: "Medication Record Administration logical model"
 * location 0..1 string "" ""
 
 
+//treatmentLine as is
+Logical: BeModelMedicationRecordTreatment
+Title: "Medication Record Treatment Line logical model"
+
+* identifier 0..1 Identifier "The business identifier(s) for the medication treatment Line" ""
+* basedOn 0..1 Reference(CarePlan) "" "" 
+* subject 1..1 Reference(Patient) "" ""
+* recorder 1..1 Reference(Practitioner or Organization) "" ""
+* recordDate 1..1 dateTime "" ""
+* startMedicationDate 1..1 dateTime "" ""
+* endMedicationDate 0..1 dateTime "" ""
+* originType 1..1 CodeableConcept "" ""
+* reaction 0..* CodeableConcept "" ""
+* product[x] 1..1 Reference(Medication) or CodeableConcept "" ""
+* medicationType 0..* CodeableConcept "" ""
+* instructionForUse 0..* string "" ""
+* dosageAmount 0..1 CodeableConcept "" ""
+* periodicity 0..1 CodeableConcept "" ""
+* route 1..1 CodeableConcept "" ""
+* dayPeriod 0..* CodeableConcept "" ""
+* lifecycleStatus 1..1 CodeableConcept "" ""
+* statusReason 0..* CodeableConcept "" ""
+* lotNumber 0..1 string	"Identifier assigned to batch" ""
+
+
 
 Logical:        BeModelMedicationRecord
 Title:          "Medication Record logical model"
