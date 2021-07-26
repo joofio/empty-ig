@@ -57,9 +57,9 @@ Title:    "Prescribed medication is changed by another medication from a differe
 * authorizingPrescription.identifier.value = "69eb6358-6eb6-40e4-972f-33d22c3392c5"
 
 * substitution.wasSubstituted = true
-* substitution.reason.coding.display = ""
-* substitution.reason.coding.code = #OS
-* substitution.reason.coding.system = ""
+* substitution.reason.coding.display = "unable to use"
+* substitution.reason.coding.code = #UNABLE
+* substitution.reason.coding.system = "medication-substitution-dispense-v1"
 
 * performer[+].actor.identifier.value = "7c3aa173-3185-4001-a661-df36a7492798"
 * performer[=].actor.identifier.system = "http://dispenser-identifiers.com"
