@@ -12,7 +12,7 @@
   <title value="xxxYour User Friendly Name for MyIG Here"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-07-26T10:21:43+00:00"/>
+  <date value="2021-07-26T10:34:44+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
@@ -216,6 +216,16 @@
       </reference>
       <name value="Example MedicationDispense - example-4-1-of-medication-dispense"/>
       <exampleCanonical value="xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/medication-substitution-dispense-v1"/>
+      </reference>
+      <name value="medication substitution Value set"/>
+      <description value="Value set for substituting a medication on dispense."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

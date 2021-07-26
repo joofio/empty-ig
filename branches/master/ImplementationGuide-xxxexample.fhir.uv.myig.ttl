@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "xxxYour User Friendly Name for MyIG Here"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2021-07-26T10:21:43+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-07-26T10:34:44+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "xxxYour Work Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -330,6 +330,19 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/ValueSet/medication-substitution-dispense-v1>;
+         fhir:Reference.reference [ fhir:value "ValueSet/medication-substitution-dispense-v1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "medication substitution Value set" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Value set for substituting a medication on dispense." ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "MedicationDispense" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -342,7 +355,7 @@
          fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense>
        ]
      ], [
-       fhir:index 2;
+       fhir:index 3;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -353,7 +366,7 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/MedRecordTreatmentLine2" ]
        ]
      ], [
-       fhir:index 3;
+       fhir:index 4;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -369,7 +382,7 @@
          fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordUsage>
        ]
      ], [
-       fhir:index 4;
+       fhir:index 5;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -385,7 +398,7 @@
          fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense>
        ]
      ], [
-       fhir:index 5;
+       fhir:index 6;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -396,7 +409,7 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/MedRecordUsage" ]
        ]
      ], [
-       fhir:index 6;
+       fhir:index 7;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -412,7 +425,7 @@
          fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription>
        ]
      ], [
-       fhir:index 7;
+       fhir:index 8;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -423,7 +436,7 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/MedRecordDispense" ]
        ]
      ], [
-       fhir:index 8;
+       fhir:index 9;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -439,7 +452,7 @@
          fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense>
        ]
      ], [
-       fhir:index 9;
+       fhir:index 10;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -455,7 +468,7 @@
          fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense>
        ]
      ], [
-       fhir:index 10;
+       fhir:index 11;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -471,7 +484,7 @@
          fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense>
        ]
      ], [
-       fhir:index 11;
+       fhir:index 12;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -487,7 +500,7 @@
          fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription>
        ]
      ], [
-       fhir:index 12;
+       fhir:index 13;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -503,7 +516,7 @@
          fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense>
        ]
      ], [
-       fhir:index 13;
+       fhir:index 14;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -519,7 +532,7 @@
          fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordAdministration>
        ]
      ], [
-       fhir:index 14;
+       fhir:index 15;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -535,7 +548,7 @@
          fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription>
        ]
      ], [
-       fhir:index 15;
+       fhir:index 16;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -551,7 +564,7 @@
          fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense>
        ]
      ], [
-       fhir:index 16;
+       fhir:index 17;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -567,7 +580,7 @@
          fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription>
        ]
      ], [
-       fhir:index 17;
+       fhir:index 18;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -583,7 +596,7 @@
          fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription>
        ]
      ], [
-       fhir:index 18;
+       fhir:index 19;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -594,7 +607,7 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/MedRecordTreatmentLine" ]
        ]
      ], [
-       fhir:index 19;
+       fhir:index 20;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -610,7 +623,7 @@
          fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription>
        ]
      ], [
-       fhir:index 20;
+       fhir:index 21;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -621,7 +634,7 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/MedRecordAdministration" ]
        ]
      ], [
-       fhir:index 21;
+       fhir:index 22;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -637,7 +650,7 @@
          fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription>
        ]
      ], [
-       fhir:index 22;
+       fhir:index 23;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -653,7 +666,7 @@
          fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription>
        ]
      ], [
-       fhir:index 23;
+       fhir:index 24;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -669,7 +682,7 @@
          fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense>
        ]
      ], [
-       fhir:index 24;
+       fhir:index 25;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -680,7 +693,7 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/MedRecordPrescription" ]
        ]
      ], [
-       fhir:index 25;
+       fhir:index 26;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -696,7 +709,7 @@
          fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense>
        ]
      ], [
-       fhir:index 26;
+       fhir:index 27;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -712,7 +725,7 @@
          fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense>
        ]
      ], [
-       fhir:index 27;
+       fhir:index 28;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -728,7 +741,7 @@
          fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordUsage>
        ]
      ], [
-       fhir:index 28;
+       fhir:index 29;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
