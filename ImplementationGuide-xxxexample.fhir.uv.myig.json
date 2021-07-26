@@ -11,7 +11,7 @@
   "title": "xxxYour User Friendly Name for MyIG Here",
   "status": "draft",
   "experimental": false,
-  "date": "2021-07-23T12:22:33+00:00",
+  "date": "2021-07-26T10:21:43+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {
@@ -359,6 +359,17 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/MedRecordTreatmentLine2"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "MedicationStatement"
           }
         ],
@@ -545,6 +556,17 @@
         },
         "name": "Example MedicationRequest - example-6-of-medication-presc",
         "exampleCanonical": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/MedRecordTreatmentLine"
+        }
       },
       {
         "extension": [
