@@ -1,17 +1,17 @@
 ﻿xxxYourComputableMyIGNameHere : Validation Results
 =========================================
 
-err = 38, warn = 59, info = 38
+err = 37, warn = 58, info = 38
 IG Publisher Version: 1.1.77
-Generated Mon Jul 26 10:22:05 UTC 2021. FHIR version 4.0.1 for xxxexample.fhir.uv.myig#0.1.0-test (canonical = xxxhttp://somewhere.org/fhir/uv/myig)
+Generated Mon Jul 26 10:35:10 UTC 2021. FHIR version 4.0.1 for xxxexample.fhir.uv.myig#0.1.0-test (canonical = xxxhttp://somewhere.org/fhir/uv/myig)
 
- Build Errors : 174 / 29 / 0
+ Build Errors : 179 / 29 / 0
  /github/workspace/fsh-generated/resources/MedicationAdministration-example-8-of-medication-administration : 1 / 1 / 3
  /github/workspace/fsh-generated/resources/MedicationDispense-example-1-of-medication-dispense : 1 / 2 / 4
  /github/workspace/fsh-generated/resources/MedicationDispense-example-10-1-of-medication-dispense : 0 / 2 / 4
  /github/workspace/fsh-generated/resources/MedicationDispense-example-10-2-of-medication-dispense : 0 / 2 / 4
  /github/workspace/fsh-generated/resources/MedicationDispense-example-10-3-of-medication-dispense : 0 / 2 / 4
- /github/workspace/fsh-generated/resources/MedicationDispense-example-2-of-medication-dispense : 5 / 3 / 5
+ /github/workspace/fsh-generated/resources/MedicationDispense-example-2-of-medication-dispense : 4 / 2 / 5
  /github/workspace/fsh-generated/resources/MedicationDispense-example-3-2-of-medication-dispense : 1 / 2 / 4
  /github/workspace/fsh-generated/resources/MedicationDispense-example-3-of-medication-dispense : 5 / 3 / 5
  /github/workspace/fsh-generated/resources/MedicationDispense-example-4-1-of-medication-dispense : 1 / 2 / 4
@@ -35,6 +35,7 @@ Generated Mon Jul 26 10:22:05 UTC 2021. FHIR version 4.0.1 for xxxexample.fhir.u
  /github/workspace/fsh-generated/resources/StructureDefinition-MedRecordTreatmentLine : 1 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-MedRecordTreatmentLine2 : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-MedRecordUsage : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-medication-substitution-dispense-v1 : 0 / 0 / 1
  /github/workspace/input/myig : 3 / 1 / 1
 </table>
 == n/a ==
@@ -236,7 +237,12 @@ ERROR: /github/workspace/output/StructureDefinition-MedRecordUsage.profile.histo
 ERROR: /github/workspace/output/StructureDefinition-MedRecordUsage.profile.json.html#/html/body/div/div/div/p/a at Line 2216, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MedRecordUsage.profile.ttl.html#/html/body/div/div/div/p/a at Line 1975, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MedRecordUsage.profile.xml.html#/html/body/div/div/div/p/a at Line 2014, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 390, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-medication-substitution-dispense-v1.change.history.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-medication-substitution-dispense-v1.html#/html/body/div/div/div/p/a at Line 285, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-medication-substitution-dispense-v1.json.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-medication-substitution-dispense-v1.ttl.html#/html/body/div/div/div/p/a at Line 282, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-medication-substitution-dispense-v1.xml.html#/html/body/div/div/div/p/a at Line 266, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 414, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/changes.html#/html/body/div/div/div/p/a at Line 184, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/p/a at Line 220, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
@@ -272,12 +278,10 @@ INFORMATION: MedicationDispense/example-2-of-medication-dispense: MedicationDisp
 WARNING: MedicationDispense/example-2-of-medication-dispense: MedicationDispense.performer[0].function.coding[0]: A code with no system has no defined meaning. A system should be provided
 WARNING: MedicationDispense/example-2-of-medication-dispense: MedicationDispense.performer[1].function.coding[0]: A code with no system has no defined meaning. A system should be provided
 INFORMATION: MedicationDispense/example-2-of-medication-dispense: MedicationDispense.quantity: Code System URI 'http://standardterms.edqm.eu/PAC' is unknown so the code cannot be validated
-WARNING: MedicationDispense/example-2-of-medication-dispense: MedicationDispense.substitution.reason[0].coding[0]: A code with no system has no defined meaning. A system should be provided
-INFORMATION: MedicationDispense/example-2-of-medication-dispense: MedicationDispense.substitution.reason[0].coding[0]: Code System URI '' is unknown so the code cannot be validated
-ERROR: MedicationDispense/example-2-of-medication-dispense: MedicationDispense.substitution.reason[0].coding[0].system: ele-1: 'All FHIR elements must have a @value or children' Rule 'All FHIR elements must have a @value or children' Failed
-ERROR: MedicationDispense/example-2-of-medication-dispense: MedicationDispense.substitution.reason[0].coding[0].system: @value cannot be empty
-ERROR: MedicationDispense/example-2-of-medication-dispense: MedicationDispense.substitution.reason[0].coding[0].display: ele-1: 'All FHIR elements must have a @value or children' Rule 'All FHIR elements must have a @value or children' Failed
-ERROR: MedicationDispense/example-2-of-medication-dispense: MedicationDispense.substitution.reason[0].coding[0].display: @value cannot be empty
+ERROR: MedicationDispense/example-2-of-medication-dispense: MedicationDispense.substitution.reason[0].coding[0]: Coding.system must be an absolute reference, not a local reference
+ERROR: MedicationDispense/example-2-of-medication-dispense: MedicationDispense.substitution.reason[0].coding[0]: The Coding references a value set, not a code system ('medication-substitution-dispense-v1')
+ERROR: MedicationDispense/example-2-of-medication-dispense: MedicationDispense.substitution.reason[0].coding[0]: Invalid System URI: medication-substitution-dispense-v1 - cannot use a value set URI as a system
+INFORMATION: MedicationDispense/example-2-of-medication-dispense: MedicationDispense.substitution.reason[0].coding[0]: Code System URI 'medication-substitution-dispense-v1' is unknown so the code cannot be validated
 == /github/workspace/fsh-generated/resources/MedicationDispense-example-3-2-of-medication-dispense.json ==
 ERROR: MedicationDispense/example-3-2-of-medication-dispense: MedicationDispense: The extension http://hl7.org/fhir/StructureDefinition/event-basedOn is not allowed to be used at this point (allowed = e:Condition; this element is [[MedicationDispense])
 INFORMATION: MedicationDispense/example-3-2-of-medication-dispense: MedicationDispense.medication.ofType(CodeableConcept).coding[0]: Code System URI 'https://cnk.apb.be/codings/cnk_product_codes' is unknown so the code cannot be validated
@@ -366,6 +370,7 @@ WARNING: StructureDefinition.where(url = 'xxxhttp://somewhere.org/fhir/uv/myig/S
 == /github/workspace/fsh-generated/resources/StructureDefinition-MedRecordTreatmentLine2.json ==
 WARNING: StructureDefinition.where(url = 'xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordTreatmentLine2'): The Implementation Guide contains no examples for this profile
 == /github/workspace/fsh-generated/resources/StructureDefinition-MedRecordUsage.json ==
+== /github/workspace/fsh-generated/resources/ValueSet-medication-substitution-dispense-v1.json ==
 == /github/workspace/input/myig.xml ==
 ERROR: ImplementationGuide.where(url = 'xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig'): Conformance resource /github/workspace/input/myig.xml - the canonical URL (xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/xxxexample.fhir.uv.myig) does not match the URL (xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig)
 ERROR: ImplementationGuide.url: Resource id/url mismatch: xxxexample.fhir.uv.myig/xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig

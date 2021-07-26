@@ -11,7 +11,7 @@
   "title": "xxxYour User Friendly Name for MyIG Here",
   "status": "draft",
   "experimental": false,
-  "date": "2021-07-26T10:21:43+00:00",
+  "date": "2021-07-26T10:34:44+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {
@@ -341,6 +341,19 @@
         },
         "name": "Example MedicationDispense - example-4-1-of-medication-dispense",
         "exampleCanonical": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/medication-substitution-dispense-v1"
+        },
+        "name": "medication substitution Value set",
+        "description": "Value set for substituting a medication on dispense."
       },
       {
         "extension": [

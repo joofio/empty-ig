@@ -47,5 +47,12 @@
     "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordUsage",
     "version": "0.1.0-test",
     "name": "MedRecordUsage"
+  },
+  {
+    "id": "medication-substitution-dispense-v1",
+    "type": "ValueSet",
+    "url": "xxxhttp://somewhere.org/fhir/uv/myig/ValueSet/medication-substitution-dispense-v1",
+    "version": "0.1.0-test",
+    "name": "SubstitutionReason"
   }
 ]
