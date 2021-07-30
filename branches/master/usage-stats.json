@@ -25,14 +25,14 @@
     ],
     "CarePlan": [
       {
-        "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordTreatmentLine",
-        "title": "MedRecordTreatmentLine"
+        "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordTreatment",
+        "title": "MedRecordTreatment"
       }
     ],
     "MedicationStatement": [
       {
-        "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordTreatmentLine2",
-        "title": "MedRecordTreatmentLine2"
+        "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordTreatmentLine",
+        "title": "MedRecordTreatmentLine"
       },
       {
         "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordUsage",
