@@ -22,6 +22,11 @@
 <link rel="stylesheet" href="assets/css/hl7-be.css"/>
 
     <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+  <!-- Questionnaire: -->
+    <link rel="stylesheet" href="assets/css/lforms.min.css"/>
+
+
+
 
       <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
       <!-- [if lt IE 9]>
@@ -119,12 +124,12 @@
       </div>    <!-- /container -->
     </div>    <!-- /segment-navbar -->
       <!-- status-bar -->
-
+    
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
           
-
+          
         </ul>
       </div>    <!-- /container -->
     </div>    <!-- /segment-breadcrumb -->
@@ -135,8 +140,7 @@
         <div class="row">
           <div class="inner-wrapper">
 
-
-<div style="counter-reset: section 10" class="col-12">
+<div style="counter-reset: section 6" class="col-12">
     <!-- ReleaseHeader --><p id="publish-box">xxxYour User Friendly Name for MyIG Here - Local Development build (v0.1.0-test). See the <a href="xxxhttp://somewhere.org/fhir/uv/myig/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   
 
@@ -153,20 +157,20 @@
 <ul class="nav nav-tabs">
 
   <li>
-    <a href="StructureDefinition-MedRecordTreatmentLine2.html">Content</a>
+    <a href="StructureDefinition-MedRecordTreatment.html">Content</a>
   </li>
 
 
 
   <li>
-    <a href="StructureDefinition-MedRecordTreatmentLine2-definitions.html">Detailed Descriptions</a>
+    <a href="StructureDefinition-MedRecordTreatment-definitions.html">Detailed Descriptions</a>
   </li>
 
 
 
   
     <li>
-      <a href="StructureDefinition-MedRecordTreatmentLine2-mappings.html">Mappings</a>
+      <a href="StructureDefinition-MedRecordTreatment-mappings.html">Mappings</a>
     </li>
   
 
@@ -176,21 +180,21 @@
 
   
     <li>
-      <a href="StructureDefinition-MedRecordTreatmentLine2.profile.xml.html">XML</a>
+      <a href="StructureDefinition-MedRecordTreatment.profile.xml.html">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="StructureDefinition-MedRecordTreatmentLine2.profile.json.html">JSON</a>
+      <a href="StructureDefinition-MedRecordTreatment.profile.json.html">JSON</a>
     </li>
   
 
 
   
     <li>
-      <a href="StructureDefinition-MedRecordTreatmentLine2.profile.ttl.html">TTL</a>
+      <a href="StructureDefinition-MedRecordTreatment.profile.ttl.html">TTL</a>
     </li>
   
 
@@ -199,10 +203,22 @@
 
 
   <a name="root"> </a>
-  <h2 id="root">Resource Profile: MedRecordTreatmentLine2 - Change History</h2>
-  <p>Changes in the MedRecordTreatmentLine2 resource profile.</p>
+  <h2 id="root">Resource Profile: MedRecordTreatment - Examples</h2>
 
-  
+     <!-- insert intro if present -->
+    
+
+
+
+
+
+  <p><b>No examples are currently available for the  Profile.</b></p>
+
+
+  <!-- insert notes if present -->
+
+
+
 
 </div>
 
@@ -244,18 +260,20 @@
       }
     });
   </script>
+  <a name="bottom"> </a>
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
+
       <div class="inner-wrapper">
-        <p><a name="d12dec0b-6105-4131-86bb-410cd62e5103">​</a>
-          IG &copy; 2019+ <a style="color: #81BEF7" href="xxxhttp://hl7.org/Special/committees/[something]">xxxYour Work Group</a>.  Package xxxexample.fhir.uv.myig#0.1.0-test based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jul 26, 2021 10:39+0000">2021-07-26</span>
+        <p><a name="cb0f461e-cac6-4450-8eda-9d462e9d2c9e">​</a>
+          IG &copy; 2019+ <a style="color:var(--footer-hyperlink-text-color)" href="xxxhttp://hl7.org/Special/committees/[something]">xxxYour Work Group</a>.  Package xxxexample.fhir.uv.myig#0.1.0-test based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jul 30, 2021 08:51+0000">2021-07-30</span>
           <br/>
-          <span style="color: #FFFF77">
+          <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
                 
-          </span>
+          
         </p>
       </div>    <!-- /inner-wrapper -->
     </div>    <!-- /container -->
@@ -267,8 +285,8 @@
   </div>    <!-- /segment-post-footer -->
   
     <!-- JS and analytics only. -->
-    <!-- Bootstrap core JavaScript -->
-
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
   <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
   <script src="assets/js/respond.min.js" type="text/javascript"> </script>
@@ -276,7 +294,7 @@
   <script>anchors.options.visible = 'hover'
 anchors.add()</script>
   
-    <!-- feedback form - Google forms -->
+  <!-- feedback form - Google forms -->
   <!-- v0.1, 2021-01-09 -->
 
 

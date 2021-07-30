@@ -3,28 +3,25 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="MedRecordTreatmentLine"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The logical name of the element">Name</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Information about the use of the element">Flags</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Minimum and Maximum # of times the the element can appear in the instance">Card.</a></th><th style="width: 100px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Reference to the type of the element">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Additional information about the element">Description &amp; Constraints</a><span style="float: right"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_resource.png" alt="." style="background-color: white; background-color: inherit" title="Resource" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#CarePlan">CarePlan</a><a name="CarePlan"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/careplan.html">CarePlan</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Healthcare plan for patient or group</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#CarePlan.identifier">identifier</a><a name="CarePlan.identifier"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#Identifier">Identifier</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">External Ids for this plan</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#CarePlan.basedOn">basedOn</a><a name="CarePlan.basedOn"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a style="opacity: 0.5" href="http://hl7.org/fhir/R4/careplan.html">CarePlan</a>)</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Fulfills CarePlan</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#CarePlan.status">status</a><a name="CarePlan.status"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">1</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">draft | active | on-hold | revoked | completed | entered-in-error | unknown</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#CarePlan.intent">intent</a><a name="CarePlan.intent"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">1</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">proposal | plan | order | option</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#CarePlan.subject">subject</a><a name="CarePlan.subject"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">1</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a style="opacity: 0.5" href="http://hl7.org/fhir/R4/patient.html">Patient</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/group.html">Group</a>)</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Who the care plan is for</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#CarePlan.period">period</a><a name="CarePlan.period"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#Period">Period</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Time period plan covers</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#CarePlan.created">created</a><a name="CarePlan.created"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#dateTime">dateTime</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Date record was first recorded</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#CarePlan.author">author</a><a name="CarePlan.author"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a style="opacity: 0.5" href="http://hl7.org/fhir/R4/patient.html">Patient</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/practitioner.html">Practitioner</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/practitionerrole.html">PractitionerRole</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/device.html">Device</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/relatedperson.html">RelatedPerson</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/organization.html">Organization</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/careteam.html">CareTeam</a>)</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Who is the designated responsible party</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#CarePlan.activity">activity</a><a name="CarePlan.activity"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck001.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#CarePlan.activity.detail">detail</a><a name="CarePlan.activity.detail"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#CarePlan.activity.detail.status">status</a><a name="CarePlan.activity.detail.status"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">1</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">not-started | scheduled | in-progress | on-hold | completed | cancelled | stopped | unknown | entered-in-error</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#CarePlan.activity.detail.statusReason">statusReason</a><a name="CarePlan.activity.detail.statusReason"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Reason for current status</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#CarePlan.activity.detail.scheduledPeriod">scheduledPeriod</a><a name="CarePlan.activity.detail.scheduledPeriod"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Period">Period</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">When activity is to occur</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#CarePlan.activity.detail.scheduledString">scheduledString</a><a name="CarePlan.activity.detail.scheduledString"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">When activity is to occur</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#CarePlan.activity.detail.scheduledTiming">scheduledTiming</a><a name="CarePlan.activity.detail.scheduledTiming"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Timing">Timing</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">When activity is to occur</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#CarePlan.activity.detail.product[x]">product[x]</a><a name="CarePlan.activity.detail.product_x_"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a><span style="opacity: 0.5">, </span><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a style="opacity: 0.5" href="http://hl7.org/fhir/R4/medication.html">Medication</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/substance.html">Substance</a>)</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">What is to be administered/supplied</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#CarePlan.activity.detail.description">description</a><a name="CarePlan.activity.detail.description"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Extra info describing activity to perform</span></td></tr>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The logical name of the element">Name</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Information about the use of the element">Flags</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Minimum and Maximum # of times the the element can appear in the instance">Card.</a></th><th style="width: 100px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Reference to the type of the element">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Additional information about the element">Description &amp; Constraints</a><span style="float: right"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_resource.png" alt="." style="background-color: white; background-color: inherit" title="Resource" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#MedicationStatement">MedicationStatement</a><a name="MedicationStatement"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/medicationstatement.html">MedicationStatement</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Record of medication being taken by a patient</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#MedicationStatement.identifier">identifier</a><a name="MedicationStatement.identifier"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#Identifier">Identifier</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">External identifier</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#MedicationStatement.basedOn">basedOn</a><a name="MedicationStatement.basedOn"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a style="opacity: 0.5" href="http://hl7.org/fhir/R4/medicationrequest.html">MedicationRequest</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/careplan.html">CarePlan</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/servicerequest.html">ServiceRequest</a>)</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Fulfils plan, proposal or order</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#MedicationStatement.status">status</a><a name="MedicationStatement.status"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">1</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">active | completed | entered-in-error | intended | stopped | on-hold | unknown | not-taken</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#MedicationStatement.statusReason">statusReason</a><a name="MedicationStatement.statusReason"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Reason for current status</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#MedicationStatement.category">category</a><a name="MedicationStatement.category"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Type of medication usage</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#MedicationStatement.medicationCodeableConcept">medicationCodeableConcept</a><a name="MedicationStatement.medicationCodeableConcept"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">What medication was taken</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#MedicationStatement.medicationReference">medicationReference</a><a name="MedicationStatement.medicationReference"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="http://hl7.org/fhir/R4/medication.html">Medication</a>)</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">What medication was taken</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#MedicationStatement.subject">subject</a><a name="MedicationStatement.subject"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">1</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a style="opacity: 0.5" href="http://hl7.org/fhir/R4/patient.html">Patient</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/group.html">Group</a>)</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Who is/was taking  the medication</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#MedicationStatement.effectiveDateTime">effectiveDateTime</a><a name="MedicationStatement.effectiveDateTime"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">dateTime</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">The date/time or interval when the medication is/was/will be taken</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#MedicationStatement.effectivePeriod">effectivePeriod</a><a name="MedicationStatement.effectivePeriod"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Period">Period</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">The date/time or interval when the medication is/was/will be taken</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#MedicationStatement.dateAsserted">dateAsserted</a><a name="MedicationStatement.dateAsserted"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#dateTime">dateTime</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">When the statement was asserted?</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#MedicationStatement.informationSource">informationSource</a><a name="MedicationStatement.informationSource"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a style="opacity: 0.5" href="http://hl7.org/fhir/R4/patient.html">Patient</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/practitioner.html">Practitioner</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/practitionerrole.html">PractitionerRole</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/relatedperson.html">RelatedPerson</a> | <a style="opacity: 0.5" href="http://hl7.org/fhir/R4/organization.html">Organization</a>)</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Person or organization that provided the information about the taking of this medication</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#MedicationStatement.note">note</a><a name="MedicationStatement.note"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#Annotation">Annotation</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Further information about the statement</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-MedRecordTreatmentLine-definitions.html#MedicationStatement.dosage">dosage</a><a name="MedicationStatement.dosage"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#Dosage">Dosage</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Details of how medication is/was taken or should be taken</span></td></tr>
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-category">
-    <valueString value="Clinical.Care Provision"/>
+    <valueString value="Clinical.Medications"/>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="patient"/>
@@ -33,7 +30,7 @@
   <version value="0.1.0-test"/>
   <name value="MedRecordTreatmentLine"/>
   <status value="active"/>
-  <date value="2021-07-26T10:39:44+00:00"/>
+  <date value="2021-07-30T08:51:18+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
@@ -70,19 +67,19 @@
   </mapping>
   <kind value="resource"/>
   <abstract value="false"/>
-  <type value="CarePlan"/>
-  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/CarePlan"/>
+  <type value="MedicationStatement"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/MedicationStatement"/>
   <derivation value="constraint"/>
   <snapshot>
-    <element id="CarePlan">
-      <path value="CarePlan"/>
-      <short value="Healthcare plan for patient or group"/>
-      <definition value="Describes the intention of how one or more practitioners intend to deliver care for a particular patient, group or community for a period of time, possibly limited to care for a specific condition or set of conditions."/>
-      <alias value="Care Team"/>
+    <element id="MedicationStatement">
+      <path value="MedicationStatement"/>
+      <short value="Record of medication being taken by a patient"/>
+      <definition value="A record of a medication that is being consumed by a patient.   A MedicationStatement may indicate that the patient may be taking the medication now or has taken the medication in the past or will be taking the medication in the future.  The source of this information can be the patient, significant other (such as a family member or spouse), or a clinician.  A common scenario where this information is captured is during the history taking process during a patient visit or stay.   The medication information may come from sources such as the patient&#39;s memory, from a prescription bottle,  or from a list of medications the patient, clinician or other party maintains. &#xA;&#xA;The primary difference between a medication statement and a medication administration is that the medication administration has complete administration information and is based on actual administration information from the person who administered the medication.  A medication statement is often, if not always, less specific.  There is no required date/time when the medication was administered, in fact we only know that a source has reported the patient is taking this medication, where details such as time, quantity, or rate or even medication product may be incomplete or missing or less precise.  As stated earlier, the medication statement information may come from the patient&#39;s memory, from a prescription bottle or from a list of medications the patient, clinician or other party maintains.  Medication administration is more formal and is not missing detailed information."/>
+      <comment value="When interpreting a medicationStatement, the value of the status and NotTaken needed to be considered:&#xD;MedicationStatement.status + MedicationStatement.wasNotTaken&#xD;Status=Active + NotTaken=T = Not currently taking&#xD;Status=Completed + NotTaken=T = Not taken in the past&#xD;Status=Intended + NotTaken=T = No intention of taking&#xD;Status=Active + NotTaken=F = Taking, but not as prescribed&#xD;Status=Active + NotTaken=F = Taking&#xD;Status=Intended +NotTaken= F = Will be taking (not started)&#xD;Status=Completed + NotTaken=F = Taken in past&#xD;Status=In Error + NotTaken=N/A = In Error."/>
       <min value="0"/>
       <max value="*"/>
       <base>
-        <path value="CarePlan"/>
+        <path value="MedicationStatement"/>
         <min value="0"/>
         <max value="*"/>
       </base>
@@ -140,15 +137,15 @@
       </mapping>
       <mapping>
         <identity value="workflow"/>
-        <map value="Request"/>
+        <map value="Event"/>
       </mapping>
       <mapping>
         <identity value="rim"/>
-        <map value="Act[classCode=PCPR, moodCode=INT]"/>
+        <map value="SubstanceAdministration"/>
       </mapping>
     </element>
-    <element id="CarePlan.id">
-      <path value="CarePlan.id"/>
+    <element id="MedicationStatement.id">
+      <path value="MedicationStatement.id"/>
       <short value="Logical id of this artifact"/>
       <definition value="The logical id of the resource, as used in the URL for the resource. Once assigned, this value never changes."/>
       <comment value="The only time that a resource does not have an id is when it is being submitted to the server using a create operation."/>
@@ -168,8 +165,8 @@
       <isModifier value="false"/>
       <isSummary value="true"/>
     </element>
-    <element id="CarePlan.meta">
-      <path value="CarePlan.meta"/>
+    <element id="MedicationStatement.meta">
+      <path value="MedicationStatement.meta"/>
       <short value="Metadata about the resource"/>
       <definition value="The metadata about the resource. This is content that is maintained by the infrastructure. Changes to the content might not always be associated with version changes to the resource."/>
       <min value="0"/>
@@ -193,8 +190,8 @@
       <isModifier value="false"/>
       <isSummary value="true"/>
     </element>
-    <element id="CarePlan.implicitRules">
-      <path value="CarePlan.implicitRules"/>
+    <element id="MedicationStatement.implicitRules">
+      <path value="MedicationStatement.implicitRules"/>
       <short value="A set of rules under which this content was created"/>
       <definition value="A reference to a set of rules that were followed when the resource was constructed, and which must be understood when processing the content. Often, this is a reference to an implementation guide that defines the special rules along with other profiles etc."/>
       <comment value="Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of it&#39;s narrative along with other profiles, value sets, etc."/>
@@ -220,8 +217,8 @@
       <isModifierReason value="This element is labeled as a modifier because the implicit rules may provide additional knowledge about the resource that modifies it&#39;s meaning or interpretation"/>
       <isSummary value="true"/>
     </element>
-    <element id="CarePlan.language">
-      <path value="CarePlan.language"/>
+    <element id="MedicationStatement.language">
+      <path value="MedicationStatement.language"/>
       <short value="Language of the resource content"/>
       <definition value="The base language in which the resource is written."/>
       <comment value="Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
@@ -260,8 +257,8 @@
         <valueSet value="http://hl7.org/fhir/ValueSet/languages"/>
       </binding>
     </element>
-    <element id="CarePlan.text">
-      <path value="CarePlan.text"/>
+    <element id="MedicationStatement.text">
+      <path value="MedicationStatement.text"/>
       <short value="Text summary of the resource, for human interpretation"/>
       <definition value="A human-readable narrative that contains a summary of the resource and can be used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative. Resource definitions may define what content should be represented in the narrative to ensure clinical safety."/>
       <comment value="Contained resources do not have narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
@@ -294,8 +291,8 @@
         <map value="Act.text?"/>
       </mapping>
     </element>
-    <element id="CarePlan.contained">
-      <path value="CarePlan.contained"/>
+    <element id="MedicationStatement.contained">
+      <path value="MedicationStatement.contained"/>
       <short value="Contained, inline Resources"/>
       <definition value="These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope."/>
       <comment value="This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags In their meta elements, but SHALL NOT have security labels."/>
@@ -319,8 +316,8 @@
         <map value="N/A"/>
       </mapping>
     </element>
-    <element id="CarePlan.extension">
-      <path value="CarePlan.extension"/>
+    <element id="MedicationStatement.extension">
+      <path value="MedicationStatement.extension"/>
       <short value="Additional content defined by implementations"/>
       <definition value="May be used to represent additional information that is not part of the basic definition of the resource. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
       <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
@@ -359,8 +356,8 @@
         <map value="N/A"/>
       </mapping>
     </element>
-    <element id="CarePlan.modifierExtension">
-      <path value="CarePlan.modifierExtension"/>
+    <element id="MedicationStatement.modifierExtension">
+      <path value="MedicationStatement.modifierExtension"/>
       <short value="Extensions that cannot be ignored"/>
       <definition value="May be used to represent additional information that is not part of the basic definition of the resource and that modifies the understanding of the element that contains it and/or the understanding of the containing element&#39;s descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
       <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
@@ -401,16 +398,15 @@
         <map value="N/A"/>
       </mapping>
     </element>
-    <element id="CarePlan.identifier">
-      <path value="CarePlan.identifier"/>
-      <short value="External Ids for this plan"/>
-      <definition value="Business identifiers assigned to this care plan by the performer or other systems which remain constant as the resource is updated and propagates from server to server."/>
-      <comment value="This is a business identifier, not a resource identifier (see [discussion](http://hl7.org/fhir/R4/resource.html#identifiers)).  It is best practice for the identifier to only appear on a single resource instance, however business practices may occasionally dictate that multiple resource instances with the same identifier can exist - possibly even with different resource types.  For example, multiple Patient and a Person resource instance might share the same social insurance number."/>
-      <requirements value="Allows identification of the care plan as it is known by various participating systems and in a way that remains consistent across servers."/>
+    <element id="MedicationStatement.identifier">
+      <path value="MedicationStatement.identifier"/>
+      <short value="External identifier"/>
+      <definition value="Identifiers associated with this Medication Statement that are defined by business processes and/or used to refer to it when a direct URL reference to the resource itself is not appropriate. They are business identifiers assigned to this resource by the performer or other systems and remain constant as the resource is updated and propagates from server to server."/>
+      <comment value="This is a business identifier, not a resource identifier."/>
       <min value="0"/>
       <max value="*"/>
       <base>
-        <path value="CarePlan.identifier"/>
+        <path value="MedicationStatement.identifier"/>
         <min value="0"/>
         <max value="*"/>
       </base>
@@ -430,112 +426,34 @@
       <isSummary value="true"/>
       <mapping>
         <identity value="workflow"/>
-        <map value="Request.identifier"/>
+        <map value="Event.identifier"/>
       </mapping>
       <mapping>
         <identity value="w5"/>
         <map value="FiveWs.identifier"/>
       </mapping>
       <mapping>
-        <identity value="v2"/>
-        <map value="PTH-3"/>
-      </mapping>
-      <mapping>
         <identity value="rim"/>
         <map value=".id"/>
       </mapping>
     </element>
-    <element id="CarePlan.instantiatesCanonical">
-      <path value="CarePlan.instantiatesCanonical"/>
-      <short value="Instantiates FHIR protocol or definition"/>
-      <definition value="The URL pointing to a FHIR-defined protocol, guideline, questionnaire or other definition that is adhered to in whole or in part by this CarePlan."/>
+    <element id="MedicationStatement.basedOn">
+      <path value="MedicationStatement.basedOn"/>
+      <short value="Fulfils plan, proposal or order"/>
+      <definition value="A plan, proposal or order that is fulfilled in whole or in part by this event."/>
+      <requirements value="Allows tracing of authorization for the event and tracking whether proposals/recommendations were acted upon."/>
       <min value="0"/>
       <max value="*"/>
       <base>
-        <path value="CarePlan.instantiatesCanonical"/>
+        <path value="MedicationStatement.basedOn"/>
         <min value="0"/>
         <max value="*"/>
       </base>
       <type>
-        <code value="canonical"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/PlanDefinition"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Questionnaire"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Measure"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/ActivityDefinition"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/OperationDefinition"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <isModifier value="false"/>
-      <isSummary value="true"/>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="Request.instantiatesCanonical"/>
-      </mapping>
-      <mapping>
-        <identity value="rim"/>
-        <map value=".outboundRelationship[typeCode=DEFN].target"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.instantiatesUri">
-      <path value="CarePlan.instantiatesUri"/>
-      <short value="Instantiates external protocol or definition"/>
-      <definition value="The URL pointing to an externally maintained protocol, guideline, questionnaire or other definition that is adhered to in whole or in part by this CarePlan."/>
-      <comment value="This might be an HTML page, PDF, etc. or could just be a non-resolvable URI identifier."/>
-      <min value="0"/>
-      <max value="*"/>
-      <base>
-        <path value="CarePlan.instantiatesUri"/>
-        <min value="0"/>
-        <max value="*"/>
-      </base>
-      <type>
-        <code value="uri"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <isModifier value="false"/>
-      <isSummary value="true"/>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="Request.instantiatesUri"/>
-      </mapping>
-      <mapping>
-        <identity value="rim"/>
-        <map value=".outboundRelationship[typeCode=DEFN].target"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.basedOn">
-      <path value="CarePlan.basedOn"/>
-      <short value="Fulfills CarePlan"/>
-      <definition value="A care plan that is fulfilled in whole or in part by this care plan."/>
-      <requirements value="Allows tracing of the care plan and tracking whether proposals/recommendations were acted upon."/>
-      <alias value="fulfills"/>
-      <min value="0"/>
-      <max value="*"/>
-      <base>
-        <path value="CarePlan.basedOn"/>
-        <min value="0"/>
-        <max value="*"/>
-      </base>
-      <type>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy">
-          <valueBoolean value="true"/>
-        </extension>
         <code value="Reference"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/MedicationRequest"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/CarePlan"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/ServiceRequest"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -550,29 +468,32 @@
       <isSummary value="true"/>
       <mapping>
         <identity value="workflow"/>
-        <map value="Request.basedOn"/>
+        <map value="Event.basedOn"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value=".outboundRelationship[typeCode=FLFS].target[classCode=SBADM or PROC or PCPR or OBS, moodCode=RQO orPLAN or PRP]"/>
       </mapping>
     </element>
-    <element id="CarePlan.replaces">
-      <path value="CarePlan.replaces"/>
-      <short value="CarePlan replaced by this CarePlan"/>
-      <definition value="Completed or terminated care plan whose function is taken by this new care plan."/>
-      <comment value="The replacement could be because the initial care plan was immediately rejected (due to an issue) or because the previous care plan was completed, but the need for the action described by the care plan remains ongoing."/>
-      <requirements value="Allows tracing the continuation of a therapy or administrative process instantiated through multiple care plans."/>
-      <alias value="supersedes"/>
+    <element id="MedicationStatement.partOf">
+      <path value="MedicationStatement.partOf"/>
+      <short value="Part of referenced event"/>
+      <definition value="A larger event of which this particular event is a component or step."/>
+      <requirements value="This should not be used when indicating which resource a MedicationStatement has been derived from.  If that is the use case, then MedicationStatement.derivedFrom should be used."/>
       <min value="0"/>
       <max value="*"/>
       <base>
-        <path value="CarePlan.replaces"/>
+        <path value="MedicationStatement.partOf"/>
         <min value="0"/>
         <max value="*"/>
       </base>
       <type>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy">
-          <valueBoolean value="true"/>
-        </extension>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/CarePlan"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/MedicationAdministration"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/MedicationDispense"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/MedicationStatement"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Procedure"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -586,49 +507,22 @@
       <isSummary value="true"/>
       <mapping>
         <identity value="workflow"/>
-        <map value="Request.replaces"/>
+        <map value="Event.partOf"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value=".outboundRelationship[typeCode=COMP]/target[classCode=SPLY or SBADM or PROC or OBS,moodCode=EVN]"/>
       </mapping>
     </element>
-    <element id="CarePlan.partOf">
-      <path value="CarePlan.partOf"/>
-      <short value="Part of referenced CarePlan"/>
-      <definition value="A larger care plan of which this particular care plan is a component or step."/>
-      <comment value="Each care plan is an independent request, such that having a care plan be part of another care plan can cause issues with cascading statuses.  As such, this element is still being discussed."/>
-      <min value="0"/>
-      <max value="*"/>
-      <base>
-        <path value="CarePlan.partOf"/>
-        <min value="0"/>
-        <max value="*"/>
-      </base>
-      <type>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy">
-          <valueBoolean value="true"/>
-        </extension>
-        <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/CarePlan"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <isModifier value="false"/>
-      <isSummary value="true"/>
-    </element>
-    <element id="CarePlan.status">
-      <path value="CarePlan.status"/>
-      <short value="draft | active | on-hold | revoked | completed | entered-in-error | unknown"/>
-      <definition value="Indicates whether the plan is currently being acted upon, represents future intentions or is now a historical record."/>
-      <comment value="The unknown code is not to be used to convey other statuses.  The unknown code should be used when one of the statuses applies, but the authoring system doesn&#39;t know the current state of the care plan.&#xA;&#xA;This element is labeled as a modifier because the status contains the code entered-in-error that marks the plan as not currently valid."/>
-      <requirements value="Allows clinicians to determine whether the plan is actionable or not."/>
+    <element id="MedicationStatement.status">
+      <path value="MedicationStatement.status"/>
+      <short value="active | completed | entered-in-error | intended | stopped | on-hold | unknown | not-taken"/>
+      <definition value="A code representing the patient or other source&#39;s judgment about the state of the medication used that this statement is about.  Generally, this will be active or completed."/>
+      <comment value="MedicationStatement is a statement at a point in time.  The status is only representative at the point when it was asserted.  The value set for MedicationStatement.status contains codes that assert the status of the use of the medication by the patient (for example, stopped or on hold) as well as codes that assert the status of the medication statement itself (for example, entered in error).&#xD;&#xD;This element is labeled as a modifier because the status contains codes that mark the resource as not currently valid."/>
       <min value="1"/>
       <max value="1"/>
       <base>
-        <path value="CarePlan.status"/>
+        <path value="MedicationStatement.status"/>
         <min value="1"/>
         <max value="1"/>
       </base>
@@ -645,84 +539,38 @@
       </constraint>
       <mustSupport value="true"/>
       <isModifier value="true"/>
-      <isModifierReason value="This element is labeled as a modifier because it is a status element that contains status entered-in-error which means that the resource should not be treated as valid"/>
+      <isModifierReason value="This element is labelled as a modifier because it is a status element that contains status entered-in-error which means that the resource should not be treated as valid"/>
       <isSummary value="true"/>
       <binding>
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="CarePlanStatus"/>
+          <valueString value="MedicationStatementStatus"/>
         </extension>
         <strength value="required"/>
-        <description value="Indicates whether the plan is currently being acted upon, represents future intentions or is now a historical record."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/request-status|4.0.1"/>
+        <description value="A coded concept indicating the current status of a MedicationStatement."/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/medication-statement-status|4.0.1"/>
       </binding>
       <mapping>
         <identity value="workflow"/>
-        <map value="Request.status {uses different ValueSet}"/>
+        <map value="Event.status"/>
       </mapping>
       <mapping>
         <identity value="w5"/>
         <map value="FiveWs.status"/>
       </mapping>
       <mapping>
-        <identity value="v2"/>
-        <map value="PTH-5"/>
-      </mapping>
-      <mapping>
         <identity value="rim"/>
-        <map value=".statusCode planned = new active = active completed = completed"/>
+        <map value=".statusCode"/>
       </mapping>
     </element>
-    <element id="CarePlan.intent">
-      <path value="CarePlan.intent"/>
-      <short value="proposal | plan | order | option"/>
-      <definition value="Indicates the level of authority/intentionality associated with the care plan and where the care plan fits into the workflow chain."/>
-      <comment value="This element is labeled as a modifier because the intent alters when and how the resource is actually applicable."/>
-      <requirements value="Proposals/recommendations, plans and orders all use the same structure and can exist in the same fulfillment chain."/>
-      <min value="1"/>
-      <max value="1"/>
-      <base>
-        <path value="CarePlan.intent"/>
-        <min value="1"/>
-        <max value="1"/>
-      </base>
-      <type>
-        <code value="code"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <mustSupport value="true"/>
-      <isModifier value="true"/>
-      <isModifierReason value="This element changes the interpretation of all descriptive attributes. For example &quot;the time the request is recommended to occur&quot; vs. &quot;the time the request is authorized to occur&quot; or &quot;who is recommended to perform the request&quot; vs. &quot;who is authorized to perform the request&quot;"/>
-      <isSummary value="true"/>
-      <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="CarePlanIntent"/>
-        </extension>
-        <strength value="required"/>
-        <description value="Codes indicating the degree of authority/intentionality associated with a care plan."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/care-plan-intent|4.0.1"/>
-      </binding>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="Request.intent"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.category">
-      <path value="CarePlan.category"/>
-      <short value="Type of plan"/>
-      <definition value="Identifies what &quot;kind&quot; of plan this is to support differentiation between multiple co-existing plans; e.g. &quot;Home health&quot;, &quot;psychiatric&quot;, &quot;asthma&quot;, &quot;disease management&quot;, &quot;wellness plan&quot;, etc."/>
-      <comment value="There may be multiple axes of categorization and one plan may serve multiple purposes.  In some cases, this may be redundant with references to CarePlan.concern."/>
-      <requirements value="Used for filtering what plan(s) are retrieved and displayed to different types of users."/>
+    <element id="MedicationStatement.statusReason">
+      <path value="MedicationStatement.statusReason"/>
+      <short value="Reason for current status"/>
+      <definition value="Captures the reason for the current state of the MedicationStatement."/>
+      <comment value="This is generally only used for &quot;exception&quot; statuses such as &quot;not-taken&quot;, &quot;on-hold&quot;, &quot;cancelled&quot; or &quot;entered-in-error&quot;. The reason for performing the event at all is captured in reasonCode, not here."/>
       <min value="0"/>
       <max value="*"/>
       <base>
-        <path value="CarePlan.category"/>
+        <path value="MedicationStatement.statusReason"/>
         <min value="0"/>
         <max value="*"/>
       </base>
@@ -737,34 +585,93 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="true"/>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="MedicationStatementStatusReason"/>
+        </extension>
+        <strength value="example"/>
+        <description value="A coded concept indicating the reason for the status of the statement."/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/reason-medication-status-codes"/>
+      </binding>
+      <mapping>
+        <identity value="workflow"/>
+        <map value="Event.statusReason"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value=".inboundRelationship[typeCode=SUBJ].source[classCode=CACT, moodCode=EVN].reasonCOde"/>
+      </mapping>
+    </element>
+    <element id="MedicationStatement.category">
+      <path value="MedicationStatement.category"/>
+      <short value="Type of medication usage"/>
+      <definition value="Indicates where the medication is expected to be consumed or administered."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicationStatement.category"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="true"/>
       <binding>
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="CarePlanCategory"/>
+          <valueString value="MedicationStatementCategory"/>
         </extension>
-        <strength value="example"/>
-        <description value="Identifies what &quot;kind&quot; of plan this is to support differentiation between multiple co-existing plans; e.g. &quot;Home health&quot;, &quot;psychiatric&quot;, &quot;asthma&quot;, &quot;disease management&quot;, etc."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/care-plan-category"/>
+        <strength value="preferred"/>
+        <description value="A coded concept identifying where the medication included in the MedicationStatement is expected to be consumed or administered."/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/medication-statement-category"/>
       </binding>
       <mapping>
         <identity value="w5"/>
         <map value="FiveWs.class"/>
       </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value=".inboundRelationship[typeCode=COMP].source[classCode=OBS, moodCode=EVN, code=&quot;type of medication usage&quot;].value"/>
+      </mapping>
     </element>
-    <element id="CarePlan.title">
-      <path value="CarePlan.title"/>
-      <short value="Human-friendly name for the care plan"/>
-      <definition value="Human-friendly name for the care plan."/>
-      <min value="0"/>
+    <element id="MedicationStatement.medication[x]">
+      <path value="MedicationStatement.medication[x]"/>
+      <slicing>
+        <discriminator>
+          <type value="type"/>
+          <path value="$this"/>
+        </discriminator>
+        <ordered value="false"/>
+        <rules value="closed"/>
+      </slicing>
+      <short value="What medication was taken"/>
+      <definition value="Identifies the medication being administered. This is either a link to a resource representing the details of the medication or a simple attribute carrying a code that identifies the medication from a known list of medications."/>
+      <comment value="If only a code is specified, then it needs to be a code for a specific product. If more information is required, then the use of the medication resource is recommended.  For example, if you require form or lot number, then you must reference the Medication resource."/>
+      <min value="1"/>
       <max value="1"/>
       <base>
-        <path value="CarePlan.title"/>
-        <min value="0"/>
+        <path value="MedicationStatement.medication[x]"/>
+        <min value="1"/>
         <max value="1"/>
       </base>
       <type>
-        <code value="string"/>
+        <code value="CodeableConcept"/>
+      </type>
+      <type>
+        <code value="Reference"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -776,46 +683,124 @@
       </constraint>
       <isModifier value="false"/>
       <isSummary value="true"/>
-    </element>
-    <element id="CarePlan.description">
-      <path value="CarePlan.description"/>
-      <short value="Summary of nature of plan"/>
-      <definition value="A description of the scope and nature of the plan."/>
-      <requirements value="Provides more detail than conveyed by category."/>
-      <min value="0"/>
-      <max value="1"/>
-      <base>
-        <path value="CarePlan.description"/>
-        <min value="0"/>
-        <max value="1"/>
-      </base>
-      <type>
-        <code value="string"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <isModifier value="false"/>
-      <isSummary value="true"/>
+      <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="MedicationCode"/>
+        </extension>
+        <strength value="example"/>
+        <description value="A coded concept identifying the substance or product being taken."/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/medication-codes"/>
+      </binding>
+      <mapping>
+        <identity value="workflow"/>
+        <map value="Event.code"/>
+      </mapping>
       <mapping>
         <identity value="w5"/>
         <map value="FiveWs.what[x]"/>
       </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value=".participation[typeCode=CSM].role[classCode=ADMM or MANU]"/>
+      </mapping>
     </element>
-    <element id="CarePlan.subject">
-      <path value="CarePlan.subject"/>
-      <short value="Who the care plan is for"/>
-      <definition value="Identifies the patient or group whose intended care is described by the plan."/>
-      <alias value="patient"/>
+    <element id="MedicationStatement.medication[x]:medicationCodeableConcept">
+      <path value="MedicationStatement.medication[x]"/>
+      <sliceName value="medicationCodeableConcept"/>
+      <short value="What medication was taken"/>
+      <definition value="Identifies the medication being administered. This is either a link to a resource representing the details of the medication or a simple attribute carrying a code that identifies the medication from a known list of medications."/>
+      <comment value="If only a code is specified, then it needs to be a code for a specific product. If more information is required, then the use of the medication resource is recommended.  For example, if you require form or lot number, then you must reference the Medication resource."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicationStatement.medication[x]"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <mustSupport value="true"/>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="MedicationCode"/>
+        </extension>
+        <strength value="example"/>
+        <description value="A coded concept identifying the substance or product being taken."/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/medication-codes"/>
+      </binding>
+      <mapping>
+        <identity value="workflow"/>
+        <map value="Event.code"/>
+      </mapping>
+      <mapping>
+        <identity value="w5"/>
+        <map value="FiveWs.what[x]"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value=".participation[typeCode=CSM].role[classCode=ADMM or MANU]"/>
+      </mapping>
+    </element>
+    <element id="MedicationStatement.medication[x]:medicationReference">
+      <path value="MedicationStatement.medication[x]"/>
+      <sliceName value="medicationReference"/>
+      <short value="What medication was taken"/>
+      <definition value="Identifies the medication being administered. This is either a link to a resource representing the details of the medication or a simple attribute carrying a code that identifies the medication from a known list of medications."/>
+      <comment value="If only a code is specified, then it needs to be a code for a specific product. If more information is required, then the use of the medication resource is recommended.  For example, if you require form or lot number, then you must reference the Medication resource."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicationStatement.medication[x]"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Medication"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <mustSupport value="true"/>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="workflow"/>
+        <map value="Event.code"/>
+      </mapping>
+      <mapping>
+        <identity value="w5"/>
+        <map value="FiveWs.what[x]"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value=".participation[typeCode=CSM].role[classCode=ADMM or MANU]"/>
+      </mapping>
+    </element>
+    <element id="MedicationStatement.subject">
+      <path value="MedicationStatement.subject"/>
+      <short value="Who is/was taking  the medication"/>
+      <definition value="The person, animal or group who is/was taking the medication."/>
       <min value="1"/>
       <max value="1"/>
       <base>
-        <path value="CarePlan.subject"/>
+        <path value="MedicationStatement.subject"/>
         <min value="1"/>
         <max value="1"/>
       </base>
@@ -837,7 +822,7 @@
       <isSummary value="true"/>
       <mapping>
         <identity value="workflow"/>
-        <map value="Request.subject"/>
+        <map value="Event.subject"/>
       </mapping>
       <mapping>
         <identity value="w5"/>
@@ -845,32 +830,32 @@
       </mapping>
       <mapping>
         <identity value="v2"/>
-        <map value="PID-3"/>
+        <map value="PID-3-Patient ID List"/>
       </mapping>
       <mapping>
         <identity value="rim"/>
-        <map value=".participation[typeCode=PAT].role[classCode=PAT]"/>
+        <map value=".participation[typeCode=SBJ].role[classCode=PAT]"/>
       </mapping>
       <mapping>
         <identity value="w5"/>
         <map value="FiveWs.subject"/>
       </mapping>
     </element>
-    <element id="CarePlan.encounter">
-      <path value="CarePlan.encounter"/>
-      <short value="Encounter created as part of"/>
-      <definition value="The Encounter during which this CarePlan was created or to which the creation of this record is tightly associated."/>
-      <comment value="This will typically be the encounter the event occurred within, but some activities may be initiated prior to or after the official completion of an encounter but still be tied to the context of the encounter. CarePlan activities conducted as a result of the care plan may well occur as part of other encounters."/>
+    <element id="MedicationStatement.context">
+      <path value="MedicationStatement.context"/>
+      <short value="Encounter / Episode associated with MedicationStatement"/>
+      <definition value="The encounter or episode of care that establishes the context for this MedicationStatement."/>
       <min value="0"/>
       <max value="1"/>
       <base>
-        <path value="CarePlan.encounter"/>
+        <path value="MedicationStatement.context"/>
         <min value="0"/>
         <max value="1"/>
       </base>
       <type>
         <code value="Reference"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Encounter"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/EpisodeOfCare"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -884,35 +869,36 @@
       <isSummary value="true"/>
       <mapping>
         <identity value="workflow"/>
-        <map value="Request.context"/>
-      </mapping>
-      <mapping>
-        <identity value="w5"/>
-        <map value="FiveWs.context"/>
-      </mapping>
-      <mapping>
-        <identity value="v2"/>
-        <map value="Associated PV1"/>
+        <map value="Event.context"/>
       </mapping>
       <mapping>
         <identity value="rim"/>
-        <map value="."/>
+        <map value=".inboundRelationship[typeCode=COMP].source[classCode=ENC, moodCode=EVN, code=&quot;type of encounter or episode&quot;]"/>
       </mapping>
     </element>
-    <element id="CarePlan.period">
-      <path value="CarePlan.period"/>
-      <short value="Time period plan covers"/>
-      <definition value="Indicates when the plan did (or is intended to) come into effect and end."/>
-      <comment value="Any activities scheduled as part of the plan should be constrained to the specified period regardless of whether the activities are planned within a single encounter/episode or across multiple encounters/episodes (e.g. the longitudinal management of a chronic condition)."/>
-      <requirements value="Allows tracking what plan(s) are in effect at a particular time."/>
-      <alias value="timing"/>
+    <element id="MedicationStatement.effective[x]">
+      <path value="MedicationStatement.effective[x]"/>
+      <slicing>
+        <discriminator>
+          <type value="type"/>
+          <path value="$this"/>
+        </discriminator>
+        <ordered value="false"/>
+        <rules value="closed"/>
+      </slicing>
+      <short value="The date/time or interval when the medication is/was/will be taken"/>
+      <definition value="The interval of time during which it is being asserted that the patient is/was/will be taking the medication (or was not taking, when the MedicationStatement.taken element is No)."/>
+      <comment value="This attribute reflects the period over which the patient consumed the medication and is expected to be populated on the majority of Medication Statements. If the medication is still being taken at the time the statement is recorded, the &quot;end&quot; date will be omitted.  The date/time attribute supports a variety of dates - year, year/month and exact date.  If something more than this is required, this should be conveyed as text."/>
       <min value="0"/>
       <max value="1"/>
       <base>
-        <path value="CarePlan.period"/>
+        <path value="MedicationStatement.effective[x]"/>
         <min value="0"/>
         <max value="1"/>
       </base>
+      <type>
+        <code value="dateTime"/>
+      </type>
       <type>
         <code value="Period"/>
       </type>
@@ -924,35 +910,31 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
-      <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="true"/>
       <mapping>
         <identity value="workflow"/>
-        <map value="Request.occurrence[x]"/>
+        <map value="Event.occurrence[x]"/>
       </mapping>
       <mapping>
         <identity value="w5"/>
-        <map value="FiveWs.planned"/>
-      </mapping>
-      <mapping>
-        <identity value="v2"/>
-        <map value="GOL-7 / GOL-8"/>
+        <map value="FiveWs.done[x]"/>
       </mapping>
       <mapping>
         <identity value="rim"/>
         <map value=".effectiveTime"/>
       </mapping>
     </element>
-    <element id="CarePlan.created">
-      <path value="CarePlan.created"/>
-      <short value="Date record was first recorded"/>
-      <definition value="Represents when this particular CarePlan record was created in the system, which is often a system-generated date."/>
-      <alias value="authoredOn"/>
+    <element id="MedicationStatement.effective[x]:effectiveDateTime">
+      <path value="MedicationStatement.effective[x]"/>
+      <sliceName value="effectiveDateTime"/>
+      <short value="The date/time or interval when the medication is/was/will be taken"/>
+      <definition value="The interval of time during which it is being asserted that the patient is/was/will be taking the medication (or was not taking, when the MedicationStatement.taken element is No)."/>
+      <comment value="This attribute reflects the period over which the patient consumed the medication and is expected to be populated on the majority of Medication Statements. If the medication is still being taken at the time the statement is recorded, the &quot;end&quot; date will be omitted.  The date/time attribute supports a variety of dates - year, year/month and exact date.  If something more than this is required, this should be conveyed as text."/>
       <min value="0"/>
       <max value="1"/>
       <base>
-        <path value="CarePlan.created"/>
+        <path value="MedicationStatement.effective[x]"/>
         <min value="0"/>
         <max value="1"/>
       </base>
@@ -972,8 +954,82 @@
       <isSummary value="true"/>
       <mapping>
         <identity value="workflow"/>
-        <map value="Request.authoredOn"/>
+        <map value="Event.occurrence[x]"/>
       </mapping>
+      <mapping>
+        <identity value="w5"/>
+        <map value="FiveWs.done[x]"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value=".effectiveTime"/>
+      </mapping>
+    </element>
+    <element id="MedicationStatement.effective[x]:effectivePeriod">
+      <path value="MedicationStatement.effective[x]"/>
+      <sliceName value="effectivePeriod"/>
+      <short value="The date/time or interval when the medication is/was/will be taken"/>
+      <definition value="The interval of time during which it is being asserted that the patient is/was/will be taking the medication (or was not taking, when the MedicationStatement.taken element is No)."/>
+      <comment value="This attribute reflects the period over which the patient consumed the medication and is expected to be populated on the majority of Medication Statements. If the medication is still being taken at the time the statement is recorded, the &quot;end&quot; date will be omitted.  The date/time attribute supports a variety of dates - year, year/month and exact date.  If something more than this is required, this should be conveyed as text."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicationStatement.effective[x]"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Period"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <mustSupport value="true"/>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="workflow"/>
+        <map value="Event.occurrence[x]"/>
+      </mapping>
+      <mapping>
+        <identity value="w5"/>
+        <map value="FiveWs.done[x]"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value=".effectiveTime"/>
+      </mapping>
+    </element>
+    <element id="MedicationStatement.dateAsserted">
+      <path value="MedicationStatement.dateAsserted"/>
+      <short value="When the statement was asserted?"/>
+      <definition value="The date when the medication statement was asserted by the information source."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="MedicationStatement.dateAsserted"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="dateTime"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <mustSupport value="true"/>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
       <mapping>
         <identity value="w5"/>
         <map value="FiveWs.recorded"/>
@@ -983,15 +1039,14 @@
         <map value=".participation[typeCode=AUT].time"/>
       </mapping>
     </element>
-    <element id="CarePlan.author">
-      <path value="CarePlan.author"/>
-      <short value="Who is the designated responsible party"/>
-      <definition value="When populated, the author is responsible for the care plan.  The care plan is attributed to the author."/>
-      <comment value="The author may also be a contributor.  For example, an organization can be an author, but not listed as a contributor."/>
+    <element id="MedicationStatement.informationSource">
+      <path value="MedicationStatement.informationSource"/>
+      <short value="Person or organization that provided the information about the taking of this medication"/>
+      <definition value="The person or organization that provided the information about the taking of this medication. Note: Use derivedFrom when a MedicationStatement is derived from other resources, e.g. Claim or MedicationRequest."/>
       <min value="0"/>
       <max value="1"/>
       <base>
-        <path value="CarePlan.author"/>
+        <path value="MedicationStatement.informationSource"/>
         <min value="0"/>
         <max value="1"/>
       </base>
@@ -1000,10 +1055,8 @@
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/CareTeam"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1015,64 +1068,31 @@
       </constraint>
       <mustSupport value="true"/>
       <isModifier value="false"/>
-      <isSummary value="true"/>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="Request.requester"/>
-      </mapping>
+      <isSummary value="false"/>
       <mapping>
         <identity value="w5"/>
-        <map value="FiveWs.author"/>
+        <map value="FiveWs.source"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value=".participation[typeCode=INF].role[classCode=PAT, or codes for Practioner or Related Person (if PAT is the informer, then syntax for self-reported =true)"/>
       </mapping>
     </element>
-    <element id="CarePlan.contributor">
-      <path value="CarePlan.contributor"/>
-      <short value="Who provided the content of the care plan"/>
-      <definition value="Identifies the individual(s) or organization who provided the contents of the care plan."/>
-      <comment value="Collaborative care plans may have multiple contributors."/>
+    <element id="MedicationStatement.derivedFrom">
+      <path value="MedicationStatement.derivedFrom"/>
+      <short value="Additional supporting information"/>
+      <definition value="Allows linking the MedicationStatement to the underlying MedicationRequest, or to other information that supports or is used to derive the MedicationStatement."/>
+      <comment value="Likely references would be to MedicationRequest, MedicationDispense, Claim, Observation or QuestionnaireAnswers.  The most common use cases for deriving a MedicationStatement comes from creating a MedicationStatement from a MedicationRequest or from a lab observation or a claim.  it should be noted that the amount of information that is available varies from the type resource that you derive the MedicationStatement from."/>
       <min value="0"/>
       <max value="*"/>
       <base>
-        <path value="CarePlan.contributor"/>
+        <path value="MedicationStatement.derivedFrom"/>
         <min value="0"/>
         <max value="*"/>
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/CareTeam"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-    </element>
-    <element id="CarePlan.careTeam">
-      <path value="CarePlan.careTeam"/>
-      <short value="Who&#39;s involved in plan?"/>
-      <definition value="Identifies all people and organizations who are expected to be involved in the care envisioned by this plan."/>
-      <requirements value="Allows representation of care teams, helps scope care plan.  In some cases may be a determiner of access permissions."/>
-      <min value="0"/>
-      <max value="*"/>
-      <base>
-        <path value="CarePlan.careTeam"/>
-        <min value="0"/>
-        <max value="*"/>
-      </base>
-      <type>
-        <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/CareTeam"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Resource"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1085,30 +1105,24 @@
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
-        <identity value="workflow"/>
-        <map value="Request.performer {similar but does not entail CareTeam}"/>
-      </mapping>
-      <mapping>
-        <identity value="w5"/>
-        <map value="FiveWs.actor"/>
+        <identity value="rim"/>
+        <map value=".outboundRelationship[typeCode=SPRT]/target[classCode=ACT,moodCode=EVN]"/>
       </mapping>
     </element>
-    <element id="CarePlan.addresses">
-      <path value="CarePlan.addresses"/>
-      <short value="Health issues this plan addresses"/>
-      <definition value="Identifies the conditions/problems/concerns/diagnoses/etc. whose management and/or mitigation are handled by this plan."/>
-      <comment value="When the diagnosis is related to an allergy or intolerance, the Condition and AllergyIntolerance resources can both be used. However, to be actionable for decision support, using Condition alone is not sufficient as the allergy or intolerance condition needs to be represented as an AllergyIntolerance."/>
-      <requirements value="Links plan to the conditions it manages.  The element can identify risks addressed by the plan as well as active conditions.  (The Condition resource can include things like &quot;at risk for hypertension&quot; or &quot;fall risk&quot;.)  Also scopes plans - multiple plans may exist addressing different concerns."/>
+    <element id="MedicationStatement.reasonCode">
+      <path value="MedicationStatement.reasonCode"/>
+      <short value="Reason for why the medication is being/was taken"/>
+      <definition value="A reason for why the medication is being/was taken."/>
+      <comment value="This could be a diagnosis code. If a full condition record exists or additional detail is needed, use reasonForUseReference."/>
       <min value="0"/>
       <max value="*"/>
       <base>
-        <path value="CarePlan.addresses"/>
+        <path value="MedicationStatement.reasonCode"/>
         <min value="0"/>
         <max value="*"/>
       </base>
       <type>
-        <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Condition"/>
+        <code value="CodeableConcept"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1119,736 +1133,37 @@
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
       <isModifier value="false"/>
-      <isSummary value="true"/>
+      <isSummary value="false"/>
+      <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="MedicationReason"/>
+        </extension>
+        <strength value="example"/>
+        <description value="A coded concept identifying why the medication is being taken."/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/condition-code"/>
+      </binding>
       <mapping>
         <identity value="workflow"/>
-        <map value="Request.reasonReference"/>
+        <map value="Event.reasonCode"/>
       </mapping>
       <mapping>
         <identity value="w5"/>
         <map value="FiveWs.why[x]"/>
       </mapping>
       <mapping>
-        <identity value="v2"/>
-        <map value="PRB-4"/>
-      </mapping>
-      <mapping>
         <identity value="rim"/>
-        <map value=".actRelationship[typeCode=SUBJ].target[classCode=CONC, moodCode=EVN]"/>
+        <map value=".reasonCode"/>
       </mapping>
     </element>
-    <element id="CarePlan.supportingInfo">
-      <path value="CarePlan.supportingInfo"/>
-      <short value="Information considered as part of plan"/>
-      <definition value="Identifies portions of the patient&#39;s record that specifically influenced the formation of the plan.  These might include comorbidities, recent procedures, limitations, recent assessments, etc."/>
-      <comment value="Use &quot;concern&quot; to identify specific conditions addressed by the care plan."/>
-      <requirements value="Identifies barriers and other considerations associated with the care plan."/>
+    <element id="MedicationStatement.reasonReference">
+      <path value="MedicationStatement.reasonReference"/>
+      <short value="Condition or observation that supports why the medication is being/was taken"/>
+      <definition value="Condition or observation that supports why the medication is being/was taken."/>
+      <comment value="This is a reference to a condition that is the reason why the medication is being/was taken.  If only a code exists, use reasonForUseCode."/>
       <min value="0"/>
       <max value="*"/>
       <base>
-        <path value="CarePlan.supportingInfo"/>
-        <min value="0"/>
-        <max value="*"/>
-      </base>
-      <type>
-        <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Resource"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="Request.supportingInfo"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.goal">
-      <path value="CarePlan.goal"/>
-      <short value="Desired outcome of plan"/>
-      <definition value="Describes the intended objective(s) of carrying out the care plan."/>
-      <comment value="Goal can be achieving a particular change or merely maintaining a current state or even slowing a decline."/>
-      <requirements value="Provides context for plan.  Allows plan effectiveness to be evaluated by clinicians."/>
-      <min value="0"/>
-      <max value="*"/>
-      <base>
-        <path value="CarePlan.goal"/>
-        <min value="0"/>
-        <max value="*"/>
-      </base>
-      <type>
-        <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Goal"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <mapping>
-        <identity value="v2"/>
-        <map value="GOL.1"/>
-      </mapping>
-      <mapping>
-        <identity value="rim"/>
-        <map value=".outboundRelationship[typeCode&lt;=OBJ]."/>
-      </mapping>
-    </element>
-    <element id="CarePlan.activity">
-      <path value="CarePlan.activity"/>
-      <short value="Action to occur as part of plan"/>
-      <definition value="Identifies a planned action to occur as part of the plan.  For example, a medication to be used, lab tests to perform, self-monitoring, education, etc."/>
-      <requirements value="Allows systems to prompt for performance of planned activities, and validate plans against best practice."/>
-      <min value="0"/>
-      <max value="*"/>
-      <base>
-        <path value="CarePlan.activity"/>
-        <min value="0"/>
-        <max value="*"/>
-      </base>
-      <type>
-        <code value="BackboneElement"/>
-      </type>
-      <constraint>
-        <key value="cpl-3"/>
-        <severity value="error"/>
-        <human value="Provide a reference or detail, not both"/>
-        <expression value="detail.empty() or reference.empty()"/>
-        <xpath value="not(exists(f:detail)) or not(exists(f:reference))"/>
-      </constraint>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="{no mapping&#xA;NOTE: This is a list of contained Request-Event tuples!}"/>
-      </mapping>
-      <mapping>
-        <identity value="rim"/>
-        <map value=".outboundRelationship[typeCode=COMP].target"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.activity.id">
-      <path value="CarePlan.activity.id"/>
-      <representation value="xmlAttr"/>
-      <short value="Unique id for inter-element referencing"/>
-      <definition value="Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
-      <min value="0"/>
-      <max value="1"/>
-      <base>
-        <path value="Element.id"/>
-        <min value="0"/>
-        <max value="1"/>
-      </base>
-      <type>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type">
-          <valueUrl value="string"/>
-        </extension>
-        <code value="http://hl7.org/fhirpath/System.String"/>
-      </type>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <mapping>
-        <identity value="rim"/>
-        <map value="n/a"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.activity.extension">
-      <path value="CarePlan.activity.extension"/>
-      <short value="Additional content defined by implementations"/>
-      <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
-      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
-      <alias value="extensions"/>
-      <alias value="user content"/>
-      <min value="0"/>
-      <max value="*"/>
-      <base>
-        <path value="Element.extension"/>
-        <min value="0"/>
-        <max value="*"/>
-      </base>
-      <type>
-        <code value="Extension"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <constraint>
-        <key value="ext-1"/>
-        <severity value="error"/>
-        <human value="Must have either extensions or value[x], not both"/>
-        <expression value="extension.exists() != value.exists()"/>
-        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
-      </constraint>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <mapping>
-        <identity value="rim"/>
-        <map value="n/a"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.activity.modifierExtension">
-      <path value="CarePlan.activity.modifierExtension"/>
-      <short value="Extensions that cannot be ignored even if unrecognized"/>
-      <definition value="May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element&#39;s descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
-      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
-      <requirements value="Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)."/>
-      <alias value="extensions"/>
-      <alias value="user content"/>
-      <alias value="modifiers"/>
-      <min value="0"/>
-      <max value="*"/>
-      <base>
-        <path value="BackboneElement.modifierExtension"/>
-        <min value="0"/>
-        <max value="*"/>
-      </base>
-      <type>
-        <code value="Extension"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <constraint>
-        <key value="ext-1"/>
-        <severity value="error"/>
-        <human value="Must have either extensions or value[x], not both"/>
-        <expression value="extension.exists() != value.exists()"/>
-        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
-      </constraint>
-      <isModifier value="true"/>
-      <isModifierReason value="Modifier extensions are expected to modify the meaning or interpretation of the element that contains them"/>
-      <isSummary value="true"/>
-      <mapping>
-        <identity value="rim"/>
-        <map value="N/A"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.activity.outcomeCodeableConcept">
-      <path value="CarePlan.activity.outcomeCodeableConcept"/>
-      <short value="Results of the activity"/>
-      <definition value="Identifies the outcome at the point when the status of the activity is assessed.  For example, the outcome of an education activity could be patient understands (or not)."/>
-      <comment value="Note that this should not duplicate the activity status (e.g. completed or in progress)."/>
-      <min value="0"/>
-      <max value="*"/>
-      <base>
-        <path value="CarePlan.activity.outcomeCodeableConcept"/>
-        <min value="0"/>
-        <max value="*"/>
-      </base>
-      <type>
-        <code value="CodeableConcept"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="CarePlanActivityOutcome"/>
-        </extension>
-        <strength value="example"/>
-        <description value="Identifies the results of the activity."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/care-plan-activity-outcome"/>
-      </binding>
-    </element>
-    <element id="CarePlan.activity.outcomeReference">
-      <path value="CarePlan.activity.outcomeReference"/>
-      <short value="Appointment, Encounter, Procedure, etc."/>
-      <definition value="Details of the outcome or action resulting from the activity.  The reference to an &quot;event&quot; resource, such as Procedure or Encounter or Observation, is the result/outcome of the activity itself.  The activity can be conveyed using CarePlan.activity.detail OR using the CarePlan.activity.reference (a reference to a &#x201C;request&#x201D; resource)."/>
-      <comment value="The activity outcome is independent of the outcome of the related goal(s).  For example, if the goal is to achieve a target body weight of 150 lbs and an activity is defined to diet, then the activity outcome could be calories consumed whereas the goal outcome is an observation for the actual body weight measured."/>
-      <requirements value="Links plan to resulting actions."/>
-      <min value="0"/>
-      <max value="*"/>
-      <base>
-        <path value="CarePlan.activity.outcomeReference"/>
-        <min value="0"/>
-        <max value="*"/>
-      </base>
-      <type>
-        <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Resource"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="{Event that is outcome of Request in activity.reference}"/>
-      </mapping>
-      <mapping>
-        <identity value="rim"/>
-        <map value=".inboundRelationship[typeCode=FLFS].source"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.activity.progress">
-      <path value="CarePlan.activity.progress"/>
-      <short value="Comments about the activity status/progress"/>
-      <definition value="Notes about the adherence/status/progress of the activity."/>
-      <comment value="This element should NOT be used to describe the activity to be performed - that occurs either within the resource pointed to by activity.detail.reference or in activity.detail.description."/>
-      <requirements value="Can be used to capture information about adherence, progress, concerns, etc."/>
-      <min value="0"/>
-      <max value="*"/>
-      <base>
-        <path value="CarePlan.activity.progress"/>
-        <min value="0"/>
-        <max value="*"/>
-      </base>
-      <type>
-        <code value="Annotation"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <mapping>
-        <identity value="v2"/>
-        <map value="NTE?"/>
-      </mapping>
-      <mapping>
-        <identity value="rim"/>
-        <map value=".inboundRelationship[typeCode=SUBJ].source[classCode=OBS, moodCode=EVN, code=&quot;annotation&quot;].value"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.activity.reference">
-      <path value="CarePlan.activity.reference"/>
-      <short value="Activity details defined in specific resource"/>
-      <definition value="The details of the proposed activity represented in a specific resource."/>
-      <comment value="Standard extension exists ([resource-pertainsToGoal](http://hl7.org/fhir/R4/extension-resource-pertainstogoal.html)) that allows goals to be referenced from any of the referenced resources in CarePlan.activity.reference.  &#xD;The goal should be visible when the resource referenced by CarePlan.activity.reference is viewed independently from the CarePlan.  Requests that are pointed to by a CarePlan using this element should *not* point to this CarePlan using the &quot;basedOn&quot; element.  i.e. Requests that are part of a CarePlan are not &quot;based on&quot; the CarePlan."/>
-      <requirements value="Details in a form consistent with other applications and contexts of use."/>
-      <min value="0"/>
-      <max value="1"/>
-      <base>
-        <path value="CarePlan.activity.reference"/>
-        <min value="0"/>
-        <max value="1"/>
-      </base>
-      <type>
-        <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Appointment"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/CommunicationRequest"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/DeviceRequest"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/MedicationRequest"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/NutritionOrder"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Task"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/ServiceRequest"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/VisionPrescription"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/RequestGroup"/>
-      </type>
-      <condition value="cpl-3"/>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="{Request that resulted in Event in activity.actionResulting}"/>
-      </mapping>
-      <mapping>
-        <identity value="rim"/>
-        <map value=".outboundRelationship[typeCode=COMP].target"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.activity.detail">
-      <path value="CarePlan.activity.detail"/>
-      <short value="In-line definition of activity"/>
-      <definition value="A simple summary of a planned activity suitable for a general care plan system (e.g. form driven) that doesn&#39;t know about specific resources such as procedure etc."/>
-      <requirements value="Details in a simple form for generic care plan systems."/>
-      <min value="0"/>
-      <max value="1"/>
-      <base>
-        <path value="CarePlan.activity.detail"/>
-        <min value="0"/>
-        <max value="1"/>
-      </base>
-      <type>
-        <code value="BackboneElement"/>
-      </type>
-      <condition value="cpl-3"/>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <mapping>
-        <identity value="rim"/>
-        <map value=".outboundRelationship[typeCode=COMP, subsetCode=SUMM].target"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.activity.detail.id">
-      <path value="CarePlan.activity.detail.id"/>
-      <representation value="xmlAttr"/>
-      <short value="Unique id for inter-element referencing"/>
-      <definition value="Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
-      <min value="0"/>
-      <max value="1"/>
-      <base>
-        <path value="Element.id"/>
-        <min value="0"/>
-        <max value="1"/>
-      </base>
-      <type>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type">
-          <valueUrl value="string"/>
-        </extension>
-        <code value="http://hl7.org/fhirpath/System.String"/>
-      </type>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <mapping>
-        <identity value="rim"/>
-        <map value="n/a"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.activity.detail.extension">
-      <path value="CarePlan.activity.detail.extension"/>
-      <short value="Additional content defined by implementations"/>
-      <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
-      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
-      <alias value="extensions"/>
-      <alias value="user content"/>
-      <min value="0"/>
-      <max value="*"/>
-      <base>
-        <path value="Element.extension"/>
-        <min value="0"/>
-        <max value="*"/>
-      </base>
-      <type>
-        <code value="Extension"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <constraint>
-        <key value="ext-1"/>
-        <severity value="error"/>
-        <human value="Must have either extensions or value[x], not both"/>
-        <expression value="extension.exists() != value.exists()"/>
-        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
-      </constraint>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <mapping>
-        <identity value="rim"/>
-        <map value="n/a"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.activity.detail.modifierExtension">
-      <path value="CarePlan.activity.detail.modifierExtension"/>
-      <short value="Extensions that cannot be ignored even if unrecognized"/>
-      <definition value="May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element&#39;s descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
-      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
-      <requirements value="Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension)."/>
-      <alias value="extensions"/>
-      <alias value="user content"/>
-      <alias value="modifiers"/>
-      <min value="0"/>
-      <max value="*"/>
-      <base>
-        <path value="BackboneElement.modifierExtension"/>
-        <min value="0"/>
-        <max value="*"/>
-      </base>
-      <type>
-        <code value="Extension"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <constraint>
-        <key value="ext-1"/>
-        <severity value="error"/>
-        <human value="Must have either extensions or value[x], not both"/>
-        <expression value="extension.exists() != value.exists()"/>
-        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
-      </constraint>
-      <isModifier value="true"/>
-      <isModifierReason value="Modifier extensions are expected to modify the meaning or interpretation of the element that contains them"/>
-      <isSummary value="true"/>
-      <mapping>
-        <identity value="rim"/>
-        <map value="N/A"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.activity.detail.kind">
-      <path value="CarePlan.activity.detail.kind"/>
-      <short value="Appointment | CommunicationRequest | DeviceRequest | MedicationRequest | NutritionOrder | Task | ServiceRequest | VisionPrescription"/>
-      <definition value="A description of the kind of resource the in-line definition of a care plan activity is representing.  The CarePlan.activity.detail is an in-line definition when a resource is not referenced using CarePlan.activity.reference.  For example, a MedicationRequest, a ServiceRequest, or a CommunicationRequest."/>
-      <requirements value="May determine what types of extensions are permitted."/>
-      <min value="0"/>
-      <max value="1"/>
-      <base>
-        <path value="CarePlan.activity.detail.kind"/>
-        <min value="0"/>
-        <max value="1"/>
-      </base>
-      <type>
-        <code value="code"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="CarePlanActivityKind"/>
-        </extension>
-        <strength value="required"/>
-        <description value="Resource types defined as part of FHIR that can be represented as in-line definitions of a care plan activity."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/care-plan-activity-kind|4.0.1"/>
-      </binding>
-      <mapping>
-        <identity value="rim"/>
-        <map value=".inboundRelationship[typeCode=COMP].source[classCode=LIST].code"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.activity.detail.instantiatesCanonical">
-      <path value="CarePlan.activity.detail.instantiatesCanonical"/>
-      <short value="Instantiates FHIR protocol or definition"/>
-      <definition value="The URL pointing to a FHIR-defined protocol, guideline, questionnaire or other definition that is adhered to in whole or in part by this CarePlan activity."/>
-      <requirements value="Allows Questionnaires that the patient (or practitioner) should fill in to fulfill the care plan activity."/>
-      <min value="0"/>
-      <max value="*"/>
-      <base>
-        <path value="CarePlan.activity.detail.instantiatesCanonical"/>
-        <min value="0"/>
-        <max value="*"/>
-      </base>
-      <type>
-        <code value="canonical"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/PlanDefinition"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/ActivityDefinition"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Questionnaire"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Measure"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/OperationDefinition"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="Request.instantiatesCanonical"/>
-      </mapping>
-      <mapping>
-        <identity value="rim"/>
-        <map value=".outboundRelationship[typeCode=DEFN].target"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.activity.detail.instantiatesUri">
-      <path value="CarePlan.activity.detail.instantiatesUri"/>
-      <short value="Instantiates external protocol or definition"/>
-      <definition value="The URL pointing to an externally maintained protocol, guideline, questionnaire or other definition that is adhered to in whole or in part by this CarePlan activity."/>
-      <comment value="This might be an HTML page, PDF, etc. or could just be a non-resolvable URI identifier."/>
-      <requirements value="Allows Questionnaires that the patient (or practitioner) should fill in to fulfill the care plan activity."/>
-      <min value="0"/>
-      <max value="*"/>
-      <base>
-        <path value="CarePlan.activity.detail.instantiatesUri"/>
-        <min value="0"/>
-        <max value="*"/>
-      </base>
-      <type>
-        <code value="uri"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="Request.instantiatesUri"/>
-      </mapping>
-      <mapping>
-        <identity value="rim"/>
-        <map value=".outboundRelationship[typeCode=DEFN].target"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.activity.detail.code">
-      <path value="CarePlan.activity.detail.code"/>
-      <short value="Detail type of activity"/>
-      <definition value="Detailed description of the type of planned activity; e.g. what lab test, what procedure, what kind of encounter."/>
-      <comment value="Tends to be less relevant for activities involving particular products.  Codes should not convey negation - use &quot;prohibited&quot; instead."/>
-      <requirements value="Allows matching performed to planned as well as validation against protocols."/>
-      <min value="0"/>
-      <max value="1"/>
-      <base>
-        <path value="CarePlan.activity.detail.code"/>
-        <min value="0"/>
-        <max value="1"/>
-      </base>
-      <type>
-        <code value="CodeableConcept"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="CarePlanActivityType"/>
-        </extension>
-        <strength value="example"/>
-        <description value="Detailed description of the type of activity; e.g. What lab test, what procedure, what kind of encounter."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/procedure-code"/>
-      </binding>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="Request.code"/>
-      </mapping>
-      <mapping>
-        <identity value="v2"/>
-        <map value="OBR-4 / RXE-2 / RXO-1 / RXD-2"/>
-      </mapping>
-      <mapping>
-        <identity value="rim"/>
-        <map value=".code"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.activity.detail.reasonCode">
-      <path value="CarePlan.activity.detail.reasonCode"/>
-      <short value="Why activity should be done or why activity was prohibited"/>
-      <definition value="Provides the rationale that drove the inclusion of this particular activity as part of the plan or the reason why the activity was prohibited."/>
-      <comment value="This could be a diagnosis code.  If a full condition record exists or additional detail is needed, use reasonCondition instead."/>
-      <min value="0"/>
-      <max value="*"/>
-      <base>
-        <path value="CarePlan.activity.detail.reasonCode"/>
-        <min value="0"/>
-        <max value="*"/>
-      </base>
-      <type>
-        <code value="CodeableConcept"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="CarePlanActivityReason"/>
-        </extension>
-        <strength value="example"/>
-        <description value="Identifies why a care plan activity is needed.  Can include any health condition codes as well as such concepts as &quot;general wellness&quot;, prophylaxis, surgical preparation, etc."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/clinical-findings"/>
-      </binding>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="Request.reasonCode"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.activity.detail.reasonReference">
-      <path value="CarePlan.activity.detail.reasonReference"/>
-      <short value="Why activity is needed"/>
-      <definition value="Indicates another resource, such as the health condition(s), whose existence justifies this request and drove the inclusion of this particular activity as part of the plan."/>
-      <comment value="Conditions can be identified at the activity level that are not identified as reasons for the overall plan."/>
-      <min value="0"/>
-      <max value="*"/>
-      <base>
-        <path value="CarePlan.activity.detail.reasonReference"/>
+        <path value="MedicationStatement.reasonReference"/>
         <min value="0"/>
         <max value="*"/>
       </base>
@@ -1857,7 +1172,6 @@
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Condition"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/DiagnosticReport"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/DocumentReference"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1871,572 +1185,25 @@
       <isSummary value="false"/>
       <mapping>
         <identity value="workflow"/>
-        <map value="Request.reasonReference"/>
+        <map value="Event.reasonReference"/>
+      </mapping>
+      <mapping>
+        <identity value="w5"/>
+        <map value="FiveWs.why[x]"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value=".outboundRelationship[typeCode=RSON]/target[classCode=OBS,moodCode=EVN, code=&quot;reason for use&quot;].value"/>
       </mapping>
     </element>
-    <element id="CarePlan.activity.detail.goal">
-      <path value="CarePlan.activity.detail.goal"/>
-      <short value="Goals this activity relates to"/>
-      <definition value="Internal reference that identifies the goals that this activity is intended to contribute towards meeting."/>
-      <requirements value="So that participants know the link explicitly."/>
+    <element id="MedicationStatement.note">
+      <path value="MedicationStatement.note"/>
+      <short value="Further information about the statement"/>
+      <definition value="Provides extra information about the medication statement that is not conveyed by the other attributes."/>
       <min value="0"/>
       <max value="*"/>
       <base>
-        <path value="CarePlan.activity.detail.goal"/>
-        <min value="0"/>
-        <max value="*"/>
-      </base>
-      <type>
-        <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Goal"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <mapping>
-        <identity value="rim"/>
-        <map value=".outboundRelationship[typeCode&lt;=OBJ]."/>
-      </mapping>
-    </element>
-    <element id="CarePlan.activity.detail.status">
-      <path value="CarePlan.activity.detail.status"/>
-      <short value="not-started | scheduled | in-progress | on-hold | completed | cancelled | stopped | unknown | entered-in-error"/>
-      <definition value="Identifies what progress is being made for the specific activity."/>
-      <comment value="Some aspects of status can be inferred based on the resources linked in actionTaken.  Note that &quot;status&quot; is only as current as the plan was most recently updated.  &#xA;The unknown code is not to be used to convey other statuses.  The unknown code should be used when one of the statuses applies, but the authoring system doesn&#39;t know the current state of the activity."/>
-      <requirements value="Indicates progress against the plan, whether the activity is still relevant for the plan."/>
-      <min value="1"/>
-      <max value="1"/>
-      <base>
-        <path value="CarePlan.activity.detail.status"/>
-        <min value="1"/>
-        <max value="1"/>
-      </base>
-      <type>
-        <code value="code"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <mustSupport value="true"/>
-      <isModifier value="true"/>
-      <isModifierReason value="This element is labelled as a modifier because it is a status element that contains status entered-in-error which means that the activity should not be treated as valid"/>
-      <isSummary value="false"/>
-      <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="CarePlanActivityStatus"/>
-        </extension>
-        <strength value="required"/>
-        <description value="Codes that reflect the current state of a care plan activity within its overall life cycle."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/care-plan-activity-status|4.0.1"/>
-      </binding>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="Request.status"/>
-      </mapping>
-      <mapping>
-        <identity value="v2"/>
-        <map value="ORC-5?"/>
-      </mapping>
-      <mapping>
-        <identity value="rim"/>
-        <map value=".statusCode not-started = new scheduled = not-started (and fulfillment relationship to appointent) in-progress = active on-hold = suspended completed = completed cancelled = aborted"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.activity.detail.statusReason">
-      <path value="CarePlan.activity.detail.statusReason"/>
-      <short value="Reason for current status"/>
-      <definition value="Provides reason why the activity isn&#39;t yet started, is on hold, was cancelled, etc."/>
-      <comment value="Will generally not be present if status is &quot;complete&quot;.  Be sure to prompt to update this (or at least remove the existing value) if the status is changed."/>
-      <min value="0"/>
-      <max value="1"/>
-      <base>
-        <path value="CarePlan.activity.detail.statusReason"/>
-        <min value="0"/>
-        <max value="1"/>
-      </base>
-      <type>
-        <code value="CodeableConcept"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <mustSupport value="true"/>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="Request.statusReason"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.activity.detail.doNotPerform">
-      <path value="CarePlan.activity.detail.doNotPerform"/>
-      <short value="If true, activity is prohibiting action"/>
-      <definition value="If true, indicates that the described activity is one that must NOT be engaged in when following the plan.  If false, or missing, indicates that the described activity is one that should be engaged in when following the plan."/>
-      <comment value="This element is labeled as a modifier because it marks an activity as an activity that is not to be performed."/>
-      <requirements value="Captures intention to not do something that may have been previously typical."/>
-      <min value="0"/>
-      <max value="1"/>
-      <base>
-        <path value="CarePlan.activity.detail.doNotPerform"/>
-        <min value="0"/>
-        <max value="1"/>
-      </base>
-      <type>
-        <code value="boolean"/>
-      </type>
-      <meaningWhenMissing value="If missing indicates that the described activity is one that should be engaged in when following the plan."/>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <isModifier value="true"/>
-      <isModifierReason value="If true this element negates the specified action. For example, instead of a request for a procedure, it is a request for the procedure to not occur."/>
-      <isSummary value="false"/>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="Request.doNotPerform"/>
-      </mapping>
-      <mapping>
-        <identity value="rim"/>
-        <map value="actionNegationInd"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.activity.detail.scheduled[x]">
-      <path value="CarePlan.activity.detail.scheduled[x]"/>
-      <slicing>
-        <discriminator>
-          <type value="type"/>
-          <path value="$this"/>
-        </discriminator>
-        <ordered value="false"/>
-        <rules value="closed"/>
-      </slicing>
-      <short value="When activity is to occur"/>
-      <definition value="The period, timing or frequency upon which the described activity is to occur."/>
-      <requirements value="Allows prompting for activities and detection of missed planned activities."/>
-      <min value="0"/>
-      <max value="1"/>
-      <base>
-        <path value="CarePlan.activity.detail.scheduled[x]"/>
-        <min value="0"/>
-        <max value="1"/>
-      </base>
-      <type>
-        <code value="Period"/>
-      </type>
-      <type>
-        <code value="string"/>
-      </type>
-      <type>
-        <code value="Timing"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="Request.occurrence[x]"/>
-      </mapping>
-      <mapping>
-        <identity value="v2"/>
-        <map value="TQ1"/>
-      </mapping>
-      <mapping>
-        <identity value="rim"/>
-        <map value=".effectiveTime"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.activity.detail.scheduled[x]:scheduledPeriod">
-      <path value="CarePlan.activity.detail.scheduled[x]"/>
-      <sliceName value="scheduledPeriod"/>
-      <short value="When activity is to occur"/>
-      <definition value="The period, timing or frequency upon which the described activity is to occur."/>
-      <requirements value="Allows prompting for activities and detection of missed planned activities."/>
-      <min value="0"/>
-      <max value="1"/>
-      <base>
-        <path value="CarePlan.activity.detail.scheduled[x]"/>
-        <min value="0"/>
-        <max value="1"/>
-      </base>
-      <type>
-        <code value="Period"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <mustSupport value="true"/>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="Request.occurrence[x]"/>
-      </mapping>
-      <mapping>
-        <identity value="v2"/>
-        <map value="TQ1"/>
-      </mapping>
-      <mapping>
-        <identity value="rim"/>
-        <map value=".effectiveTime"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.activity.detail.scheduled[x]:scheduledString">
-      <path value="CarePlan.activity.detail.scheduled[x]"/>
-      <sliceName value="scheduledString"/>
-      <short value="When activity is to occur"/>
-      <definition value="The period, timing or frequency upon which the described activity is to occur."/>
-      <requirements value="Allows prompting for activities and detection of missed planned activities."/>
-      <min value="0"/>
-      <max value="1"/>
-      <base>
-        <path value="CarePlan.activity.detail.scheduled[x]"/>
-        <min value="0"/>
-        <max value="1"/>
-      </base>
-      <type>
-        <code value="string"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <mustSupport value="true"/>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="Request.occurrence[x]"/>
-      </mapping>
-      <mapping>
-        <identity value="v2"/>
-        <map value="TQ1"/>
-      </mapping>
-      <mapping>
-        <identity value="rim"/>
-        <map value=".effectiveTime"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.activity.detail.scheduled[x]:scheduledTiming">
-      <path value="CarePlan.activity.detail.scheduled[x]"/>
-      <sliceName value="scheduledTiming"/>
-      <short value="When activity is to occur"/>
-      <definition value="The period, timing or frequency upon which the described activity is to occur."/>
-      <requirements value="Allows prompting for activities and detection of missed planned activities."/>
-      <min value="0"/>
-      <max value="1"/>
-      <base>
-        <path value="CarePlan.activity.detail.scheduled[x]"/>
-        <min value="0"/>
-        <max value="1"/>
-      </base>
-      <type>
-        <code value="Timing"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <mustSupport value="true"/>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="Request.occurrence[x]"/>
-      </mapping>
-      <mapping>
-        <identity value="v2"/>
-        <map value="TQ1"/>
-      </mapping>
-      <mapping>
-        <identity value="rim"/>
-        <map value=".effectiveTime"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.activity.detail.location">
-      <path value="CarePlan.activity.detail.location"/>
-      <short value="Where it should happen"/>
-      <definition value="Identifies the facility where the activity will occur; e.g. home, hospital, specific clinic, etc."/>
-      <comment value="May reference a specific clinical location or may identify a type of location."/>
-      <requirements value="Helps in planning of activity."/>
-      <min value="0"/>
-      <max value="1"/>
-      <base>
-        <path value="CarePlan.activity.detail.location"/>
-        <min value="0"/>
-        <max value="1"/>
-      </base>
-      <type>
-        <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Location"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <mapping>
-        <identity value="v2"/>
-        <map value="OBR-24(???!!)"/>
-      </mapping>
-      <mapping>
-        <identity value="rim"/>
-        <map value=".participation[typeCode=LOC].role"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.activity.detail.performer">
-      <path value="CarePlan.activity.detail.performer"/>
-      <short value="Who will be responsible?"/>
-      <definition value="Identifies who&#39;s expected to be involved in the activity."/>
-      <comment value="A performer MAY also be a participant in the care plan."/>
-      <requirements value="Helps in planning of activity."/>
-      <min value="0"/>
-      <max value="*"/>
-      <base>
-        <path value="CarePlan.activity.detail.performer"/>
-        <min value="0"/>
-        <max value="*"/>
-      </base>
-      <type>
-        <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/CareTeam"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/HealthcareService"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <mapping>
-        <identity value="workflow"/>
-        <map value="Request.performer"/>
-      </mapping>
-      <mapping>
-        <identity value="v2"/>
-        <map value="PRT-5 : ( PRV-4 = (provider participations)); PRT-5 : ( PRV-4 = (non-provider person participations )) ; PRT-5 : ( PRV-4 = (patient non-subject of care) ) ; PRT-8"/>
-      </mapping>
-      <mapping>
-        <identity value="rim"/>
-        <map value=".participation[typeCode=PFM]"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.activity.detail.product[x]">
-      <path value="CarePlan.activity.detail.product[x]"/>
-      <short value="What is to be administered/supplied"/>
-      <definition value="Identifies the food, drug or other product to be consumed or supplied in the activity."/>
-      <min value="0"/>
-      <max value="1"/>
-      <base>
-        <path value="CarePlan.activity.detail.product[x]"/>
-        <min value="0"/>
-        <max value="1"/>
-      </base>
-      <type>
-        <code value="CodeableConcept"/>
-      </type>
-      <type>
-        <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Medication"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Substance"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <mustSupport value="true"/>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="CarePlanProduct"/>
-        </extension>
-        <strength value="example"/>
-        <description value="A product supplied or administered as part of a care plan activity."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/medication-codes"/>
-      </binding>
-      <mapping>
-        <identity value="v2"/>
-        <map value="RXE-2 / RXO-1 / RXD-2"/>
-      </mapping>
-      <mapping>
-        <identity value="rim"/>
-        <map value=".participation[typeCode=PRD].role"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.activity.detail.dailyAmount">
-      <path value="CarePlan.activity.detail.dailyAmount"/>
-      <short value="How to consume/day?"/>
-      <definition value="Identifies the quantity expected to be consumed in a given day."/>
-      <requirements value="Allows rough dose checking."/>
-      <alias value="daily dose"/>
-      <min value="0"/>
-      <max value="1"/>
-      <base>
-        <path value="CarePlan.activity.detail.dailyAmount"/>
-        <min value="0"/>
-        <max value="1"/>
-      </base>
-      <type>
-        <code value="Quantity"/>
-        <profile value="http://hl7.org/fhir/StructureDefinition/SimpleQuantity"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <mapping>
-        <identity value="v2"/>
-        <map value="RXO-23 / RXE-19 / RXD-12"/>
-      </mapping>
-      <mapping>
-        <identity value="rim"/>
-        <map value=".outboundRelationship[typeCode=COMP][classCode=SBADM].doseQuantity"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.activity.detail.quantity">
-      <path value="CarePlan.activity.detail.quantity"/>
-      <short value="How much to administer/supply/consume"/>
-      <definition value="Identifies the quantity expected to be supplied, administered or consumed by the subject."/>
-      <min value="0"/>
-      <max value="1"/>
-      <base>
-        <path value="CarePlan.activity.detail.quantity"/>
-        <min value="0"/>
-        <max value="1"/>
-      </base>
-      <type>
-        <code value="Quantity"/>
-        <profile value="http://hl7.org/fhir/StructureDefinition/SimpleQuantity"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <mapping>
-        <identity value="v2"/>
-        <map value="RXO-11 / RXE-10 / RXD-4 / RXG-5 / RXA-6 /  TQ1-2.1  *and*  RXO-12 /  RXE-11 / RXD-5 / RXG-7 / RXA-7 / TQ1-2.2"/>
-      </mapping>
-      <mapping>
-        <identity value="rim"/>
-        <map value=".outboundRelationship[typeCode=COMP][classCode=SPLY].quantity"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.activity.detail.description">
-      <path value="CarePlan.activity.detail.description"/>
-      <short value="Extra info describing activity to perform"/>
-      <definition value="This provides a textual description of constraints on the intended activity occurrence, including relation to other activities.  It may also include objectives, pre-conditions and end-conditions.  Finally, it may convey specifics about the activity such as body site, method, route, etc."/>
-      <min value="0"/>
-      <max value="1"/>
-      <base>
-        <path value="CarePlan.activity.detail.description"/>
-        <min value="0"/>
-        <max value="1"/>
-      </base>
-      <type>
-        <code value="string"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <mustSupport value="true"/>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <mapping>
-        <identity value="v2"/>
-        <map value="NTE?"/>
-      </mapping>
-      <mapping>
-        <identity value="rim"/>
-        <map value=".text"/>
-      </mapping>
-    </element>
-    <element id="CarePlan.note">
-      <path value="CarePlan.note"/>
-      <short value="Comments about the plan"/>
-      <definition value="General notes about the care plan not covered elsewhere."/>
-      <requirements value="Used to capture information that applies to the plan as a whole that doesn&#39;t fit into discrete elements."/>
-      <min value="0"/>
-      <max value="*"/>
-      <base>
-        <path value="CarePlan.note"/>
+        <path value="MedicationStatement.note"/>
         <min value="0"/>
         <max value="*"/>
       </base>
@@ -2451,68 +1218,108 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
         <identity value="workflow"/>
-        <map value="Request.note"/>
-      </mapping>
-      <mapping>
-        <identity value="v2"/>
-        <map value="NTE?"/>
+        <map value="Event.note"/>
       </mapping>
       <mapping>
         <identity value="rim"/>
-        <map value=".inboundRelationship[typeCode=SUBJ].source[classCode=OBS, moodCode=EVN, code=&quot;annotation&quot;].value"/>
+        <map value=".inboundRelationship[typeCode=SUBJ]/source[classCode=OBS,moodCode=EVN,code=&quot;annotation&quot;].value"/>
+      </mapping>
+    </element>
+    <element id="MedicationStatement.dosage">
+      <path value="MedicationStatement.dosage"/>
+      <short value="Details of how medication is/was taken or should be taken"/>
+      <definition value="Indicates how the medication is/was or should be taken by the patient."/>
+      <comment value="The dates included in the dosage on a Medication Statement reflect the dates for a given dose.  For example, &quot;from November 1, 2016 to November 3, 2016, take one tablet daily and from November 4, 2016 to November 7, 2016, take two tablets daily.&quot;  It is expected that this specificity may only be populated where the patient brings in their labeled container or where the Medication Statement is derived from a MedicationRequest."/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="MedicationStatement.dosage"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Dosage"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <xpath value="@value|f:*|h:div"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <mustSupport value="true"/>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="refer dosageInstruction mapping"/>
       </mapping>
     </element>
   </snapshot>
   <differential>
-    <element id="CarePlan">
-      <path value="CarePlan"/>
+    <element id="MedicationStatement">
+      <path value="MedicationStatement"/>
     </element>
-    <element id="CarePlan.identifier">
-      <path value="CarePlan.identifier"/>
+    <element id="MedicationStatement.identifier">
+      <path value="MedicationStatement.identifier"/>
       <mustSupport value="true"/>
     </element>
-    <element id="CarePlan.basedOn">
-      <path value="CarePlan.basedOn"/>
+    <element id="MedicationStatement.basedOn">
+      <path value="MedicationStatement.basedOn"/>
       <mustSupport value="true"/>
     </element>
-    <element id="CarePlan.status">
-      <path value="CarePlan.status"/>
+    <element id="MedicationStatement.status">
+      <path value="MedicationStatement.status"/>
       <mustSupport value="true"/>
     </element>
-    <element id="CarePlan.intent">
-      <path value="CarePlan.intent"/>
+    <element id="MedicationStatement.statusReason">
+      <path value="MedicationStatement.statusReason"/>
       <mustSupport value="true"/>
     </element>
-    <element id="CarePlan.subject">
-      <path value="CarePlan.subject"/>
+    <element id="MedicationStatement.category">
+      <path value="MedicationStatement.category"/>
       <mustSupport value="true"/>
     </element>
-    <element id="CarePlan.period">
-      <path value="CarePlan.period"/>
+    <element id="MedicationStatement.medicationCodeableConcept">
+      <path value="MedicationStatement.medicationCodeableConcept"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
       <mustSupport value="true"/>
     </element>
-    <element id="CarePlan.created">
-      <path value="CarePlan.created"/>
+    <element id="MedicationStatement.medicationReference">
+      <path value="MedicationStatement.medicationReference"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Medication"/>
+      </type>
       <mustSupport value="true"/>
     </element>
-    <element id="CarePlan.author">
-      <path value="CarePlan.author"/>
+    <element id="MedicationStatement.subject">
+      <path value="MedicationStatement.subject"/>
       <mustSupport value="true"/>
     </element>
-    <element id="CarePlan.activity.detail.status">
-      <path value="CarePlan.activity.detail.status"/>
+    <element id="MedicationStatement.effectiveDateTime">
+      <path value="MedicationStatement.effectiveDateTime"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="dateTime"/>
+      </type>
       <mustSupport value="true"/>
     </element>
-    <element id="CarePlan.activity.detail.statusReason">
-      <path value="CarePlan.activity.detail.statusReason"/>
-      <mustSupport value="true"/>
-    </element>
-    <element id="CarePlan.activity.detail.scheduledPeriod">
-      <path value="CarePlan.activity.detail.scheduledPeriod"/>
+    <element id="MedicationStatement.effectivePeriod">
+      <path value="MedicationStatement.effectivePeriod"/>
       <min value="0"/>
       <max value="1"/>
       <type>
@@ -2520,30 +1327,20 @@
       </type>
       <mustSupport value="true"/>
     </element>
-    <element id="CarePlan.activity.detail.scheduledString">
-      <path value="CarePlan.activity.detail.scheduledString"/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="string"/>
-      </type>
+    <element id="MedicationStatement.dateAsserted">
+      <path value="MedicationStatement.dateAsserted"/>
       <mustSupport value="true"/>
     </element>
-    <element id="CarePlan.activity.detail.scheduledTiming">
-      <path value="CarePlan.activity.detail.scheduledTiming"/>
-      <min value="0"/>
-      <max value="1"/>
-      <type>
-        <code value="Timing"/>
-      </type>
+    <element id="MedicationStatement.informationSource">
+      <path value="MedicationStatement.informationSource"/>
       <mustSupport value="true"/>
     </element>
-    <element id="CarePlan.activity.detail.product[x]">
-      <path value="CarePlan.activity.detail.product[x]"/>
+    <element id="MedicationStatement.note">
+      <path value="MedicationStatement.note"/>
       <mustSupport value="true"/>
     </element>
-    <element id="CarePlan.activity.detail.description">
-      <path value="CarePlan.activity.detail.description"/>
+    <element id="MedicationStatement.dosage">
+      <path value="MedicationStatement.dosage"/>
       <mustSupport value="true"/>
     </element>
   </differential>

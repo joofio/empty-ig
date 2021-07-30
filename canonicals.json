@@ -28,18 +28,18 @@
     "name": "MedRecordPrescription"
   },
   {
+    "id": "MedRecordTreatment",
+    "type": "StructureDefinition",
+    "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordTreatment",
+    "version": "0.1.0-test",
+    "name": "MedRecordTreatment"
+  },
+  {
     "id": "MedRecordTreatmentLine",
     "type": "StructureDefinition",
     "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordTreatmentLine",
     "version": "0.1.0-test",
     "name": "MedRecordTreatmentLine"
-  },
-  {
-    "id": "MedRecordTreatmentLine2",
-    "type": "StructureDefinition",
-    "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordTreatmentLine2",
-    "version": "0.1.0-test",
-    "name": "MedRecordTreatmentLine2"
   },
   {
     "id": "MedRecordUsage",
