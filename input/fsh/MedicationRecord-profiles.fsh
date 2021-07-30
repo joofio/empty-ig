@@ -128,37 +128,8 @@ Expression: "actor.identifier.exists() implies (actor.identifier.system='https:/
 Severity:   #warning
 */
 
-//IG//based on R4
+//based on R4
 Profile: MedRecordTreatmentLine
-Parent: CarePlan
-* identifier MS
-* subject MS 
-* author MS
-* basedOn MS
-* created MS //recordDate
-* period MS //startMedicationDate + endMedicationDate
-* activity.detail.product[x] MS //product
-* activity.detail.status MS //lifecycleStatus
-* activity.detail.statusReason MS //statusReason
-* activity.detail.description MS //instructionForUse
-* activity.detail.scheduledString MS //dayPeriod + periodicity
-* activity.detail.scheduledPeriod MS //dayPeriod + periodicity
-* activity.detail.scheduledTiming MS //dayPeriod + periodicity
-* intent MS
-* status MS
-
-
-/* missing
-* originType 1..1 CodeableConcept "" ""
-* reaction 0..* CodeableConcept "" ""
-* dosageAmount 0..1 CodeableConcept "" ""
-* route 1..1 CodeableConcept "" ""
-* lotNumber 0..1 string	"Identifier assigned to batch" ""
-*/
-
-
-//IG//based on R4
-Profile: MedRecordTreatmentLine2
 Parent: MedicationStatement
 * identifier MS
 * basedOn MS
@@ -176,4 +147,27 @@ Parent: MedicationStatement
 * note MS //everything else (origintype, lotnumber and reaction)
 
 
-
+//based on R4
+Profile: MedRecordTreatment
+Parent: CarePlan
+* identifier MS
+* subject MS 
+* author MS
+* basedOn MS
+* created MS 
+* period MS 
+* intent MS
+* status MS
+* note MS
+* goal MS
+* supportingInfo MS
+* addresses MS
+* contributor MS
+* careTeam MS
+* title MS
+* category MS 
+* partOf MS
+* encounter MS
+* description MS
+* instantiatesUri MS
+* replaces MS
