@@ -11,7 +11,7 @@
   "title": "xxxYour User Friendly Name for MyIG Here",
   "status": "draft",
   "experimental": false,
-  "date": "2021-07-30T08:51:18+00:00",
+  "date": "2021-08-02T14:00:50+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {
@@ -340,7 +340,7 @@
           "reference": "MedicationRequest/example-5-of-medication-presc"
         },
         "name": "Example MedicationRequest - example-5-of-medication-presc",
-        "exampleCanonical": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription"
+        "exampleCanonical": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordOrder"
       },
       {
         "extension": [
@@ -351,7 +351,9 @@
         ],
         "reference": {
           "reference": "StructureDefinition/MedRecordTreatment"
-        }
+        },
+        "name": "Medication Treatment profile",
+        "description": "The profile for Medication Treatment in a Medication Record - a set of treatment lines/items"
       },
       {
         "extension": [
@@ -414,7 +416,9 @@
         ],
         "reference": {
           "reference": "StructureDefinition/MedRecordAdministration"
-        }
+        },
+        "name": "Medication Record - Administration profile",
+        "description": "The profile for Medication Administration in a Medication Record - a record of a single administration event"
       },
       {
         "extension": [
@@ -438,6 +442,43 @@
         ],
         "reference": {
           "reference": "StructureDefinition/MedRecordTreatmentLine"
+        },
+        "name": "Medication Treatment Line profile",
+        "description": "The profile for Medication Treatment Line - a single recorded item/line of a medication treatment"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/BePatient"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/be-vs-medication-summary-types"
+        },
+        "name": "Medication Summary types",
+        "description": "Valueset -  Medication Summary types"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicationDispense"
+          }
+        ],
+        "reference": {
+          "reference": "MedicationDispense/medication-dispense-hospital"
         }
       },
       {
@@ -451,7 +492,7 @@
           "reference": "MedicationRequest/example-3-of-medication-presc"
         },
         "name": "Example MedicationRequest - example-3-of-medication-presc",
-        "exampleCanonical": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription"
+        "exampleCanonical": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordOrder"
       },
       {
         "extension": [
@@ -464,7 +505,7 @@
           "reference": "MedicationRequest/example-2-of-medication-presc"
         },
         "name": "Example MedicationRequest - example-2-of-medication-presc",
-        "exampleCanonical": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription"
+        "exampleCanonical": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordOrder"
       },
       {
         "extension": [
@@ -483,11 +524,11 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource"
+            "valueString": "MedicationDispense"
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/MedRecordPrescription"
+          "reference": "MedicationDispense/medication-dispense-example-2"
         }
       },
       {
@@ -520,6 +561,18 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "NamingSystem"
+          }
+        ],
+        "reference": {
+          "reference": "NamingSystem/be-ns-product-package-type"
+        },
+        "description": "Naming System - Product Package Types"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "MedicationAdministration"
           }
         ],
@@ -537,8 +590,33 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/MedRecordUsage"
+          "reference": "StructureDefinition/BePractitioner"
         }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/MedRecordUsage"
+        },
+        "name": "Medication Record - Usage profile",
+        "description": "The profile for Medication Usage in a Medication Record - a record of a single administration event"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "NamingSystem"
+          }
+        ],
+        "reference": {
+          "reference": "NamingSystem/be-ns-cnk-codes"
+        },
+        "description": "Naming System - CNK Product Codes"
       },
       {
         "extension": [
@@ -564,7 +642,7 @@
           "reference": "MedicationRequest/example-3-2-of-medication-presc"
         },
         "name": "Example MedicationRequest - example-3-2-of-medication-presc",
-        "exampleCanonical": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription"
+        "exampleCanonical": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordOrder"
       },
       {
         "extension": [
@@ -577,7 +655,7 @@
           "reference": "MedicationRequest/example-6-of-medication-presc"
         },
         "name": "Example MedicationRequest - example-6-of-medication-presc",
-        "exampleCanonical": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription"
+        "exampleCanonical": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordOrder"
       },
       {
         "extension": [
@@ -590,7 +668,18 @@
           "reference": "MedicationRequest/example-7-of-medication-presc"
         },
         "name": "Example MedicationRequest - example-7-of-medication-presc",
-        "exampleCanonical": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription"
+        "exampleCanonical": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordOrder"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/BeOrganization"
+        }
       },
       {
         "extension": [
@@ -622,6 +711,17 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicationDispense"
+          }
+        ],
+        "reference": {
+          "reference": "MedicationDispense/example-dispense-communitypharmacy-1med"
+        }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ValueSet"
           }
         ],
@@ -635,6 +735,19 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/MedRecordOrder"
+        },
+        "name": "Medication Record - Order profile",
+        "description": "The profile for Medication Order in a Medication Record - a record of a order or request for a medication or a change of medication, implicit or explicit"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "MedicationRequest"
           }
         ],
@@ -642,7 +755,19 @@
           "reference": "MedicationRequest/example-8-of-medication-presc"
         },
         "name": "Example MedicationRequest - example-8-of-medication-presc",
-        "exampleCanonical": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription"
+        "exampleCanonical": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordOrder"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "NamingSystem"
+          }
+        ],
+        "reference": {
+          "reference": "NamingSystem/be-ns-prescription-ids"
+        },
+        "description": "Naming System - Prescription IDs"
       },
       {
         "extension": [
@@ -674,12 +799,40 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/be-cs-medication-summary-types"
+        },
+        "name": "Medication Summary types",
+        "description": "CodeSystem - Medication Summary types"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "StructureDefinition:resource"
           }
         ],
         "reference": {
           "reference": "StructureDefinition/MedRecordDispense"
-        }
+        },
+        "name": "Medication Record - Dispense profile",
+        "description": "The profile for Medication Dispense in a Medication Record - a record of a single administration event"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/be-medicationdispense"
+        },
+        "name": "BeMedicationDispense",
+        "description": "Defines constraints and extensions on the Medication Dispense resource for a record of a dispensation in Belgium."
       },
       {
         "extension": [
@@ -692,7 +845,18 @@
           "reference": "MedicationRequest/example-4-of-medication-presc"
         },
         "name": "Example MedicationRequest - example-4-of-medication-presc",
-        "exampleCanonical": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription"
+        "exampleCanonical": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordOrder"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicationDispense"
+          }
+        ],
+        "reference": {
+          "reference": "MedicationDispense/example-minimal-dispense"
+        }
       },
       {
         "extension": [
@@ -731,7 +895,7 @@
           "reference": "MedicationRequest/example-1-of-medication-presc"
         },
         "name": "Example MedicationRequest - example-1-of-medication-presc",
-        "exampleCanonical": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription"
+        "exampleCanonical": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordOrder"
       }
     ],
     "page": {

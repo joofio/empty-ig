@@ -10,9 +10,9 @@
   fhir:Resource.id [ fhir:value "example-7-of-medication-presc"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription";
+       fhir:value "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordOrder";
        fhir:index 0;
-       fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription>
+       fhir:link <xxxhttp://somewhere.org/fhir/uv/myig/xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordOrder>
      ]
   ];
   fhir:DomainResource.text [

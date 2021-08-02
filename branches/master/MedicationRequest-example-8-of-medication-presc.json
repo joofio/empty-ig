@@ -3,7 +3,7 @@
   "id": "example-8-of-medication-presc",
   "meta": {
     "profile": [
-      "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription"
+      "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordOrder"
     ]
   },
   "text": {

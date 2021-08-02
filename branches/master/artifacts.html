@@ -161,7 +161,16 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <a href="#2">Terminology: Value Sets</a>
       </li>
       <li>
-         <a href="#3">Example: Example Instances</a>
+         <a href="#3">Terminology: Code Systems</a>
+      </li>
+      <li>
+         <a href="#4">Terminology: Naming Systems</a>
+      </li>
+      <li>
+         <a href="#5">Example: Example Instances</a>
+      </li>
+      <li>
+         <a href="#6">Other</a>
       </li>
    </ul>
 </div>
@@ -178,33 +187,83 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-MedRecordTreatment.html" title="StructureDefinition/MedRecordTreatment">StructureDefinition/MedRecordTreatment</a>
+                  <a href="StructureDefinition-MedRecordTreatment.html" title="StructureDefinition/MedRecordTreatment">Medication Treatment profile</a>
                </td>
+               <td>
+<p>The profile for Medication Treatment in a Medication Record - a set of treatment lines/items</p>
+</td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-MedRecordAdministration.html" title="StructureDefinition/MedRecordAdministration">StructureDefinition/MedRecordAdministration</a>
+                  <a href="StructureDefinition-MedRecordAdministration.html" title="StructureDefinition/MedRecordAdministration">Medication Record - Administration profile</a>
                </td>
+               <td>
+<p>The profile for Medication Administration in a Medication Record - a record of a single administration event</p>
+</td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-MedRecordTreatmentLine.html" title="StructureDefinition/MedRecordTreatmentLine">StructureDefinition/MedRecordTreatmentLine</a>
+                  <a href="StructureDefinition-MedRecordTreatmentLine.html" title="StructureDefinition/MedRecordTreatmentLine">Medication Treatment Line profile</a>
                </td>
+               <td>
+<p>The profile for Medication Treatment Line - a single recorded item/line of a medication treatment</p>
+</td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-MedRecordPrescription.html" title="StructureDefinition/MedRecordPrescription">StructureDefinition/MedRecordPrescription</a>
+                  <a href="StructureDefinition-BePatient.html" title="StructureDefinition/BePatient">StructureDefinition/BePatient</a>
                </td>
+               <td>
+
+</td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-MedRecordUsage.html" title="StructureDefinition/MedRecordUsage">StructureDefinition/MedRecordUsage</a>
+                  <a href="StructureDefinition-BePractitioner.html" title="StructureDefinition/BePractitioner">StructureDefinition/BePractitioner</a>
                </td>
+               <td>
+
+</td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-MedRecordDispense.html" title="StructureDefinition/MedRecordDispense">StructureDefinition/MedRecordDispense</a>
+                  <a href="StructureDefinition-MedRecordUsage.html" title="StructureDefinition/MedRecordUsage">Medication Record - Usage profile</a>
                </td>
+               <td>
+<p>The profile for Medication Usage in a Medication Record - a record of a single administration event</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-BeOrganization.html" title="StructureDefinition/BeOrganization">StructureDefinition/BeOrganization</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-MedRecordOrder.html" title="StructureDefinition/MedRecordOrder">Medication Record - Order profile</a>
+               </td>
+               <td>
+<p>The profile for Medication Order in a Medication Record - a record of a order or request for a medication or a change of medication, implicit or explicit</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-MedRecordDispense.html" title="StructureDefinition/MedRecordDispense">Medication Record - Dispense profile</a>
+               </td>
+               <td>
+<p>The profile for Medication Dispense in a Medication Record - a record of a single administration event</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-be-medicationdispense.html" title="StructureDefinition/be-medicationdispense">BeMedicationDispense</a>
+               </td>
+               <td>
+<p>Defines constraints and extensions on the Medication Dispense resource for a record of a dispensation in Belgium.</p>
+</td>
             </tr>
          </tbody>
       </table>
@@ -220,6 +279,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
+                  <a href="ValueSet-be-vs-medication-summary-types.html" title="ValueSet/be-vs-medication-summary-types">Medication Summary types</a>
+               </td>
+               <td>
+<p>Valueset -  Medication Summary types</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="ValueSet-medication-substitution-dispense-v1.html" title="ValueSet/medication-substitution-dispense-v1">medication substitution Value set</a>
                </td>
                <td>
@@ -230,6 +297,62 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       </table>
    </p>
    <a name="3"> </a>
+   <h3>Terminology: Code Systems </h3>
+   <p>
+    <p>These define new code systems used by systems conforming to this implementation guide</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-be-cs-medication-summary-types.html" title="CodeSystem/be-cs-medication-summary-types">Medication Summary types</a>
+               </td>
+               <td>
+<p>CodeSystem - Medication Summary types</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="4"> </a>
+   <h3>Terminology: Naming Systems </h3>
+   <p>
+    <p>These define identifier and/or code system identities used by systems conforming to this implementation guide</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="NamingSystem-be-ns-product-package-type.html" title="NamingSystem/be-ns-product-package-type">NamingSystem/be-ns-product-package-type</a>
+               </td>
+               <td>
+<p>Naming System - Product Package Types</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="NamingSystem-be-ns-cnk-codes.html" title="NamingSystem/be-ns-cnk-codes">NamingSystem/be-ns-cnk-codes</a>
+               </td>
+               <td>
+<p>Naming System - CNK Product Codes</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="NamingSystem-be-ns-prescription-ids.html" title="NamingSystem/be-ns-prescription-ids">NamingSystem/be-ns-prescription-ids</a>
+               </td>
+               <td>
+<p>Naming System - Prescription IDs</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="5"> </a>
    <h3>Example: Example Instances </h3>
    <p>
     <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like</p>
@@ -366,6 +489,38 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tbody>
       </table>
    </p>
+   <a name="6"> </a>
+   <h3>Other </h3>
+   <p>
+    <p>These are resources that are used within this implementation guide that do not fit into one of the other categories</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicationDispense-medication-dispense-hospital.html" title="MedicationDispense/medication-dispense-hospital">MedicationDispense/medication-dispense-hospital</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicationDispense-medication-dispense-example-2.html" title="MedicationDispense/medication-dispense-example-2">MedicationDispense/medication-dispense-example-2</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicationDispense-example-dispense-communitypharmacy-1med.html" title="MedicationDispense/example-dispense-communitypharmacy-1med">MedicationDispense/example-dispense-communitypharmacy-1med</a>
+               </td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicationDispense-example-minimal-dispense.html" title="MedicationDispense/example-minimal-dispense">MedicationDispense/example-minimal-dispense</a>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
 </div>
 
 </div>
@@ -389,8 +544,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="5d17524d-1970-4c74-aaac-f96bc15e258b">​</a>
-          IG &copy; 2019+ <a style="color:var(--footer-hyperlink-text-color)" href="xxxhttp://hl7.org/Special/committees/[something]">xxxYour Work Group</a>.  Package xxxexample.fhir.uv.myig#0.1.0-test based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jul 30, 2021 08:51+0000">2021-07-30</span>
+        <p><a name="4392148c-8b72-4524-b607-65d216ec1767">​</a>
+          IG &copy; 2019+ <a style="color:var(--footer-hyperlink-text-color)" href="xxxhttp://hl7.org/Special/committees/[something]">xxxYour Work Group</a>.  Package xxxexample.fhir.uv.myig#0.1.0-test based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Aug 2, 2021 14:00+0000">2021-08-02</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

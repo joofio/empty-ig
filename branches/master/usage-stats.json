@@ -5,38 +5,56 @@
   "jurisdiction": "001",
   "extensions": [],
   "profiles": {
+    "Organization": [
+      {
+        "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/BeOrganization",
+        "title": "BeOrganization"
+      }
+    ],
+    "Patient": [
+      {
+        "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/BePatient",
+        "title": "BePatient"
+      }
+    ],
+    "Practitioner": [
+      {
+        "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/BePractitioner",
+        "title": "BePractitioner"
+      }
+    ],
     "MedicationAdministration": [
       {
         "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordAdministration",
-        "title": "MedRecordAdministration"
+        "title": "Medication Record - Administration profile"
       }
     ],
     "MedicationDispense": [
       {
-        "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordDispense",
-        "title": "MedRecordDispense"
+        "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/be-medicationdispense",
+        "title": "BeMedicationDispense"
       }
     ],
     "MedicationRequest": [
       {
-        "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription",
-        "title": "MedRecordPrescription"
+        "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordOrder",
+        "title": "Medication Record - Order profile"
       }
     ],
     "CarePlan": [
       {
         "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordTreatment",
-        "title": "MedRecordTreatment"
+        "title": "Medication Treatment profile"
       }
     ],
     "MedicationStatement": [
       {
         "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordTreatmentLine",
-        "title": "MedRecordTreatmentLine"
+        "title": "Medication Treatment Line profile"
       },
       {
         "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordUsage",
-        "title": "MedRecordUsage"
+        "title": "Medication Record - Usage profile"
       }
     ]
   },
@@ -48,6 +66,7 @@
       "StructureDefinition.snapshot.element.constraint"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.differential.element.binding",
       "StructureDefinition.snapshot.element.binding"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding": [
@@ -56,14 +75,23 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
     ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
+    ],
     "http://hl7.org/fhir/StructureDefinition/event-basedOn": [
       "MedicationAdministration",
       "MedicationDispense",
       "MedicationRequest",
       "MedicationStatement"
     ],
+    "http://hl7.org/fhir/StructureDefinition/geolocation": [
+      "MedicationDispense.contained"
+    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
       "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
+      "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
       "StructureDefinition.snapshot.element.type"
@@ -73,6 +101,10 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category": [
       "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/translation": [
+      "MedicationDispense.dosageInstruction.text",
+      "MedicationDispense.medicationCodeableConcept.coding.display"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
       "ImplementationGuide.definition"

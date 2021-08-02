@@ -1,10 +1,59 @@
 [
   {
+    "id": "be-cs-medication-summary-types",
+    "type": "CodeSystem",
+    "url": "xxxhttp://somewhere.org/fhir/uv/myig/CodeSystem/be-cs-medication-summary-types",
+    "version": "0.1.0-test",
+    "name": "BeCSMedicationSummaryTypes"
+  },
+  {
     "id": "xxxexample.fhir.uv.myig",
     "type": "ImplementationGuide",
     "url": "xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig",
     "version": "0.1.0-test",
     "name": "xxxYourComputableMyIGNameHere"
+  },
+  {
+    "id": "be-ns-cnk-codes",
+    "type": "NamingSystem",
+    "url": "xxxhttp://somewhere.org/fhir/uv/myig/NamingSystem/be-ns-cnk-codes",
+    "version": "0.1.0-test",
+    "name": "BeNSCNK"
+  },
+  {
+    "id": "be-ns-prescription-ids",
+    "type": "NamingSystem",
+    "url": "xxxhttp://somewhere.org/fhir/uv/myig/NamingSystem/be-ns-prescription-ids",
+    "version": "0.1.0-test",
+    "name": "BeNSPrescriptions"
+  },
+  {
+    "id": "be-ns-product-package-type",
+    "type": "NamingSystem",
+    "url": "xxxhttp://somewhere.org/fhir/uv/myig/NamingSystem/be-ns-product-package-type",
+    "version": "0.1.0-test",
+    "name": "BeNSProductPackage"
+  },
+  {
+    "id": "BeOrganization",
+    "type": "StructureDefinition",
+    "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/BeOrganization",
+    "version": "0.1.0-test",
+    "name": "BeOrganization"
+  },
+  {
+    "id": "BePatient",
+    "type": "StructureDefinition",
+    "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/BePatient",
+    "version": "0.1.0-test",
+    "name": "BePatient"
+  },
+  {
+    "id": "BePractitioner",
+    "type": "StructureDefinition",
+    "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/BePractitioner",
+    "version": "0.1.0-test",
+    "name": "BePractitioner"
   },
   {
     "id": "MedRecordAdministration",
@@ -21,11 +70,11 @@
     "name": "MedRecordDispense"
   },
   {
-    "id": "MedRecordPrescription",
+    "id": "MedRecordOrder",
     "type": "StructureDefinition",
-    "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordPrescription",
+    "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordOrder",
     "version": "0.1.0-test",
-    "name": "MedRecordPrescription"
+    "name": "MedRecordOrder"
   },
   {
     "id": "MedRecordTreatment",
@@ -47,6 +96,20 @@
     "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordUsage",
     "version": "0.1.0-test",
     "name": "MedRecordUsage"
+  },
+  {
+    "id": "be-medicationdispense",
+    "type": "StructureDefinition",
+    "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/be-medicationdispense",
+    "version": "0.1.0-test",
+    "name": "BeMedicationDispense"
+  },
+  {
+    "id": "be-vs-medication-summary-types",
+    "type": "ValueSet",
+    "url": "xxxhttp://somewhere.org/fhir/uv/myig/ValueSet/be-vs-medication-summary-types",
+    "version": "0.1.0-test",
+    "name": "BeVSMedicationSummaryTypes"
   },
   {
     "id": "medication-substitution-dispense-v1",
