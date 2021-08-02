@@ -12,7 +12,7 @@
   <title value="xxxYour User Friendly Name for MyIG Here"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-08-02T14:00:50+00:00"/>
+  <date value="2021-08-02T15:52:57+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
@@ -363,6 +363,16 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/MedRecordMedicationScheduledAdministration"/>
+      </reference>
+      <name value="Medication Scheduled Administration"/>
+      <description value="The profile for Medication Scheduled Administration in a Medication Record - a set of schedules takes for a certain drug, based on a previous prescription"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="MedicationDispense"/>
       </extension>
       <reference>
@@ -601,6 +611,16 @@
       </reference>
       <name value="Example MedicationRequest - example-4-of-medication-presc"/>
       <exampleCanonical value="xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordOrder"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/MedRecordMedicationSummaryView"/>
+      </reference>
+      <name value="Medication Summary View profile"/>
+      <description value="The profile for Medication Summary view in a Medication Record"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

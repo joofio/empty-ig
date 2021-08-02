@@ -3,9 +3,9 @@
   "name": "xxxYourComputableMyIGNameHere",
   "package-id": "xxxexample.fhir.uv.myig",
   "ig-ver": "0.1.0-test",
-  "date": "Mon, 02 Aug, 2021 14:00:50 +0000",
+  "date": "Mon, 02 Aug, 2021 15:52:57 +0000",
   "errs": 41,
-  "warnings": 74,
+  "warnings": 76,
   "hints": 50,
   "version": "4.0.1",
   "tool": "4.6.0 (3)"

@@ -70,6 +70,20 @@
     "name": "MedRecordDispense"
   },
   {
+    "id": "MedRecordMedicationScheduledAdministration",
+    "type": "StructureDefinition",
+    "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordMedicationScheduledAdministration",
+    "version": "0.1.0-test",
+    "name": "MedRecordMedicationScheduledAdministration"
+  },
+  {
+    "id": "MedRecordMedicationSummaryView",
+    "type": "StructureDefinition",
+    "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordMedicationSummaryView",
+    "version": "0.1.0-test",
+    "name": "MedRecordMedicationSummaryView"
+  },
+  {
     "id": "MedRecordOrder",
     "type": "StructureDefinition",
     "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordOrder",

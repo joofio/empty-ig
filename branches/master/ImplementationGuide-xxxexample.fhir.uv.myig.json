@@ -11,7 +11,7 @@
   "title": "xxxYour User Friendly Name for MyIG Here",
   "status": "draft",
   "experimental": false,
-  "date": "2021-08-02T14:00:50+00:00",
+  "date": "2021-08-02T15:52:57+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {
@@ -535,6 +535,19 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/MedRecordMedicationScheduledAdministration"
+        },
+        "name": "Medication Scheduled Administration",
+        "description": "The profile for Medication Scheduled Administration in a Medication Record - a set of schedules takes for a certain drug, based on a previous prescription"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "MedicationDispense"
           }
         ],
@@ -846,6 +859,19 @@
         },
         "name": "Example MedicationRequest - example-4-of-medication-presc",
         "exampleCanonical": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordOrder"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/MedRecordMedicationSummaryView"
+        },
+        "name": "Medication Summary View profile",
+        "description": "The profile for Medication Summary view in a Medication Record"
       },
       {
         "extension": [
