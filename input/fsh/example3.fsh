@@ -1,5 +1,5 @@
 Instance: example-3-of-medication-presc 
-InstanceOf: MedRecordPrescription
+InstanceOf: MedRecordOrder
 Usage: #example
 Description: "This example shows a dispense of a medication that is made before an existing prescription"
 Title: "Dispense medication before the prescription of the general practitioner"
@@ -110,7 +110,7 @@ Title: "Dispense medication before the prescription of the general practitioner"
 
 
 Instance: example-3-2-of-medication-presc 
-InstanceOf: MedRecordPrescription
+InstanceOf: MedRecordOrder
 Usage: #example
 Description: "This example shows a dispense of a medication that is made before an existing prescription"
 Title: "Dispense medication before the prescription of the general practitioner"

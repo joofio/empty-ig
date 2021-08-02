@@ -1,5 +1,5 @@
 Instance: example-6-of-medication-presc 
-InstanceOf: MedRecordPrescription
+InstanceOf: MedRecordOrder
 Usage: #example
 Description: "This example shows a prescription that is made by VOS and the pharmacist refuses to dispense the medication due to interaction with previous medication."
 Title: "Refuse the dispense prescribed medication"

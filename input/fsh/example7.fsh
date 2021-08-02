@@ -1,5 +1,5 @@
 Instance: example-7-of-medication-presc 
-InstanceOf: MedRecordPrescription
+InstanceOf: MedRecordOrder
 Usage: #example
 Description: "This example shows a prescription that is made by VOS and to take only if needed and the pharmacist dispenses it. 
 Then it is reported that the medication was not taken at all."

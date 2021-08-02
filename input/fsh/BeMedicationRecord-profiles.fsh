@@ -1,6 +1,9 @@
 //based on R4
 Profile: MedRecordDispense
+Title: "Medication Record - Dispense profile"
+Description: "The profile for Medication Dispense in a Medication Record - a record of a single administration event"
 Parent: MedicationDispense
+* meta.profile 1..*
 * identifier MS
 * subject MS // dispense.patient
 * performer MS
@@ -19,8 +22,11 @@ Parent: MedicationDispense
 * extension[treatmentPlan].valueReference only Reference(CarePlan)
 
 
-Profile: MedRecordPrescription
+Profile: MedRecordOrder
+Title: "Medication Record - Order profile"
+Description: "The profile for Medication Order in a Medication Record - a record of a order or request for a medication or a change of medication, implicit or explicit"
 Parent: MedicationRequest
+* meta.profile 1..*
 * identifier MS
 * subject MS 
 * status MS
@@ -40,7 +46,10 @@ Parent: MedicationRequest
 
 
 Profile: MedRecordUsage
+Title: "Medication Record - Usage profile"
+Description: "The profile for Medication Usage in a Medication Record - a record of a single administration event"
 Parent: MedicationStatement
+* meta.profile 1..*
 * identifier MS
 * status MS
 * category MS
@@ -58,7 +67,10 @@ Parent: MedicationStatement
 * extension[treatmentPlan].valueReference only Reference(CarePlan) 
 
 Profile: MedRecordAdministration
+Title: "Medication Record - Administration profile"
+Description: "The profile for Medication Administration in a Medication Record - a record of a single administration event"
 Parent: MedicationAdministration
+* meta.profile 1..*
 * identifier MS
 * status MS
 * statusReason MS
@@ -79,58 +91,13 @@ Parent: MedicationAdministration
 * extension contains http://hl7.org/fhir/StructureDefinition/event-basedOn named treatmentPlan 0..1 MS
 * extension[treatmentPlan].valueReference only Reference(CarePlan) 
 
-/* 
-Alias: $be-patient = https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient
-Alias: $be-organization = https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-organization
-Alias: $be-practitioner = https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitioner
-Profile:        BeMedicationDispense
-Parent:         MedicationDispense
-Id:             be-medicationdispense
-Title:          "BeMedicationDispense"
-Description: "Defines constraints and extensions on the Medication Dispense resource for a record of a dispensation in Belgium."
-* ^version = "0.2.0"
-* ^status = #active
-* . ^short = "The medication dispense entry"
-* . ^definition = "A register of a medication dispense, describing the medication that has been dispensed by a professional or by an organization, including the medication, the patient, some prescription and treatment information."
-* identifier ^slicing.discriminator.type = #value
-* identifier ^slicing.discriminator.path = "system"
-* identifier ^slicing.rules = #open
-* identifier contains DGUID 0..1 MS
-* identifier[DGUID].type.coding.code = #dguid
-* identifier[DGUID].system 1..
-* identifier[DGUID].system = "https://www.gfd-dpp.be/fhir/reference/dguid" (exactly)
-* medicationCodeableConcept 0..1 MS
-* medicationCodeableConcept only CodeableConcept
-* medicationCodeableConcept from SNOMEDCTMedicationCodes (example)
-* medicationCodeableConcept ^binding.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
-* medicationCodeableConcept ^binding.extension.valueString = "MedicationCode"
-* medicationCodeableConcept ^binding.description = "The drug code. For example CNK code for the medication"
-* medicationReference 0..1 MS
-* medicationReference only Reference(Medication)
-* subject only Reference($be-patient)
-* context MS
-* context ^short = "The dispense session identifier, for example an identifier of a visit to a pharmacy"
-* context.identifier MS
-* context.identifier.system = "https://www.gfd-dpp.be/fhir/reference/sguid"
-* context.identifier.type.coding.code = #sguid
-* context.identifier.type.coding.system = "https://www.gfd-dpp.be/fhir/reference/identifier_types"
-* authorizingPrescription MS
-* authorizingPrescription.identifier MS
-* authorizingPrescription.display MS
-* quantity MS
-* note MS
-* dosageInstruction MS
-* dosageInstruction.text MS
-* dosageInstruction.patientInstruction MS
-Invariant:  performer-nidhi
-Description: "When an organization is referred to by use of an identifier, the naming system SHOULD be NIHDI number"
-Expression: "actor.identifier.exists() implies (actor.identifier.system='https://www.ehealth.fgov.be/standards/fhir/NamingSystem/nihdi-organization' or  actor.identifier.system='https://www.ehealth.fgov.be/standards/fhir/NamingSystem/nihdi-practitioner'"
-Severity:   #warning
-*/
 
 //based on R4
 Profile: MedRecordTreatmentLine
+Title: "Medication Treatment Line profile"
+Description: "The profile for Medication Treatment Line - a single recorded item/line of a medication treatment"
 Parent: MedicationStatement
+* meta.profile 1..*
 * identifier MS
 * basedOn MS
 * subject MS 
@@ -149,7 +116,10 @@ Parent: MedicationStatement
 
 //based on R4
 Profile: MedRecordTreatment
+Title: "Medication Treatment profile"
+Description: "The profile for Medication Treatment in a Medication Record - a set of treatment lines/items"
 Parent: CarePlan
+* meta.profile 1..*
 * identifier MS
 * subject MS 
 * author MS

@@ -1,5 +1,5 @@
 Instance: example-8-of-medication-presc 
-InstanceOf: MedRecordPrescription
+InstanceOf: MedRecordOrder
 Usage: #example
 Description: "This example shows a prescription that is made by VOS and the pharmacist dispenses it. But at the time of administration, the treatment is stopped due to a reaction."
 Title: "Dispense of medication that was prescribed, but not taken till the end"

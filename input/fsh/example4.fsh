@@ -1,5 +1,5 @@
 Instance: example-4-of-medication-presc 
-InstanceOf: MedRecordPrescription
+InstanceOf: MedRecordOrder
 Usage: #example
 Description: "This example shows a dispense of two products. One that has a prescription and other that does not (and does not need one)"
 Title: "Dispense of prescribed medication, and dispense of a product that can be done without a prescription"

@@ -29,6 +29,7 @@ Patient
     }
 
 
+
     class " **Medication** \n **Treatment Line ** " as MTL #DDF {
         --
         |_ identifier 
@@ -36,11 +37,14 @@ Patient
         |_ subject 
         |_ recorder 
         |_ recordDate 
-        |_ startMedicationDate 
+        |_ startMedicationDate   
         |_ endMedicationDate 
         |_ originType 
         |_ reaction 
-        |_ product[x] 
+        |_ product
+          |_ code
+          |_ reference
+          |_ class
         |_ medicationType 
         |_ instructionForUse 
         |_ dosageAmount 
@@ -49,7 +53,6 @@ Patient
         |_ dayPeriod 
         |_ lifecycleStatus 
         |_ statusReason 
-        |_ lotNumber
         |_ indication
         --
         MedicationStatement
@@ -57,7 +60,7 @@ Patient
 
     class " **Medication Treatment**  " as MT #DFD {
         --
-        |_ identifier  
+        |_ identifier
         |_ subject  
         |_ status  
         |_ intent  
@@ -68,37 +71,12 @@ Patient
         |_ period  
         |_ created  
         |_ author  
-        |_ careTeam  
+        |_ indication
+        |_ recorder
+        |_ record_date
+        |_ last_updated
         |_ supportingInfo  
         |_ goal  
-        |_ activity  
-        |_ id   
-        |_ extension   
-        |_ modifierExtension  
-        |_ outcomeCodeableConcept   
-        |_ outcomeReference   
-        |_ progress   
-        |_ reference  
-        |_ detail  
-          |_ id  
-          |_ extension  
-          |_ modifierExtension  
-          |_ kind  
-          |_ instantiatesUri  
-          |_ code  
-          |_ reasonCode  
-          |_ reasonReference  
-          |_ goal  
-          |_ status  
-          |_ statusReason   
-          |_ doNotPerform  
-          |_ scheduled 
-          |_ location   
-          |_ performer   
-          |_ product
-          |_ dailyAmount   
-          |_ quantity   
-          |_ description   
         |_ note   
         --
         CarePlan
@@ -149,7 +127,7 @@ class " **Prescription Line**  " as PREL #FFD {
 |_ requester 
 |_ reason 
 |_ groupIdentifier 
-|_ dosageInstruction 
+|_ dosageInstruction  
 |_ note 
 |_ date 
 |_ location 
@@ -163,7 +141,13 @@ class " **Schedule**  " as SCH #FFD {
 --
 |_ identifier
 |_ status
-|_ medication
+|_ statusReason 
+|_ product
+|_ encounter 
+|_ groupIdentifier 
+|_ timingQuantity 
+|_ treatment 
+|_ note 
 --
 MedicationRequest
 }
@@ -236,7 +220,7 @@ class " **Usage Statement**  " as USE #DDD {
 |_ informationSource  
 |_ reason
 |_ note  
-|_ renderedDosageInstruction
+|_ renderedDosageInstruction   
 |_ dosage  
 |_ adherence  
   |_ code  
