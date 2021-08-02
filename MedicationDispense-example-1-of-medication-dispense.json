@@ -8,7 +8,7 @@
   },
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Based On</b>: <span></span></p><p><b>status</b>: completed</p><p><b>medication</b>: <span title=\"Codes: {https://cnk.apb.be/codings/cnk_product_codes 2399640}\">Amlodipin Sandoz tabl. (deelb.) Besilaat 100x 5mg</span></p><p><b>subject</b>: <span></span></p><blockquote><p><b>performer</b></p><p><b>function</b>: <span title=\"Codes: \">dispenser</span></p><p><b>actor</b>: <span>Pharmacist</span></p></blockquote><blockquote><p><b>performer</b></p><p><b>function</b>: <span title=\"Codes: \">dispensingOrg</span></p><p><b>actor</b>: <span>Pharmacy X</span></p></blockquote><p><b>authorizingPrescription</b>: <span></span></p><p><b>quantity</b>: 1 Box</p><p><b>whenHandedOver</b>: Jul 19, 2021, 11:00:00 AM</p><h3>Substitutions</h3><table class=\"grid\"><tr><td>-</td><td><b>WasSubstituted</b></td><td><b>Reason</b></td></tr><tr><td>*</td><td>true</td><td><span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-ActReason OS}\">Out of Stock</span></td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Based On</b>: <span></span></p><p><b>identifier</b>: id: f219aa4e-5d10-4f3d-840d-a15e0dff2957</p><p><b>status</b>: completed</p><p><b>medication</b>: <span title=\"Codes: {https://cnk.apb.be/codings/cnk_product_codes 2399640}\">Amlodipin Sandoz tabl. (deelb.) Besilaat 100x 5mg</span></p><p><b>subject</b>: <span></span></p><blockquote><p><b>performer</b></p><p><b>function</b>: <span title=\"Codes: \">dispenser</span></p><p><b>actor</b>: <span>Pharmacist</span></p></blockquote><blockquote><p><b>performer</b></p><p><b>function</b>: <span title=\"Codes: \">dispensingOrg</span></p><p><b>actor</b>: <span>Pharmacy X</span></p></blockquote><p><b>authorizingPrescription</b>: <span></span></p><p><b>quantity</b>: 1 Box</p><p><b>whenHandedOver</b>: Jul 19, 2021, 11:00:00 AM</p><h3>Substitutions</h3><table class=\"grid\"><tr><td>-</td><td><b>WasSubstituted</b></td><td><b>Reason</b></td></tr><tr><td>*</td><td>true</td><td><span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-ActReason OS}\">Out of Stock</span></td></tr></table></div>"
   },
   "extension": [
     {
@@ -19,6 +19,12 @@
           "value": "0d462dac-513a-4fb0-a2fe-fb7f53b27c5d"
         }
       }
+    }
+  ],
+  "identifier": [
+    {
+      "system": "http://dispense-identifiers.com",
+      "value": "f219aa4e-5d10-4f3d-840d-a15e0dff2957"
     }
   ],
   "status": "completed",

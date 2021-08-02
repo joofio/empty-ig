@@ -1,0 +1,43 @@
+{
+  "resourceType": "ValueSet",
+  "id": "be-vs-medication-summary-types",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-be-cs-medication-summary-types.html\"><code>xxxhttp://somewhere.org/fhir/uv/myig/CodeSystem/be-cs-medication-summary-types</code></a></li></ul></div>"
+  },
+  "url": "xxxhttp://somewhere.org/fhir/uv/myig/ValueSet/be-vs-medication-summary-types",
+  "version": "0.1.0-test",
+  "name": "BeVSMedicationSummaryTypes",
+  "title": "Medication Summary types",
+  "status": "active",
+  "date": "2021-08-02T14:00:50+00:00",
+  "publisher": "xxxYour Work Group",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "xxxhttp://hl7.org/Special/committees/[something]"
+        }
+      ]
+    }
+  ],
+  "description": "Valueset -  Medication Summary types",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "xxxhttp://somewhere.org/fhir/uv/myig/CodeSystem/be-cs-medication-summary-types"
+      }
+    ]
+  }
+}

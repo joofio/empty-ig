@@ -1,11 +1,65 @@
 {
   "resourceType" : "Bundle",
-  "id" : "20294513-0185-4ead-96e5-af67b970e2d7",
+  "id" : "f2c2ae12-dd49-4ac3-ad0d-cdc36066b7c3",
   "meta" : {
-    "lastUpdated" : "2021-07-30T08:51:18.144+00:00"
+    "lastUpdated" : "2021-08-02T14:00:50.577+00:00"
   },
   "type" : "collection",
   "entry" : [{
+    "fullUrl" : "xxxhttp://somewhere.org/fhir/uv/myig/ValueSet/be-vs-medication-summary-types",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "be-vs-medication-summary-types",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-be-cs-medication-summary-types.html\">Medication Summary types v0.1.0-test (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-be-cs-medication-summary-types.html\"><code>xxxhttp://somewhere.org/fhir/uv/myig/CodeSystem/be-cs-medication-summary-types</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"xxxhttp---somewhere.org-fhir-uv-myig-CodeSystem-be-cs-medication-summary-types-kmehr-ms-5.6\"> </a><a href=\"CodeSystem-be-cs-medication-summary-types.html#be-cs-medication-summary-types-kmehr-ms-5.466\">kmehr-ms-5.6</a></td><td>Belgian Medication Schema v5.6 - 09/2018</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"xxxhttp---somewhere.org-fhir-uv-myig-CodeSystem-be-cs-medication-summary-types-kmehr-ms-5.5\"> </a><a href=\"CodeSystem-be-cs-medication-summary-types.html#be-cs-medication-summary-types-kmehr-ms-5.465\">kmehr-ms-5.5</a></td><td>Belgian Medication Schema v5.5 - 12-2017</td><td/></tr></table></div>"
+      },
+      "url" : "xxxhttp://somewhere.org/fhir/uv/myig/ValueSet/be-vs-medication-summary-types",
+      "version" : "0.1.0-test",
+      "name" : "BeVSMedicationSummaryTypes",
+      "title" : "Medication Summary types",
+      "status" : "active",
+      "date" : "2021-08-02T14:00:50+00:00",
+      "publisher" : "xxxYour Work Group",
+      "contact" : [{
+        "telecom" : [{
+          "system" : "url",
+          "value" : "xxxhttp://hl7.org/Special/committees/[something]"
+        }]
+      }],
+      "description" : "Valueset -  Medication Summary types",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:9a6c8afd-9d57-40da-a069-9c85ac17ef2d",
+        "timestamp" : "2021-08-02T14:01:08+00:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "xxxhttp://somewhere.org/fhir/uv/myig/CodeSystem/be-cs-medication-summary-types|0.1.0-test"
+        }],
+        "contains" : [{
+          "system" : "xxxhttp://somewhere.org/fhir/uv/myig/CodeSystem/be-cs-medication-summary-types",
+          "code" : "kmehr-ms-5.6",
+          "display" : "Belgian Medication Schema v5.6 - 09/2018"
+        },
+        {
+          "system" : "xxxhttp://somewhere.org/fhir/uv/myig/CodeSystem/be-cs-medication-summary-types",
+          "code" : "kmehr-ms-5.5",
+          "display" : "Belgian Medication Schema v5.5 - 12-2017"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "xxxhttp://somewhere.org/fhir/uv/myig/ValueSet/medication-substitution-dispense-v1",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -19,7 +73,7 @@
       "name" : "SubstitutionReason",
       "title" : "medication substitution Value set",
       "status" : "active",
-      "date" : "2021-07-30T08:51:18+00:00",
+      "date" : "2021-08-02T14:00:50+00:00",
       "publisher" : "xxxYour Work Group",
       "contact" : [{
         "telecom" : [{
@@ -35,8 +89,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4097c820-b548-4166-b641-3d4b718818d7",
-        "timestamp" : "2021-07-30T08:51:34+00:00",
+        "identifier" : "urn:uuid:6e326703-b5aa-4628-8f00-91d2bb945532",
+        "timestamp" : "2021-08-02T14:01:09+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
