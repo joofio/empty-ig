@@ -112,6 +112,8 @@ Parent: MedicationStatement
 * dosage MS //dosageAmmount + peridocity + dayperiod + route + instructionforUse
 * category MS //medicationType
 * note MS //everything else (origintype, lotnumber and reaction)
+* extension contains http://hl7.org/fhir/StructureDefinition/event-basedOn named treatmentPlan 0..1 MS
+* extension[treatmentPlan].valueReference only Reference(CarePlan) 
 
 
 //based on R4
@@ -141,3 +143,65 @@ Parent: CarePlan
 * description MS
 * instantiatesUri MS
 * replaces MS
+
+
+
+//based on R4
+Profile: MedRecordMedicationScheduledAdministration
+Title: "Medication Scheduled Administration"
+Description: "The profile for Medication Scheduled Administration in a Medication Record - a set of schedules takes for a certain drug, based on a previous prescription"
+Parent: MedicationRequest
+* identifier MS
+* subject MS
+* status MS 
+* statusReason MS
+* medicationCodeableConcept MS
+* medicationReference MS
+* encounter MS
+* reasonCode MS
+* groupIdentifier MS
+* dosageInstruction MS
+* note MS
+* extension contains http://hl7.org/fhir/StructureDefinition/event-basedOn named treatmentPlan 0..1 MS
+* extension[treatmentPlan].valueReference only Reference(CarePlan) 
+* intent = #instance-order
+
+//based on R4
+Profile: MedRecordMedicationSummaryView
+Title: "Medication Summary View profile"
+Description: "The profile for Medication Summary view in a Medication Record"
+Parent: CarePlan
+* identifier MS
+* subject MS
+* status MS // =#completed?
+* intent MS // =plan?
+* category MS
+* title MS
+* description MS
+* encounter MS
+* period MS
+* created MS
+* author MS
+* supportingInfo MS
+* goal MS
+
+
+Profile: MedRecord
+Parent: Bundle
+Id: MedRecord
+Title: "Medication Record profile"
+Description: "The profile for Medication Record"
+* ^version = "1.0.0"
+* type = #document
+* entry ^slicing.discriminator.type = #profile
+* entry ^slicing.discriminator.path = "resource"
+* entry ^slicing.rules = #open
+* entry ^slicing.description = "Slicing based on the profile conformance of the sliced element"
+* entry contains Composition 1..* MS
+* entry[Composition] ^short = "Composition"
+* entry[Composition].resource 1..1
+* entry[Composition].resource only Composition
+* entry[Composition].resource.subject MS
+//TODO
+
+
