@@ -173,6 +173,7 @@ Title: "Medication Record Treatment logical model"
 
 Logical: BeModelMedicationRecordSummaryView
 Title: "Medication Record Treatment View logical model"
+
 * identifier 0..1 Identifier "The business identifier(s) for the medication summary" "" 
 * subject 1..1 Reference(Patient) "From which patient the summary is from" ""
 * status 1..1 code "status of the summary" ""
@@ -192,6 +193,7 @@ Title: "Medication Record Treatment View logical model"
 Logical:        BeModelMedicationRecord
 Title:          "Medication Record logical model"
 Description:    "A structure collection of a patient's medication history."
+
 * identifier 0..1 Identifier "The business identifier(s) for the Medication Record" "" 
 * patient 1..1 Reference "The subject of the medication record" ""
 * treatments 0..* BeModelMedicationRecordTreatment "The treaments that are included in this record" ""
