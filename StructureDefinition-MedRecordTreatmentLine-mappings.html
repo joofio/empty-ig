@@ -215,6 +215,7 @@
   <a name="workflow"> </a><h3>Mappings for Workflow Pattern (<a href="http://hl7.org/fhir/workflow.html">http://hl7.org/fhir/workflow</a>)</h3><table class="grid">
  <tr><td colspan="3"><b>MedRecordTreatmentLine</b></td></tr>
  <tr><td>MedicationStatement</td><td>Event</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (treatmentPlan)</td><td>Event.basedOn</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>Event.identifier</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;basedOn</td><td>Event.basedOn</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;partOf</td><td>Event.partOf</td> </tr>
@@ -240,7 +241,12 @@
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;text</td><td>Act.text?</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;contained</td><td>N/A</td> </tr>
- <tr><td>&nbsp;&nbsp;&nbsp;extension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (treatmentPlan)</td><td>.outboundRelationship[typeCode=FLFS].target</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;url</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value[x]</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value[x] (valueReference)</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>.id</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;basedOn</td><td>.outboundRelationship[typeCode=FLFS].target[classCode=SBADM or PROC or PCPR or OBS, moodCode=RQO orPLAN or PRP]</td> </tr>
@@ -285,6 +291,7 @@
 <a name="v2"> </a><h3>Mappings for HL7 v2 Mapping (<a href="http://hl7.org/comparison-v2.html">http://hl7.org/v2</a>)</h3><table class="grid">
  <tr><td colspan="3"><b>MedRecordTreatmentLine</b></td></tr>
  <tr><td>MedicationStatement</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension (treatmentPlan)</td><td>ORC in proximity to EVN segment</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;subject</td><td>PID-3-Patient ID List</td> </tr>
 </table>
 
@@ -339,8 +346,8 @@
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="102cefde-efdd-48a3-8f93-3d9e4167c596">​</a>
-          IG &copy; 2019+ <a style="color:var(--footer-hyperlink-text-color)" href="xxxhttp://hl7.org/Special/committees/[something]">xxxYour Work Group</a>.  Package xxxexample.fhir.uv.myig#0.1.0-test based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Aug 2, 2021 14:00+0000">2021-08-02</span>
+        <p><a name="6b951007-5b60-4b57-bfe3-e2eaf634e3e1">​</a>
+          IG &copy; 2019+ <a style="color:var(--footer-hyperlink-text-color)" href="xxxhttp://hl7.org/Special/committees/[something]">xxxYour Work Group</a>.  Package xxxexample.fhir.uv.myig#0.1.0-test based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Aug 2, 2021 15:52+0000">2021-08-02</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
