@@ -198,7 +198,6 @@ Description: "How to organize the information in a medication Record"
 Parent: Composition
 Id: MedRecord-comp
 * meta.profile 1..*
-* section
 * section ^slicing.discriminator.type = #value
 * section ^slicing.discriminator.path = "type.coding.code"
 * section ^slicing.rules = #open
