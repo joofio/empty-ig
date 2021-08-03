@@ -3,7 +3,7 @@
 
 err = 41, warn = 77, info = 50
 IG Publisher Version: 1.1.77
-Generated Tue Aug 03 09:17:39 UTC 2021. FHIR version 4.0.1 for xxxexample.fhir.uv.myig#0.1.0-test (canonical = xxxhttp://somewhere.org/fhir/uv/myig)
+Generated Tue Aug 03 09:36:55 UTC 2021. FHIR version 4.0.1 for xxxexample.fhir.uv.myig#0.1.0-test (canonical = xxxhttp://somewhere.org/fhir/uv/myig)
 
  Build Errors : 294 / 32 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-be-cs-medication-summary-types : 0 / 0 / 1
@@ -288,14 +288,14 @@ ERROR: /github/workspace/output/StructureDefinition-BePractitioner.profile.histo
 ERROR: /github/workspace/output/StructureDefinition-BePractitioner.profile.json.html#/html/body/div/div/div/p/a at Line 1556, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-BePractitioner.profile.ttl.html#/html/body/div/div/div/p/a at Line 1399, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-BePractitioner.profile.xml.html#/html/body/div/div/div/p/a at Line 1429, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MedRecord-definitions.html#/html/body/div/div/div/p/a at Line 1857, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecord-definitions.html#/html/body/div/div/div/p/a at Line 3582, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MedRecord-examples.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MedRecord-mappings.html#/html/body/div/div/div/p/a at Line 380, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MedRecord.html#/html/body/div/div/div/p/a at Line 1542, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecord-mappings.html#/html/body/div/div/div/p/a at Line 482, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecord.html#/html/body/div/div/div/p/a at Line 2794, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MedRecord.profile.history.html#/html/body/div/div/div/p/a at Line 267, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MedRecord.profile.json.html#/html/body/div/div/div/p/a at Line 7195, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MedRecord.profile.ttl.html#/html/body/div/div/div/p/a at Line 6403, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MedRecord.profile.xml.html#/html/body/div/div/div/p/a at Line 6527, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecord.profile.json.html#/html/body/div/div/div/p/a at Line 14835, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecord.profile.ttl.html#/html/body/div/div/div/p/a at Line 13173, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecord.profile.xml.html#/html/body/div/div/div/p/a at Line 13482, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MedRecordAdministration-definitions.html#/html/body/div/div/div/p/a at Line 861, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MedRecordAdministration-examples.html#/html/body/div/div/div/p/a at Line 299, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MedRecordAdministration-mappings.html#/html/body/div/div/div/p/a at Line 412, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
