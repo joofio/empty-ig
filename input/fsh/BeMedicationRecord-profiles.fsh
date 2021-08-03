@@ -192,6 +192,7 @@ Id: MedRecord
 Title: "Medication Record profile"
 Description: "The profile for Medication Record"
 * ^version = "1.0.0"
+* identifier 0..1 MS
 * type = #document (exactly)
 * type ^short = "document"
 * type ^definition = "Bundle is a document"
@@ -205,17 +206,49 @@ Description: "The profile for Medication Record"
     Composition 1..1 and
     Patient 1..1 and
     MedRecordTreatment 0..* and
-    MedRecordTreatmentLine 0..* 
+    MedRecordTreatmentLine 0..* and 
+    MedRecordMedicationSummaryView 0..* and
+    MedRecordDispense 0..* and
+    MedRecordAdministration 0..* and
+    MedRecordMedicationScheduledAdministration 0..* and
+    MedRecordOrder 0..* and
+    MedRecordUsage 0..* 
 * entry[Composition] ^short = "Composition"
 * entry[Composition].resource 1.. MS
 * entry[Composition].resource only Composition
+
 * entry[Patient] ^short = "Patient for whom the record is concerned"
 * entry[Patient].resource 1.. MS
 * entry[Patient].resource only Patient
-* entry[MedRecordTreatment] ^short = "Patient for whom the record is concerned"
+
+* entry[MedRecordTreatment] ^short = "Treatments associated with the patient"
 * entry[MedRecordTreatment].resource 1.. MS
 * entry[MedRecordTreatment].resource only MedRecordTreatment
-* entry[MedRecordTreatmentLine] ^short = "Patient for whom the record is concerned"
+
+* entry[MedRecordTreatmentLine] ^short = "Treatment lines associated with the patient"
 * entry[MedRecordTreatmentLine].resource 1.. MS
 * entry[MedRecordTreatmentLine].resource only MedRecordTreatmentLine
 
+* entry[MedRecordMedicationSummaryView] ^short = "Medication summaries associated with the patient"
+* entry[MedRecordMedicationSummaryView].resource 1.. MS
+* entry[MedRecordMedicationSummaryView].resource only MedRecordTreatmentLine
+
+* entry[MedRecordOrder] ^short = "Medication summaries associated with the patient"
+* entry[MedRecordOrder].resource 1.. MS
+* entry[MedRecordOrder].resource only MedRecordOrder
+
+* entry[MedRecordDispense] ^short = "Medication summaries associated with the patient"
+* entry[MedRecordDispense].resource 1.. MS
+* entry[MedRecordDispense].resource only MedRecordDispense
+
+* entry[MedRecordAdministration] ^short = "Medication summaries associated with the patient"
+* entry[MedRecordAdministration].resource 1.. MS
+* entry[MedRecordAdministration].resource only MedRecordAdministration
+
+* entry[MedRecordMedicationScheduledAdministration] ^short = "Medication summaries associated with the patient"
+* entry[MedRecordMedicationScheduledAdministration].resource 1.. MS
+* entry[MedRecordMedicationScheduledAdministration].resource only MedRecordMedicationScheduledAdministration
+
+* entry[MedRecordUsage] ^short = "Medication summaries associated with the patient"
+* entry[MedRecordUsage].resource 1.. MS
+* entry[MedRecordUsage].resource only MedRecordUsage
