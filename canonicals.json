@@ -63,6 +63,13 @@
     "name": "MedRecord"
   },
   {
+    "id": "MedRecord-comp",
+    "type": "StructureDefinition",
+    "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecord-comp",
+    "version": "0.1.0-test",
+    "name": "MedRecordComposition"
+  },
+  {
     "id": "MedRecordAdministration",
     "type": "StructureDefinition",
     "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordAdministration",

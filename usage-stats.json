@@ -29,6 +29,12 @@
         "title": "Medication Record profile"
       }
     ],
+    "Composition": [
+      {
+        "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecord-comp",
+        "title": "Structure Composition for medication Record profile"
+      }
+    ],
     "MedicationAdministration": [
       {
         "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordAdministration",
