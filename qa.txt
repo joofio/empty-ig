@@ -1,11 +1,11 @@
 ﻿xxxYourComputableMyIGNameHere : Validation Results
 =========================================
 
-err = 41, warn = 76, info = 50
+err = 41, warn = 77, info = 50
 IG Publisher Version: 1.1.77
-Generated Tue Aug 03 09:01:14 UTC 2021. FHIR version 4.0.1 for xxxexample.fhir.uv.myig#0.1.0-test (canonical = xxxhttp://somewhere.org/fhir/uv/myig)
+Generated Tue Aug 03 09:17:39 UTC 2021. FHIR version 4.0.1 for xxxexample.fhir.uv.myig#0.1.0-test (canonical = xxxhttp://somewhere.org/fhir/uv/myig)
 
- Build Errors : 286 / 32 / 0
+ Build Errors : 294 / 32 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-be-cs-medication-summary-types : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/MedicationAdministration-example-8-of-medication-administration : 1 / 1 / 3
  /github/workspace/fsh-generated/resources/MedicationDispense-example-1-of-medication-dispense : 1 / 2 / 4
@@ -42,6 +42,7 @@ Generated Tue Aug 03 09:01:14 UTC 2021. FHIR version 4.0.1 for xxxexample.fhir.u
  /github/workspace/fsh-generated/resources/StructureDefinition-BeOrganization : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-BePatient : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-BePractitioner : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-MedRecord : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-MedRecordAdministration : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-MedRecordDispense : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/StructureDefinition-MedRecordMedicationScheduledAdministration : 0 / 1 / 1
@@ -287,6 +288,14 @@ ERROR: /github/workspace/output/StructureDefinition-BePractitioner.profile.histo
 ERROR: /github/workspace/output/StructureDefinition-BePractitioner.profile.json.html#/html/body/div/div/div/p/a at Line 1556, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-BePractitioner.profile.ttl.html#/html/body/div/div/div/p/a at Line 1399, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-BePractitioner.profile.xml.html#/html/body/div/div/div/p/a at Line 1429, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecord-definitions.html#/html/body/div/div/div/p/a at Line 1857, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecord-examples.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecord-mappings.html#/html/body/div/div/div/p/a at Line 380, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecord.html#/html/body/div/div/div/p/a at Line 1542, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecord.profile.history.html#/html/body/div/div/div/p/a at Line 267, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecord.profile.json.html#/html/body/div/div/div/p/a at Line 7195, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecord.profile.ttl.html#/html/body/div/div/div/p/a at Line 6403, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MedRecord.profile.xml.html#/html/body/div/div/div/p/a at Line 6527, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MedRecordAdministration-definitions.html#/html/body/div/div/div/p/a at Line 861, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MedRecordAdministration-examples.html#/html/body/div/div/div/p/a at Line 299, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MedRecordAdministration-mappings.html#/html/body/div/div/div/p/a at Line 412, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
@@ -369,7 +378,7 @@ ERROR: /github/workspace/output/ValueSet-medication-substitution-dispense-v1.htm
 ERROR: /github/workspace/output/ValueSet-medication-substitution-dispense-v1.json.html#/html/body/div/div/div/p/a at Line 287, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/ValueSet-medication-substitution-dispense-v1.ttl.html#/html/body/div/div/div/p/a at Line 291, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/ValueSet-medication-substitution-dispense-v1.xml.html#/html/body/div/div/div/p/a at Line 275, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 621, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 630, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/changes.html#/html/body/div/div/div/p/a at Line 193, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/p/a at Line 229, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/a at Line 219, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
@@ -524,6 +533,8 @@ WARNING: StructureDefinition.where(url = 'xxxhttp://somewhere.org/fhir/uv/myig/S
 WARNING: StructureDefinition.where(url = 'xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/BePatient'): The Implementation Guide contains no examples for this profile
 == /github/workspace/fsh-generated/resources/StructureDefinition-BePractitioner.json ==
 WARNING: StructureDefinition.where(url = 'xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/BePractitioner'): The Implementation Guide contains no examples for this profile
+== /github/workspace/fsh-generated/resources/StructureDefinition-MedRecord.json ==
+WARNING: StructureDefinition.where(url = 'xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecord'): The Implementation Guide contains no examples for this profile
 == /github/workspace/fsh-generated/resources/StructureDefinition-MedRecordAdministration.json ==
 == /github/workspace/fsh-generated/resources/StructureDefinition-MedRecordDispense.json ==
 INFORMATION: StructureDefinition/MedRecordDispense: StructureDefinition.snapshot.element[45].mapping[0].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk

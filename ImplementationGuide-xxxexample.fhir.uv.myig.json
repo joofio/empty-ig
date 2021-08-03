@@ -11,7 +11,7 @@
   "title": "xxxYour User Friendly Name for MyIG Here",
   "status": "draft",
   "experimental": false,
-  "date": "2021-08-03T09:00:33+00:00",
+  "date": "2021-08-03T09:17:02+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {
@@ -530,6 +530,19 @@
         "reference": {
           "reference": "MedicationDispense/medication-dispense-example-2"
         }
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/MedRecord"
+        },
+        "name": "Medication Record profile",
+        "description": "The profile for Medication Record"
       },
       {
         "extension": [

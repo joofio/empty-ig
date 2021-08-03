@@ -12,7 +12,7 @@
   <title value="xxxYour User Friendly Name for MyIG Here"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-08-03T09:00:33+00:00"/>
+  <date value="2021-08-03T09:17:02+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
@@ -360,6 +360,16 @@
       <reference>
         <reference value="MedicationDispense/medication-dispense-example-2"/>
       </reference>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/MedRecord"/>
+      </reference>
+      <name value="Medication Record profile"/>
+      <description value="The profile for Medication Record"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
