@@ -151,6 +151,7 @@ Profile: MedRecordMedicationScheduledAdministration
 Title: "Medication Scheduled Administration"
 Description: "The profile for Medication Scheduled Administration in a Medication Record - a set of schedules takes for a certain drug, based on a previous prescription"
 Parent: MedicationRequest
+* meta.profile 1..*
 * identifier MS
 * subject MS
 * status MS 
@@ -171,6 +172,7 @@ Profile: MedRecordMedicationSummaryView
 Title: "Medication Summary View profile"
 Description: "The profile for Medication Summary view in a Medication Record"
 Parent: CarePlan
+* meta.profile 1..*
 * identifier MS
 * subject MS
 * status MS // =#completed?
@@ -184,6 +186,28 @@ Parent: CarePlan
 * author MS
 * supportingInfo MS
 * goal MS
+
+
+
+Profile: BePatient
+Parent: Patient
+
+Profile: MedRecordComposition
+Title: "Structure Composition for medication Record profile"
+Description: "How to organize the information in a medication Record"
+Parent: Composition
+Id: MedRecord-comp
+* meta.profile 1..*
+* section
+* section ^slicing.discriminator.type = #value
+* section ^slicing.discriminator.path = "type.coding.code"
+* section ^slicing.rules = #open
+* section contains
+    generalView 0..1 MS and
+    detailsRecord 0..1 MS 
+* section[generalView].entry only Reference(BePatient or MedRecordTreatmentLine or MedRecordTreatment or MedRecordMedicationSummaryView)
+* section[detailsRecord].entry only Reference(MedRecordUsage or MedRecordOrder or MedRecordDispense or MedRecordAdministration or MedRecordMedicationScheduledAdministration)
+
 
 
 Profile: MedRecord
@@ -215,7 +239,7 @@ Description: "The profile for Medication Record"
     MedRecordUsage 0..* 
 * entry[Composition] ^short = "Composition"
 * entry[Composition].resource 1.. MS
-* entry[Composition].resource only Composition
+* entry[Composition].resource only MedRecordComposition
 
 * entry[Patient] ^short = "Patient for whom the record is concerned"
 * entry[Patient].resource 1.. MS
