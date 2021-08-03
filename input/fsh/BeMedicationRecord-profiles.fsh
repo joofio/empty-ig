@@ -186,23 +186,36 @@ Parent: CarePlan
 * goal MS
 
 
-/*
 Profile: MedRecord
 Parent: Bundle
 Id: MedRecord
 Title: "Medication Record profile"
 Description: "The profile for Medication Record"
 * ^version = "1.0.0"
-* type = #document
+* type = #document (exactly)
+* type ^short = "document"
+* type ^definition = "Bundle is a document"
+* total 0..0
+* link 0..0 SU
 * entry ^slicing.discriminator.type = #profile
 * entry ^slicing.discriminator.path = "resource"
 * entry ^slicing.rules = #open
 * entry ^slicing.description = "Slicing based on the profile conformance of the sliced element"
-* entry contains Composition 1..* MS
+* entry contains
+    Composition 1..1 and
+    Patient 1..1 and
+    MedRecordTreatment 0..* and
+    MedRecordTreatmentLine 0..* 
 * entry[Composition] ^short = "Composition"
-* entry[Composition].resource 1..1
+* entry[Composition].resource 1.. MS
 * entry[Composition].resource only Composition
-* entry[Composition].resource.subject MS
-//TODO
-*/
+* entry[Patient] ^short = "Patient for whom the record is concerned"
+* entry[Patient].resource 1.. MS
+* entry[Patient].resource only Patient
+* entry[MedRecordTreatment] ^short = "Patient for whom the record is concerned"
+* entry[MedRecordTreatment].resource 1.. MS
+* entry[MedRecordTreatment].resource only MedRecordTreatment
+* entry[MedRecordTreatmentLine] ^short = "Patient for whom the record is concerned"
+* entry[MedRecordTreatmentLine].resource 1.. MS
+* entry[MedRecordTreatmentLine].resource only MedRecordTreatmentLine
 
