@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "MedRecordAdministration"];
   fhir:StructureDefinition.title [ fhir:value "Medication Record - Administration profile"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-08-03T09:36:05+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-08-03T10:25:36+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "xxxYour Work Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

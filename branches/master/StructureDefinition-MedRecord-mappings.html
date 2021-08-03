@@ -239,6 +239,7 @@
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;resource</td><td>Entity. Role, or Act, Document[classCode="DOC" and moodCode="EVN" and isNormalAct()]</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;search</td><td></td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
@@ -409,6 +410,9 @@
  <tr><td>Bundle</td><td>ClinicalDocument, if bundle.type = document</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;identifier</td><td>ClinicalDocument.id</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;timestamp</td><td>ClinicalDocument.effectiveTime</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;entry</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;entry (Composition)</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;resource</td><td>ClinicalDocument</td> </tr>
 </table>
 <a name="w5"> </a><h3>Mappings for FiveWs Pattern Mapping (http://hl7.org/fhir/fivews)</h3><table class="grid">
  <tr><td colspan="3"><b>MedRecord</b></td></tr>
@@ -469,8 +473,8 @@
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="6b4f3601-43c0-4dbe-a7cf-5f075b3771dc">​</a>
-          IG &copy; 2019+ <a style="color:var(--footer-hyperlink-text-color)" href="xxxhttp://hl7.org/Special/committees/[something]">xxxYour Work Group</a>.  Package xxxexample.fhir.uv.myig#0.1.0-test based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Aug 3, 2021 09:36+0000">2021-08-03</span>
+        <p><a name="9b58d598-15db-4504-8c92-2d639aab22c8">​</a>
+          IG &copy; 2019+ <a style="color:var(--footer-hyperlink-text-color)" href="xxxhttp://hl7.org/Special/committees/[something]">xxxYour Work Group</a>.  Package xxxexample.fhir.uv.myig#0.1.0-test based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Aug 3, 2021 10:25+0000">2021-08-03</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

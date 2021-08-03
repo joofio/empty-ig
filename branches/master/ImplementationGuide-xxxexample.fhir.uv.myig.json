@@ -11,7 +11,7 @@
   "title": "xxxYour User Friendly Name for MyIG Here",
   "status": "draft",
   "experimental": false,
-  "date": "2021-08-03T09:36:05+00:00",
+  "date": "2021-08-03T10:25:36+00:00",
   "publisher": "xxxYour Work Group",
   "contact": [
     {
@@ -594,6 +594,19 @@
           "reference": "NamingSystem/be-ns-product-package-type"
         },
         "description": "Naming System - Product Package Types"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/MedRecord-comp"
+        },
+        "name": "Structure Composition for medication Record profile",
+        "description": "How to organize the information in a medication Record"
       },
       {
         "extension": [
