@@ -56,6 +56,13 @@
     "name": "BePractitioner"
   },
   {
+    "id": "MedRecord",
+    "type": "StructureDefinition",
+    "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecord",
+    "version": "0.1.0-test",
+    "name": "MedRecord"
+  },
+  {
     "id": "MedRecordAdministration",
     "type": "StructureDefinition",
     "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MedRecordAdministration",
